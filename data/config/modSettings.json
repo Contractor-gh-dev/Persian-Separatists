@@ -1,0 +1,50 @@
+{
+	"contractor_separatists":{
+		#if you have the LunaLib mod enabled these values dont matter!
+		"enable_status_effects":true,
+		"enable_fenarans":true,
+
+		"command_key":"t",
+		"command_missile_base_frigate":1,
+		"command_missile_base_destroyer":2,
+		"command_missile_base_cruiser":2,
+		"command_missile_base_capital":3,
+		"command_eccm_bonus":2,
+		"command_cic_bonus":2,
+		"repairbeam_ratio":0.1,
+		
+		
+		"nanite_max_mag":0.5, #except for these
+		"nanite_progress_scale":16,
+		"nanite_immune_list":[
+			"shuttlepod",
+			"onslaught_mk1",
+			"ziggurat",
+			"aspect",
+			"attack_swarm",
+			"shrouded_vortex",
+			"shrouded_ejecta",
+			"shard_left",
+			"shard_right",
+			"skirmish_unit",
+			"facet",
+			"overseer_unit",
+			"assault_unit",
+			"shrouded_tendril",
+			"tesseract",
+			"hive_unit",
+			"standoff_unit",
+			"shrouded_eye",
+			"shrouded_maelstrom",
+			"fabricator_unit",
+			"shrouded_maw",
+		],
+	},
+	"nexerelin":{
+		"mining_ship_strengths":{
+			"sep_venom_mk1":13,
+			"sep_venom_mk2_true":10,
+			"sep_starmaster_cargo":5,
+		},
+    },
+}

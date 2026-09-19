@@ -1,0 +1,77 @@
+{
+  "variantId": "sep_shomitraile_atk",
+  "hullId": "sep_shomitraile",
+  "displayName": "Attack",
+  "goalVariant": false,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "dedicated_targeting_core",
+    "unstable_injector",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "sep_gator_launcher",
+        "WS0007": "sep_gator_launcher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "sabot_single",
+        "WS0009": "sabot_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sep_mrag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_mk4"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sep_mk31",
+        "WS0003": "sep_ags",
+        "WS0004": "sep_ags"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "sep_mk41",
+        "WS0011": "sep_mk41"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "sep_mk48",
+        "WS0013": "sep_mk48",
+        "WS0014": "sep_mk48",
+        "WS0015": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,17 @@
+{
+	"id":"drg_thunder_shot",
+	"specClass":"projectile",
+	"onHitEffect":"contractor.data.scripts.weapons.shots.DrgThunderOnHit",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":36.0,
+	"hitGlowRadius":80,
+	"width":24,
+	"fadeTime":0.3,
+	"fringeColor":[20,0,255,255],
+	"coreColor":[20,0,255,125],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"sprite":"graphics/missiles/hungering_rift_projectile.png"
+}

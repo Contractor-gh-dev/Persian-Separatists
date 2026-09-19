@@ -1,0 +1,15 @@
+{
+	"displayName": "Orbital Station",
+	"fluxCapacitors": 0,
+	"fluxVents": 0,
+	"hullId": "sep_station_small",
+	"hullMods": [],
+	"quality": 0.5,
+	"variantId": "sep_station_small_mix",
+	"weaponGroups": [],
+	"modules": [
+		{"WS0001":"sep_station_small_module3_adv"},
+		{"WS0002":"sep_station_small_module2_gun"},
+		{"WS0003":"sep_station_small_module_flt"},
+	],
+}

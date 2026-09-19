@@ -1,0 +1,41 @@
+{
+  "variantId": "drg_amp_st",
+  "hullId": "drg_amp",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "drg_plasmacaster",
+        "WS0002": "drg_plasmacaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "amblaster",
+        "WS0006": "amblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ioncannon",
+        "WS0004": "ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

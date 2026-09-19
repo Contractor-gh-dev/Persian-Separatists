@@ -1,0 +1,31 @@
+{
+  "baseHullId": "sep_comet",
+  "baseValueMult": 1,
+  "builtInMods": [],
+  "builtInWeapons":{
+	"BI01": "taclaser",
+	"BI02": "harpoon_hidden"
+    },
+  "descriptionId": "sep_comet",
+  "descriptionPrefix": "This Comet bears Tri-Tachyon markings after having been retrofitted.",
+  "hullDesignation": "Corvette",
+  "hullName": "Comet (TT)",
+  "manufacturer": "Tri-Tachyon",
+  "restoreToBaseHull": false,
+  "skinHullId": "sep_comet_tac",
+  "spriteName": "graphics/ships/contractor/comet/sep_comet_tac.png",
+  "systemId": "flarelauncher",
+  #"designation":"Corvette",
+  "tags":["hightech_bp"],
+  "tech": "Tri-Tachyon",
+  "weaponSlotChanges":{
+	   "WS0001":{"type":SYNERGY},
+	   "WS0002":{"type":ENERGY},
+    },
+  "engineSlotChanges":{
+		"0":{"style":"HIGH_TECH"},
+		"1":{"style":"HIGH_TECH"},
+		"2":{"style":"HIGH_TECH"},
+		"3":{"style":"HIGH_TECH"},
+	},
+}

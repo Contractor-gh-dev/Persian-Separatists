@@ -1,0 +1,77 @@
+{
+  "variantId": "sep_ship26_sp",
+  "hullId": "sep_ship26",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 28,
+  "fluxVents": 40,
+  "quality": 0.8,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "pointdefenseai",
+    "unstable_injector",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "pilum_large",
+        "WS0002": "pilum_large"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sep_lightcycler",
+        "WS0006": "sep_lightcycler",
+		"WS0015": "sep_rag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "sep_lightcycler",
+        "WS0014": "sep_lightcycler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sep_mk38"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lrpdlaser",
+        "WS0010": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sep_mk48",
+        "WS0008": "sep_mk48",
+        "WS0011": "sep_mk48",
+        "WS0012": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,78 @@
+{
+  "variantId": "sep_shomitraile_pt",
+  "hullId": "sep_shomitraile",
+  "displayName": "Patrol",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 36,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "dedicated_targeting_core",
+    "missleracks",
+    "unstable_injector",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "sabot_single",
+        "WS0009": "sabot_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "reaper",
+        "WS0007": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sep_kessler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_mk4"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sep_railgun",
+        "WS0003": "sep_ags",
+        "WS0004": "sep_ags"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "sep_mk48",
+        "WS0013": "sep_mk48",
+        "WS0015": "sep_mk48"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "sep_mk48",
+        "WS0012": "sep_mk48",
+        "WS0014": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

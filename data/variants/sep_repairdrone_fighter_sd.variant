@@ -1,0 +1,29 @@
+{
+  "variantId": "sep_repairdrone_fighter_sd",
+  "hullId": "sep_repairdrone_fighter",
+  "displayName": "Repair Craft",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_repairbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,35 @@
+{
+	"duskfrozen":{
+		"name":"Red Ice",
+		"tilt":10, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[200,100,120,155],
+		"texture":"graphics/planets/duskplanet_ice01.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[225,25,75,255],
+		"isStar":false,
+		"lightPosition":[12,-2,-3], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"star_bluegreen_giant":{
+		"name":"Blue-Green Giant",
+		"tilt":0, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":10, #  minimum thickness in pixels
+		"atmosphereColor":[183,255,212,255],
+		"texture":"graphics/planets/star_bluegreen.jpg",
+		"icon":"graphics/warroom/icon_star.png",
+		"iconColor":[183,255,212,255],
+		"starCoronaSprite":"graphics/fx/star_halo.png", # optional, defaults to really bright particle
+		"starCoronaColor":[183,255,212,60], # optional, defaults to white
+		"starCoronaSizeMult":4.5, # required, multiplier for star's radius
+		"isStar":true,
+		"lightPosition":[0,0,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	}
+}

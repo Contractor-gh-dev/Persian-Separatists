@@ -1,0 +1,69 @@
+{
+  "variantId": "sep_fencer_base_atk",
+  "hullId": "sep_fencer_base",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "contractor_dclockers",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sabot_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sep_gator_launcher",
+        "WS0005": "sep_gator_launcher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sep_mk31"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_mk24"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_mk38"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sep_mk38"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "vulcan",
+        "WS0009": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,21 @@
+{
+  "variantId": "sep_mainstay_fore_armor_sd",
+  "hullId": "sep_mainstay_fore_armor",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_lightcycler"
+      }
+    }
+  ]
+}

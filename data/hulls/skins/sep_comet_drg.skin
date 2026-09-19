@@ -1,0 +1,31 @@
+{
+  "baseHullId": "sep_comet",
+  "baseValueMult": 1,
+  "builtInMods": [],
+  "builtInWeapons":{
+	"BI01": "pdlaser",
+	"BI02": "drg_plasmacaster"
+    },
+  "descriptionId": "sep_comet",
+  "descriptionPrefix": "This Comet has been refitted for service in the DRG.",
+  "hullDesignation": "Corvette",
+  "hullName": "Comet (DRG)",
+  "style": "DUSK_GROUP",
+  "manufacturer": "Dusk Group",
+  "restoreToBaseHull": false,
+  "skinHullId": "sep_comet_drg",
+  "spriteName": "graphics/ships/contractor/comet/sep_comet_drg.png",
+  "systemId": "flarelauncher",
+  "tags":["drg_ship_bp"],
+  "tech": "Dusk Group",
+  "weaponSlotChanges":{
+	   "WS0001":{"type":SYNERGY},
+	   "WS0002":{"type":ENERGY},
+    },
+  "engineSlotChanges":{
+		"0":{"style":"DUSK_GROUP"},
+		"1":{"style":"DUSK_GROUP"},
+		"2":{"style":"DUSK_GROUP"},
+		"3":{"style":"DUSK_GROUP"},
+	},
+}

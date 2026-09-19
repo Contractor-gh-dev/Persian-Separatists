@@ -1,0 +1,53 @@
+{
+  "hullName": "Stardock Light Hanger",
+  "hullId": "separatists_stardockhangerleft",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/contractor/separatists_stardockhangerleft.png",
+  "style": "LOW_TECH",
+  "height": 111,
+  "width": 65,
+  "center": [34, 15],
+  "collisionRadius": 104,
+  "shieldCenter": [40.5, -0],
+  "shieldRadius": 61.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 30,
+      "locations": [64, 28]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        47.5, -0,
+        47, 8,
+        47, -8
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    83.5, -9,
+    63, -30,
+    31, -29,
+    -4.5, -14.5,
+    -4.5, 14.5,
+    31, 29,
+    67, 34.5,
+    83.5, 9
+  ]
+}

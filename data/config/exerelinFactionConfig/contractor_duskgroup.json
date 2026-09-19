@@ -1,0 +1,58 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    "ngcTooltip":"Begin as an acquisitions officer working for the Dusk Research Group.",
+    
+    "startRelationships":{"tritachyon":-0.6,
+		"contractor_separatists":0.75,},
+    "maxRelationships":{"tritachyon":-0.4, },
+	"minRelationships":{"contractor_separatists":0.5,},
+    "diplomacyPositiveChance":{"tritachyon":0.75,},
+    "diplomacyNegativeChance":{"tritachyon":1.5,},
+	"morality":"neutral",
+	"alignments":{
+        "technocratic":1,
+        "hierarchical":0.5,
+        "militarist":0.25,
+        "diplomatic":-0.5,
+        "ideological":-0.5,
+    },
+    "diplomacyTraits":["predatory", "temperamental", "likes_ai", "envious", "monopolist", "devious"],
+	
+	"spawnMarketShare":0.2,
+	"defenceStations":[
+        {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"]},
+    ],
+	"tariffMult":1.1,
+	
+	"invasionStrengthBonusDefend":0.2,
+	"miningVariantsOrWings":["sep_comet_drg_sd"],
+    
+    "startShipsSolo":[
+		["sep_comet_drg_sd"],
+        ["drg_manta_sd"],
+    ],
+    "startShipsCombatSmall":[
+        ["drg_observer_tac", "sep_comet_drg_sd", "sep_comet_drg_sd"],
+    ],
+    "startShipsCombatLarge":[
+        ["drg_observer_amp", "drg_manta_atk", "sep_comet_drg_sd"],
+    ],
+    "startShipsSuper":[
+        ["drg_glacier_amp"],
+    ],
+	
+    "maxColonyDistance":6.0,
+    "colonyTargetValuator":"exerelin.campaign.colony.ColonyTargetValuator",
+	
+	"rebelFleetSuffix":"Pink Slips",
+	
+	"vengeanceLevelNames":["Excommunication", "Interdiction", "Jihad"],
+    "vengeanceFleetNames":["Evangelists", "Inquisition", "Crusade"],
+    "vengeanceFleetNamesSingle":["Evangelists", "an Inquisition", "a Crusade Fleet"],
+	
+	"startSpecialItems":[
+        [["drg_ship_bp_package", ""], ["drg_wep_bp_package", ""]],
+        [["modspec", "drg_hereactor"], ["modspec", "drg_lereactor"]]
+    ],
+}

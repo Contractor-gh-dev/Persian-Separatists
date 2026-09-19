@@ -1,0 +1,17 @@
+{
+	"id":"sep_ags_shot",
+	"specClass":"projectile",
+	"onHitEffect":"contractor.data.scripts.weapons.shots.SepAGSOnHit",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":18.0,
+	"hitGlowRadius":48,
+	"width":9,
+	"fadeTime":0.3,
+	"fringeColor":[200,200,255,150],
+	"coreColor":[50,200,255,175],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/sep_ags_shell.png"	
+}

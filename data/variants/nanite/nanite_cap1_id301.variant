@@ -1,0 +1,82 @@
+{
+  "variantId": "nanite_cap1_id301",
+  "hullId": "nanite_cap1",
+  "displayName": "ID 301",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "reaper",
+        "WS0012": "reaper"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "drg_needle_med",
+        "WS0009": "drg_needle_small",
+        "WS0010": "drg_needle_small"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "irpulse",
+        "WS0008": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "gravitonbeam",
+        "WS0003": "irautolance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0021": "nanite_corrupter",
+        "WS0022": "nanite_corrupter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0006": "pdburst",
+        "WS0015": "mininglaser",
+        "WS0016": "mininglaser",
+        "WS0019": "pdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0005": "flak",
+        "WS0013": "pdlaser",
+        "WS0017": "lightmg",
+        "WS0018": "lightmg",
+        "WS0020": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "nanite_fighter_wing1"
+  ]
+}

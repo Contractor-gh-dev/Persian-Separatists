@@ -1,0 +1,457 @@
+{
+  "hullName": "Independence",
+  "hullId": "sep_independence",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/contractor/independence/sep_independence_.png",
+  "style": "SEPARATISTS",
+  "height": 426,
+  "width": 170,
+  "center": [85, 205],
+  "collisionRadius": 258,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 256,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hbi"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [203, -19]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [203, 19]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [30, -38]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [30, 38]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [137, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -60,
+      "locations": [170, -36]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 60,
+      "locations": [170, 36]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -80,
+      "locations": [146, -45]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 80,
+      "locations": [146, 45]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [68, -42]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 90,
+      "locations": [68, 42]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -90,
+      "locations": [-1, -35]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 90,
+      "locations": [-1, 35]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -90,
+      "locations": [-114, -51]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 90,
+      "locations": [-114, 51]
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -75,
+      "locations": [-77, -46]
+    },
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 75,
+      "locations": [-77, 46]
+    },
+    {
+      "id": "WS0018",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -120,
+      "locations": [-148, -51]
+    },
+    {
+      "id": "WS0019",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 120,
+      "locations": [-148, 51]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        104, -38.5,
+        104, -45,
+        94, -45.5,
+        113.5, -45
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        104, 39,
+        104, 44.5,
+        94, 44.5,
+        112, 44.5
+      ]
+    },
+    {
+      "id": "WS0020",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [195, -43]
+    },
+    {
+      "id": "WS0021",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [195, 43]
+    },
+    {
+      "id": "WS0022",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-30, -47]
+    },
+    {
+      "id": "WS0023",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-30, 47]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [69, -67.5],
+      "length": 26,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [69, 67.5],
+      "length": 26,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-187, -58.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-187, 58.5],
+      "length": 32,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-187, -64],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-187, 64],
+      "length": 32,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-187, -66.5],
+      "length": 32,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-187, 66.5],
+      "length": 32,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-202, -42],
+      "length": 40,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-202, 42],
+      "length": 40,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-205, -6.5],
+      "length": 50,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-205, 6.5],
+      "length": 50,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-200, -17.5],
+      "length": 50,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-200, 17.5],
+      "length": 50,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-198, -27],
+      "length": 50,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-198, 27],
+      "length": 50,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-208, 42],
+      "length": 45.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-208, -42],
+      "length": 45.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-211, 6.5],
+      "length": 54,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-211, -6.5],
+      "length": 54,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_UNDER"
+    }
+  ],
+  "bounds": [
+    -190, 52,
+    -158, 78,
+    -115, 78,
+    -106, 70,
+    -65, 70,
+    -49, 65,
+    -37, 50,
+    -22, 45,
+    -8, 55,
+    10, 55,
+    21.5, 43,
+    40.5, 43,
+    47, 57,
+    96, 75,
+    124, 74,
+    137, 64,
+    157, 64,
+    178, 52.5,
+    195, 34,
+    195, -34,
+    178, -52.5,
+    157, -64,
+    137, -64,
+    124, -74,
+    96, -75,
+    47, -57,
+    40.5, -43,
+    21.5, -43,
+    10, -55,
+    -8, -55,
+    -22, -45,
+    -37, -50,
+    -49, -65,
+    -65, -70,
+    -106, -70,
+    -115, -78,
+    -158, -78,
+    -190, -52,
+    -201, -0
+  ]
+}

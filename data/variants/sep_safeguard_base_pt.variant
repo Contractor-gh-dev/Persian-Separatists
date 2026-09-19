@@ -1,0 +1,56 @@
+{
+  "variantId": "sep_safeguard_base_pt",
+  "hullId": "sep_safeguard_base",
+  "displayName": "Patrol",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sep_gator_launcher",
+        "WS0002": "sep_gator_launcher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "swarmer",
+        "WS0006": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sep_ags"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_lightcycler",
+        "WS0004": "sep_lightcycler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "sep_mk38"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

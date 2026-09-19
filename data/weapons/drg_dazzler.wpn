@@ -1,0 +1,35 @@
+{
+  "id": "drg_dazzler",
+  "specClass": "projectile",
+  "projectileSpecId": "drg_dazzler_shot",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/dazzler/drg_dazzler_tur.png",
+  "turretGlowSprite": "graphics/weapons/dazzler/drg_dazzler_tur_glow.png",
+  "hardpointSprite": "graphics/weapons/dazzler/drg_dazzler_hard.png",
+  "hardpointGlowSprite": "graphics/weapons/dazzler/drg_dazzler_hard_glow.png",
+  "glowColor": [
+    10,
+    40,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    13,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    14.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW",
+  "autocharge": true,
+  "fireSoundTwo": "drg_dazzler_fire"
+}

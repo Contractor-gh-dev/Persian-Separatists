@@ -1,0 +1,202 @@
+{
+  "hullName": "Keystone",
+  "hullId": "sep_keystone",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/contractor/keystone/sep_keystone.png",
+  "style": "SEPARATISTS",
+  "height": 168,
+  "width": 130,
+  "center": [65, 84],
+  "collisionRadius": 110,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 108,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -45,
+      "locations": [54, -14]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 45,
+      "locations": [54, 14]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -80,
+      "locations": [48, -44]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 80,
+      "locations": [48, 44]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-8, -17]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-8, 17]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-30, -17]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-30, 17]
+    },
+    {
+      "id": "MS0001",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [66, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-82, -5],
+      "length": 42,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-82, 5],
+      "length": 42,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-81, -13.5],
+      "length": 32,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-81, 13.5],
+      "length": 32,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-79.5, -22],
+      "length": 48,
+      "width": 13,
+      "angle": -175,
+      "contrailSize": 13,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-79.5, 22],
+      "length": 52,
+      "width": 10,
+      "angle": 175,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-85.5, -22.5],
+      "length": 52,
+      "width": 10,
+      "angle": -175,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-85.5, 22.5],
+      "length": 48,
+      "width": 13,
+      "angle": 175,
+      "contrailSize": 13,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-88, 5],
+      "length": 46,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-88, -5],
+      "length": 46,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_UNDER"
+    }
+  ],
+  "bounds": [
+    -77, 16,
+    -70, 28,
+    -47, 27,
+    -47, 12,
+    17, 14,
+    28, 21.5,
+    32, 63,
+    52, 58,
+    82, 14,
+    82, -14,
+    52, -58,
+    32, -63,
+    28, -21.5,
+    17, -14,
+    -47, -12,
+    -47, -27,
+    -70, -28,
+    -77, -16
+  ]
+}

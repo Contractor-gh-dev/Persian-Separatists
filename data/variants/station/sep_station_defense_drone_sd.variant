@@ -1,0 +1,30 @@
+{
+  "variantId": "sep_station_defense_drone_sd",
+  "hullId": "sep_station_defense_drone",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "contractor_hardenedarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymg",
+        "WS0002": "heavymg",
+        "WS0003": "sep_mk41",
+        "WS0004": "sep_mk41",
+        "WS0005": "sep_mk41",
+        "WS0006": "sep_mk41"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

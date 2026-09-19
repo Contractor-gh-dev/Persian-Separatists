@@ -1,0 +1,32 @@
+{
+  "hullName": "Armored Bow",
+  "hullId": "sep_keystone_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/contractor/keystone/sep_keystone_armor2.png",
+  "style": "SEPARATISTS",
+  "height": 56,
+  "width": 122,
+  "center": [61, 26],
+  "collisionRadius": 64,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 63,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "reduced_explosion",
+	"contractor_hardenedarmor"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    12, 23,
+    -16, 60,
+    -2, 60,
+    28, 15,
+    28, -16,
+    -2, -60,
+    -16, -60,
+    12, -23,
+    15, -0
+  ]
+}

@@ -1,0 +1,26 @@
+{
+	"id":"sep_andross_pirate_launch",
+	"type":"STAT_MOD",
+	"aiType":"NONE",
+	
+	"canNotCauseOverload":true,
+	"runScriptWhileIdle":true,
+	
+	"statsScript":"contractor.data.scripts.shipsystems.SepAndrossPirateLaunch",
+	
+	"useSound":"hammer_fire",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":1200,
+		"threatAmount":1,
+		"threatAngle":0,
+		"threatArc":15,
+		"threatDamage":1500,
+		"threatSpeed":500,
+	}
+}
+
+
+
+

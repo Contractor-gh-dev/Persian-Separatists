@@ -1,0 +1,273 @@
+{
+  "hullName": "Starmaster M301",
+  "hullId": "sep_starmaster_combat",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/contractor/starmaster/sep_starmaster_combat.png",
+  "style": "SEPARATISTS",
+  "height": 290,
+  "width": 150,
+  "center": [75, 139],
+  "collisionRadius": 178,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 174,
+  "viewOffset": 0,
+  "builtInWings": [
+    "sep_andross_s_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [123, 45]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [123, -45]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 90,
+      "locations": [87, 56]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -90,
+      "locations": [87, -56]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 90,
+      "locations": [54, 56]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -90,
+      "locations": [54, -56]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 90,
+      "locations": [22, 56]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -90,
+      "locations": [22, -56]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 90,
+      "locations": [-12, 56]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -90,
+      "locations": [-12, -56]
+    },
+    {
+      "id": "LB 1",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -109, -0,
+        -108, -0
+      ]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 20,
+      "locations": [112, -26]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -20,
+      "locations": [118, 24]
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [-8, 10]
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [-39, -10]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-137, -19],
+      "length": 40,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-137, 19],
+      "length": 40,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-131, -36],
+      "length": 38,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-131, 36],
+      "length": 38,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-132.5, -48],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-132.5, 48],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-133.5, -56],
+      "length": 26,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-133.5, 56],
+      "length": 26,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_OVER"
+    },
+	{
+      "location": [-136, -48],
+      "length": 36,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-136, 48],
+      "length": 36,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-138, -56],
+      "length": 30,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-138, 56],
+      "length": 30,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_UNDER"
+    }
+  ],
+  "bounds": [
+    -131, 59,
+    -122, 67,
+    101, 67,
+    130, 52,
+    130, 23,
+    122, 14,
+    47, 29,
+    21, 29,
+    21, 5,
+    -9, -29,
+    47, -29,
+    129, -8,
+    130, -52,
+    101, -67,
+    -122, -67,
+    -131, -59
+  ]
+}

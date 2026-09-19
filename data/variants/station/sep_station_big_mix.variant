@@ -1,0 +1,24 @@
+{
+  "variantId": "sep_station_big_mix",
+  "hullId": "sep_station_big",
+  "displayName": "Star Fortress",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+		{"WS0001":"sep_station_small_module2_gun"},
+		{"WS0002":"sep_station_small_module3_adv"},
+		{"WS0003":"sep_station_small_module_flt"},
+		{"WS0004":"sep_station_med_module_pd1_sd"},
+		{"WS0005":"sep_station_med_module_pd1_sd"},
+		{"WS0006":"sep_station_med_module_gun_sd"},
+		{"WS0007":"sep_mainstay_aft_armor_st"},
+		{"WS0008":"sep_mainstay_fore_armor_st"},
+		{"WS0009":"sep_mainstay_fore_armor_st"},
+		{"WS0010":"sep_mainstay_fore_armor_st"},
+		{"WS0011":"sep_mainstay_fore_armor_st"},
+	]
+}

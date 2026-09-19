@@ -1,0 +1,148 @@
+{
+  "hullName": "Venom Mk1",
+  "hullId": "sep_venom_mk1",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/contractor/venom/sep_venom_mk1.png",
+  "style": "SEPARATISTS",
+  "height": 92,
+  "width": 88,
+  "center": [44, 46],
+  "collisionRadius": 64,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 62,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "contractor_asteroidcutter"
+  ],
+  "builtInWings": [
+    "sep_andross_s_wing"
+  ],
+  "builtInWeapons": {
+    "WS0004": "blinker_green",
+    "WS0005": "blinker_red",
+    "WS0006": "sep_termite_heavy",
+    "WS0007": "sep_termite_heavy"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": -90,
+      "locations": [-1, -11]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 90,
+      "locations": [-1, 11]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [13, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, -40.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, 40.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -35.5, -0,
+        -38, -0
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [41, -18.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [41, 18.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-40, -30.5],
+      "length": 42,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-40, 30.5],
+      "length": 42,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [41, -30.5],
+      "length": 28,
+      "width": 18,
+      "angle": 0,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [41, 30.5],
+      "length": 28,
+      "width": 18,
+      "angle": -0,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -43, 6,
+    -32, 39,
+    31, 39,
+    44, 7,
+    44, -7,
+    31, -39,
+    -32, -39,
+    -43, -6
+  ]
+}

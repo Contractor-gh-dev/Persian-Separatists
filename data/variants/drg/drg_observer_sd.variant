@@ -1,0 +1,74 @@
+{
+  "variantId": "drg_observer_sd",
+  "hullId": "drg_observer",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 26,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "sabotpod",
+        "WS0015": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pulselaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ioncannon",
+        "WS0004": "ioncannon",
+		"WS0011": "drg_electrocat",
+        "WS0012": "drg_electrocat"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "taclaser",
+        "WS0008": "taclaser",
+        "WS0010": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "taclaser",
+        "WS0007": "taclaser",
+        "WS0009": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "taclaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

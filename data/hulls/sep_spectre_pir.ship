@@ -1,0 +1,251 @@
+{
+  "hullName": "Specter",
+  "hullId": "sep_spectre_pir",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/contractor/spectre/sep_spectre_pirate.png",
+  "style": "LOW_TECH",
+  "height": 198,
+  "width": 102,
+  "center": [51, 99],
+  "collisionRadius": 124,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 123,
+  "viewOffset": 0,
+  "builtInMods": [
+    "glitched_sensors"
+  ],
+  "builtInWeapons": {
+    "WS0010": "irpulse",
+    "WS0011": "blinker_red",
+    "WS0012": "irpulse",
+    "WS0013": "blinker_red",
+    "WS0014": "blinker_green",
+    "WS0015": "irpulse"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [92, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -75,
+      "locations": [25, -34]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 75,
+      "locations": [25, 34]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -90,
+      "locations": [-1, -34]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 90,
+      "locations": [-1, 34]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -115,
+      "locations": [-51, -17]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 115,
+      "locations": [-51, 17]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-50, -41]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-50, 41]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [38.5, 40.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [86.5, 12.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-81.5, -37.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [50, -42]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [57, -34]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [61, -28]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-81, -27],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-81, 27],
+      "length": 40,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-92, -6],
+      "length": 58,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-92, 6],
+      "length": 58,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-81, -31.5],
+      "length": 38,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-81, 31.5],
+      "length": 38,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-84, -20],
+      "length": 42,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-84, 20],
+      "length": 42,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-93, -0],
+      "length": 60,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    -91, 15,
+    -82, 38,
+    -26, 38,
+    -14, 44,
+    34, 44,
+    75, 23,
+    98, -0,
+    75, -23,
+    34, -44,
+    -14, -44,
+    -26, -38,
+    -82, -38,
+    -91, -15
+  ]
+}

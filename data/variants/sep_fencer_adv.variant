@@ -1,0 +1,59 @@
+{
+  "variantId": "sep_fencer_adv",
+  "hullId": "sep_fencer",
+  "displayName": "Advanced",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "sabot_single",
+        "WS0005": "sabot_single",
+        "WS0006": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sep_mk31"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_mk38"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sep_ripcord_wing"
+  ]
+}

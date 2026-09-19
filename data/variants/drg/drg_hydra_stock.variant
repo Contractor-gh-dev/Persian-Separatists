@@ -1,0 +1,62 @@
+{
+  "variantId": "drg_hydra_stock",
+  "hullId": "drg_hydra",
+  "displayName": "Stock",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardened_subsystems",
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pulselaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heatseeker"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

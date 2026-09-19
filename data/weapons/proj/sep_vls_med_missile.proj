@@ -1,0 +1,37 @@
+{
+	"id":"sep_vls_med_missile",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"onFireEffect":"contractor.data.scripts.weapons.SepCmdMisOnFire",
+	"sprite":"graphics/missiles/sep_vls_med_missile3.png",
+	"size":[6,13],	
+	"center":[3,6.5],
+	"collisionRadius":7,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,100,100,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"dudProbabilityOnFlameout":0,
+	"engineSpec":{"turnAcc":360,
+				  "turnRate":180,
+				  "acc":600,
+				  "dec":350},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-7, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[225,110,25,255],
+						"contrailDuration":1.25,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailColor":[225,110,25,75],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":5.0,
+				    "length":38.0,
+				    "angle":180.0},
+				    ]
+}

@@ -1,0 +1,73 @@
+{
+  "variantId": "sep_station_small_module_gun",
+  "hullId": "sep_station_small_module",
+  "displayName": "Gunnery",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "sep_gator_launcher_med",
+        "WS0008": "sep_gator_launcher_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_battleship"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sep_mk4"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_mk34",
+        "WS0004": "sep_mk34",
+        "WS0005": "sep_mk34",
+        "WS0006": "sep_mk34"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "sep_rag",
+        "WS0012": "sep_rag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "sep_mk48",
+        "WS0014": "sep_mk48"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sep_mk48",
+        "WS0013": "sep_mk48"
+      }
+    }
+  ],
+  "wings": [
+    "sep_meteor_wing",
+    "sep_fearless_wing",
+    "sep_fearless_wing"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "variantId": "sep_wellerman_combat_sd",
+  "hullId": "sep_wellerman_combat",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_lightcycler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+	    "WS0006": "sep_kessler"
+	  }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+	    "WS0005": "swarmer"
+	  }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+	    "WS0004": "sep_mk48",
+        "WS0003": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

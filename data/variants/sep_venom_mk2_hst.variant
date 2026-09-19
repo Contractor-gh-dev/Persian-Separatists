@@ -1,0 +1,48 @@
+{
+  "variantId": "sep_venom_mk2_hst",
+  "hullId": "sep_venom_mk2",
+  "displayName": "Heavy Strike",
+  "goalVariant": false,
+  "fluxCapacitors": 8,
+  "fluxVents": 10,
+  "quality": 0.8,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "reaper",
+        "WS0002": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sep_mk24"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_lightcycler",
+        "WS0004": "sep_lightcycler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

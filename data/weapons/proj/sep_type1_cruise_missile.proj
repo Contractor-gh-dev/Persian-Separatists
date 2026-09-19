@@ -1,0 +1,39 @@
+{
+	"id":"sep_type1_cruise_missile",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/sep_missile_cruise.png",
+	"size":[12,26],	
+	"center":[6,13],
+	"collisionRadius":13,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,155,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":75,
+					 "coreRadius":50, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":5.0,
+					 "particleSizeRange":3.0,
+					 "particleDuration":1,
+					 "particleCount":150,
+					 "particleColor":[155,185,255,255]},
+	"useHitGlowWhenDestroyed":true,
+	"reduceDamageWhileFading":true,
+	"fizzleOnReachingWeaponRange":false,
+	"dudProbabilityOnFlameout":0,
+	"fadeTime":0.25,
+	"armingTime":0.5,
+	"engineSpec":{"turnAcc":300,
+				  "turnRate":60,
+				  "acc":125,
+				  "dec":60},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-13, 0],
+				    "style":"DUSK_GROUP",
+					#"styleSpec":{"mode":"QUAD_STRIP","engineColor":[175,175,225,255],"glowSizeMult":1.0,"glowAlternateColor":[0,200,255,255],"contrailDuration":2,"contrailWidthMult":1,"contrailWidthAddedFractionAtEnd":2,"contrailMinSeg":5,"contrailMaxSpeedMult":.0f,"contrailAngularVelocityMult":0.5f,"contrailSpawnDistMult":.5,"contrailColor":[75,100,155,75],"type":"GLOW"},
+				    "width":8.0,
+				    "length":32.0,
+				    "angle":180.0}]
+}

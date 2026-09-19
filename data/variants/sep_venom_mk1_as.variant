@@ -1,0 +1,47 @@
+{
+  "variantId": "sep_venom_mk1_as",
+  "hullId": "sep_venom_mk1",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sep_termite_heavy",
+        "WS0007": "sep_termite_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0003": "sep_gator_launcher"
+	  }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sep_lightcycler"
+	  }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0001": "sep_mk41"
+	  }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,19 @@
+{
+	"id":"drg_electrocat_shot",
+	"specClass":"projectile",
+	"onHitEffect":"contractor.data.scripts.weapons.shots.DrgArcCatOnHit",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":18.0,
+	"width":12,
+	"fadeTime":0.3,
+	"fringeColor":[200,0,50,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[200,0,50,100],
+	"glowRadius":12,
+	"hitGlowRadius":22,	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/hungering_rift_projectile.png"	
+}

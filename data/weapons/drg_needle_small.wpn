@@ -1,0 +1,58 @@
+{
+  "id": "drg_needle_small",
+  "specClass": "projectile",
+  "projectileSpecId": "drg_needle_shot",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/needle/drg_needle_small.png",
+  "turretGlowSprite": "graphics/weapons/needle/drg_needle_small_glow.png",
+  "hardpointSprite": "graphics/weapons/needle/drg_needle_small_hard.png",
+  "hardpointGlowSprite": "graphics/weapons/needle/drg_needle_small_hard_glow.png",
+  "glowColor": [
+    180,
+    25,
+    100,
+    200
+  ],
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "turretOffsets": [
+    17.5,
+    -3.5,
+    17.5,
+    3.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    19,
+    -3.5,
+    19,
+    3.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 24,
+    "spread": 24,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 1,
+    "particleCount": 10,
+    "particleColor": [
+      170,
+      30,
+      110,
+      255
+    ]
+  },
+  "autocharge": true,
+  "fireSoundTwo": "resonator_fire"
+}

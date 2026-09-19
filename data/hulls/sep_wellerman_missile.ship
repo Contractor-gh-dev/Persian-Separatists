@@ -1,0 +1,175 @@
+{
+  "hullName": "Wellerman",
+  "hullId": "sep_wellerman_missile",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/contractor/wellerman/sep_wellerman_missile.png",
+  "style": "SEPARATISTS",
+  "height": 188,
+  "width": 116,
+  "center": [66, 96],
+  "collisionRadius": 116,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 111,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -50,
+      "locations": [17, -16]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -90,
+      "locations": [-16, -16]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -130,
+      "locations": [-50, -16]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-16, 51]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [65, 10]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [60, 31]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -16, 11.5,
+        -11.5, 18,
+        -21, 18,
+        -21, 5,
+        -11.5, 5
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [16, 11.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [-46, 11.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-93, -7.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-93, 1],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-93, 9.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-89, -22.5],
+      "length": 40,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 36,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-89, 24.5],
+      "length": 40,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 36,
+      "style": "SEPARATISTS_OVER"
+    },
+	{
+      "location": [-95, -22.5],
+      "length": 46,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-95, 24.5],
+      "length": 46,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "SEPARATISTS_UNDER"
+    }
+  ],
+  "bounds": [
+    -85, 34,
+    -85, -34,
+    -63, -47,
+    30, -47,
+    76, -39,
+    90, -30,
+    90, -17,
+    67, 2,
+    66, 45,
+    27, 50,
+    -1, 64,
+    -32, 64
+  ]
+}

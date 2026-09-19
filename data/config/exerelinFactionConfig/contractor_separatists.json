@@ -1,0 +1,80 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    "ngcTooltip":"Begin as a recently promoted officer in the PSM. Fight to preserve the independence of your people.",
+    
+    "startRelationships":{"hegemony":-0.6,
+		"contractor_duskgroup":0.75,},
+    "maxRelationships":{"hegemony":-0.4, },
+	"minRelationships":{"contractor_duskgroup":0.5,},
+    "diplomacyPositiveChance":{"hegemony":0.75,},
+    "diplomacyNegativeChance":{"hegemony":1.5,},
+	"morality":"neutral",
+	"alignments":{
+        "technocratic":0.25,
+        "hierarchical":-0.75,
+        "militarist":1,
+        "diplomatic":0,
+        "ideological":0.5,
+    },
+    "diplomacyTraits":["helps_allies", "stalwart", "anarchist", "neutralist", "lowprofile"],
+	
+	"freeMarket":true,
+	"spawnMarketShare":0.5,
+	"defenceStations":[
+        {"ids":["duskstardockstation", "sep_orbitalstation_small", "sep_orbitalstation_medium"]},
+    ],
+	"tariffMult":0.8,
+	
+	"invasionOnlyRetake":true,
+	"invasionStrengthBonusDefend":0.1,
+	"invasionPointMult":0.7,
+	"miningVariantsOrWings":["sep_venom_mk1_sd", "sep_venom_mk2_true_sd", "sep_starmaster_cargo_pd"],
+    
+    "startShipsSolo":[
+		["sep_venom_mk1_sd"],
+        ["sep_venom_mk2_sd"],
+        ["sep_wellerman_combat_sd"],
+    ],
+    "startShipsCombatSmall":[
+        ["sep_safeguard_base_sd", "sep_venom_mk2_true_sd", "sep_venom_mk2_true_sd"],
+		["sep_venom_mk2_as", "sep_venom_mk2_sd", "sep_venom_mk1_sd", "sep_venom_mk1_sd"],
+    ],
+    "startShipsTradeSmall":[
+        ["sep_wellerman_combat_sd", "sep_wellerman_sd", "sep_keystone_sp"],
+		["sep_starmaster_cargo_as", "sep_venom_mk2_sd"],
+    ],
+    "startShipsCombatLarge":[
+        ["sep_starmaster_combat_sd", "sep_comet_sep_sd", "sep_comet_sep_sd"],
+        ["sep_duffie_sd", "sep_venom_mk2_true_sd", "sep_venom_mk2_true_tp"],
+		["sep_anacreon_sp", "sep_keystone_sp"],
+    ],
+    "startShipsCarrierLarge":[
+        ["sep_duffie_carrier_sd", "sep_venom_mk2_sd", "sep_comet_sep_sd"],
+    ],
+    "startShipsTradeLarge":[
+        ["sep_starmaster_cargo_big_sd", "sep_keystone_sp", "sep_comet_sep_sd"],
+    ],
+    "startShipsSuper":[
+        ["sep_shomitraile_as"],
+    ],
+	
+	"asteroidMiningFleetName":"Breaker",
+    "gasMiningFleetName":"Extraction",
+    "logisticsFleetName":"Hauler",
+    "defenceFleetName":"Militia",
+	
+    "maxColonyDistance":9.0,
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+	
+	"rebelFleetSuffix":"Turncoats",
+	
+	"vengeanceLevelNames":["Excommunication", "Interdiction", "Jihad"],
+    "vengeanceFleetNames":["Evangelists", "Inquisition", "Crusade"],
+    "vengeanceFleetNamesSingle":["Evangelists", "an Inquisition", "a Crusade Fleet"],
+	
+	"startSpecialItems":[
+        [["sep_ship_bp_package", ""], ["sep_wep_bp_package", ""]],
+        [["modspec", "contractor_hardenedarmor"]]
+    ],
+}

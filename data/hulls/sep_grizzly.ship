@@ -1,0 +1,224 @@
+{
+  "hullName": "Grizzly",
+  "hullId": "sep_grizzly",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/contractor/grizzly/sep_grizzly.png",
+  "style": "SEPARATISTS",
+  "height": 274,
+  "width": 150,
+  "center": [75, 138],
+  "collisionRadius": 170,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 166,
+  "viewOffset": 0,
+  "builtInMods": [
+    "contractor_dclockers",
+	"contractor_engineering_suite"
+  ],
+  "builtInWings": [
+    "sep_repairdrone_wing",
+    "sep_repairdrone_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -60,
+      "locations": [77, -47]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 70,
+      "locations": [55, 46]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [113, -43]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [113, 43]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -90,
+      "locations": [0, -12]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 90,
+      "locations": [0, 12]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -90,
+      "locations": [-37, -31]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 150,
+      "locations": [-87, 17]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -0.5, -34,
+        7.5, -34,
+        -8.5, -34
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -0.5, 34,
+        -8.5, 34,
+        7.5, 34
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-137, -4],
+      "length": 40,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-137, 4],
+      "length": 40,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-137, -12],
+      "length": 36,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-137, 12],
+      "length": 36,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-137, -18.5],
+      "length": 34,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-137, 18.5],
+      "length": 34,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-135, -27],
+      "length": 42,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-135, 27],
+      "length": 42,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-132, -34.5],
+      "length": 30,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-132, 34.5],
+      "length": 30,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "SEPARATISTS_UNDER"
+    }
+  ],
+  "bounds": [
+    -132, 40,
+    -89, 59,
+    -35, 58,
+    -23, 36,
+    21, 36,
+    21, 47,
+    34, 73,
+    100, 74,
+    135, 46,
+    135, -46,
+    100, -74,
+    34, -73,
+    21, -47,
+    21, -36,
+    -23, -36,
+    -35, -58,
+    -89, -59,
+    -132, -40
+  ]
+}

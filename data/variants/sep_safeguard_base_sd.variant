@@ -1,0 +1,56 @@
+{
+  "variantId": "sep_safeguard_base_sd",
+  "hullId": "sep_safeguard_base",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 16,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sabot_single",
+        "WS0002": "sabot_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "swarmer",
+        "WS0006": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sep_mk31"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_lightcycler",
+        "WS0004": "sep_lightcycler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "sep_mk38"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

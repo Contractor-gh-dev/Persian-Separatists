@@ -1,0 +1,24 @@
+{
+	"id":"sep_retrograde",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"contractor.data.scripts.shipsystems.RetrogradeThrusters",
+	"aiScript":"contractor.data.scripts.shipsystems.RetrogradeThrustersAI",
+	
+	"engineGlowColor":[255,75,75,255],
+	"engineGlowContrailColor":[150,25,25,25],
+	"engineGlowLengthMult":4,
+	"engineGlowWidthMult":2,
+	"engineGlowGlowMult":2,
+	
+	"flameoutOnImpactChance":0.25,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+
+	"useSound":"sep_sys_retrograde_start",
+	"loopSound":"sep_sys_retrograde_loop",
+	"deactivateSound":"sep_sys_retrograde_end",
+	"outOfUsesSound":"engine_disabled",
+}

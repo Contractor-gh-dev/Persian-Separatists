@@ -1,0 +1,55 @@
+{
+  "baseHullId": "sep_duffie",
+  "baseValueMult": 1.2,
+  "builtInMods": [
+    "contractor_ebc"
+  ],
+  "descriptionId": "sep_duffie_drg",
+  "fighterBays": 1,
+  "fleetPoints": 14,
+  "suppliesToRecover":15,
+  "suppliesPerMonth":15,
+  "hullDesignation": "Light Cruiser",
+  "hullName": "Samson",
+  "manufacturer": "Dusk Group",
+  "removeBuiltInMods": [
+    "coherer"
+  ],
+  "removeEngineSlots": [
+    26,
+    24,
+    19,
+    27,
+    18,
+    25,
+    13,
+    12,
+    14,
+    15,
+    17,
+    16,
+    22,
+    20,
+    23,
+    21
+  ],
+  "restoreToBaseHull": false,
+  "skinHullId": "sep_duffie_drg",
+  "spriteName": "graphics/ships/contractor/duffie/drg_duffie.png",
+  "systemId": "highenergyfocus",
+  "tech": "Dusk Group",
+  "weaponSlotChanges":{
+		"WS0002":{"type":ENERGY},
+		"WS0004":{"type":ENERGY},
+	    "WS0005":{"type":ENERGY},
+	    "WS0006":{"type":ENERGY},
+    },
+  "engineSlotChanges":{
+		"6":{"style":"DUSK_GROUP"},
+		"7":{"style":"DUSK_GROUP"},
+		"8":{"style":"DUSK_GROUP"},
+		"9":{"style":"DUSK_GROUP"},
+		"10":{"style":"DUSK_GROUP"},
+		"11":{"style":"DUSK_GROUP"},
+	},
+}

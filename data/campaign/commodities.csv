@@ -1,0 +1,3 @@
+name,id,demand class,base price,export value,price variability,utility,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnit,baseRaidDanger,eU * base value,iconWidthMult,plugin,desc
+Cathricite Crystals,drg_crystals,rare_ore,200,4000,3,1,,"exotic, expensive, codex_unlockable",1000,1,graphics/icons/cargo/duskcrystals.png,ui_cargo_luxury,ui_cargo_luxury_drop,9.1,0.4,50,,10000,1,,
+Psi Core,drg_psi_core,ai_cores,100000,,0,1000,,"nonecon, ai_core, no_loss_from_combat, no_drop, codex_unlockable",1000,1,graphics/icons/cargo/drg_ai_core_psi2.png,ai_core_pickup,ui_alpha_core_drop,41,,,EXTREME,,1,,

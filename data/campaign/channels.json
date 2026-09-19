@@ -1,0 +1,32 @@
+{
+	"dusk_internal":{
+		"name":"Dusk Group NavInt",
+		"logo":"graphics/factions/duskgroupflag.png",
+		"icon":"graphics/factions/duskgroupflag.png",
+		"image":"graphics/factions/duskgroupcrest.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"contractor_duskgroup",
+		"type":"Intelligence Report",
+		"shortType":"Intel"
+	},
+	"separatists_internal":{
+		"name":"Separatists NavInt",
+		"logo":"graphics/factions/separatistsflag.png",
+		"icon":"graphics/factions/separatistsflag.png",
+		"image":"graphics/factions/separatistscrest.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"contractor_separatists",
+		"type":"Intelligence Report",
+		"shortType":"Intel"
+	},
+	"fenar_internal":{
+		"name":"Fenaran NavInt",
+		"logo":"graphics/factions/separatistsflag.png",
+		"icon":"graphics/factions/separatistsflag.png",
+		"image":"graphics/factions/separatistscrest.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"contractor_fenarans",
+		"type":"Intelligence Report",
+		"shortType":"Intel"
+	}
+}

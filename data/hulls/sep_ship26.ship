@@ -1,0 +1,317 @@
+{
+  "hullName": "Model 26",
+  "hullId": "sep_ship26",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/contractor/26/sep_ship26.png",
+  "style": "SEPARATISTS",
+  "height": 364,
+  "width": 156,
+  "center": [78, 182],
+  "collisionRadius": 216,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 215,
+  "viewOffset": 0,
+  "builtInMods": [
+    "contractor_commandrelay",
+    "contractor_prototypehull",
+    "nav_relay"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [165, -26]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [165, 26]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [109, 18]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 180,
+      "locations": [5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -60,
+      "locations": [126, -62]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 60,
+      "locations": [126, 62]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [82, -65]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [82, 65]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -75,
+      "locations": [53, -24]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 75,
+      "locations": [53, 24]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -90,
+      "locations": [-11, -33]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [-11, 33]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -75,
+      "locations": [-50, -32]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 75,
+      "locations": [-50, 32]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 345,
+      "angle": 180,
+      "locations": [-122, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-181, -40],
+      "length": 64,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-181, 40],
+      "length": 64,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-177, -24],
+      "length": 64,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-177, 24],
+      "length": 64,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-179, -7],
+      "length": 34,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-179, 7],
+      "length": 34,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-180, 0],
+      "length": 42,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-187, -40],
+      "length": 68,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-187, 40],
+      "length": 68,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-183, -24],
+      "length": 68,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-183, 24],
+      "length": 68,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-185, 0],
+      "length": 48,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-177, -15],
+      "length": 34,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-177, 15],
+      "length": 34,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-181, -15],
+      "length": 38,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-181, 15],
+      "length": 38,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "SEPARATISTS_UNDER"
+    }
+  ],
+  "bounds": [
+    -175, 48,
+    -153, 68,
+    -89, 68,
+    -77, 64,
+    -71, 49,
+    -21, 48,
+    -3, 43,
+    12.5, 22,
+    22, 46.5,
+    41, 63,
+    77, 77,
+    123, 77,
+    144, 72,
+    157, 45,
+    157, -0,
+    157, -45,
+    144, -72,
+    123, -77,
+    77, -77,
+    41, -63,
+    22, -46.5,
+    12.5, -22,
+    -3, -43,
+    -21, -48,
+    -71, -49,
+    -77, -64,
+    -89, -68,
+    -153, -68,
+    -175, -48
+  ]
+}

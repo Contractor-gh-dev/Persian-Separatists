@@ -1,0 +1,26 @@
+{
+  "baseHullId": "sep_comet",
+  "baseValueMult": 1,
+  "builtInMods": [],
+  "builtInWeapons":{
+	"BI01": "lightac",
+	"BI02": "atropos_hidden"
+    },
+  "descriptionId": "sep_comet",
+  "descriptionPrefix": "This Comet has been repainted for service the Hegemony Auxilliary.",
+  "hullDesignation": "Corvette",
+  "hullName": "Comet (A)",
+  "manufacturer": "Hegemony",
+  "restoreToBaseHull": false,
+  "skinHullId": "sep_comet_heg",
+  "spriteName": "graphics/ships/contractor/comet/sep_comet_heg.png",
+  "systemId": "flarelauncher",
+  "tags":["heg_aux_bp"],
+  "tech": "Hegemony",
+  "engineSlotChanges":{
+		"0":{"style":"LOW_TECH"},
+		"1":{"style":"LOW_TECH"},
+		"2":{"style":"LOW_TECH"},
+		"3":{"style":"LOW_TECH"},
+	},
+}

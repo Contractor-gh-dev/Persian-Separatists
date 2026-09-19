@@ -1,0 +1,207 @@
+{
+  "hullName": "Fencer",
+  "hullId": "sep_fencer_base",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/contractor/fencer/sep_fencer_base.png",
+  "style": "SEPARATISTS",
+  "height": 206,
+  "width": 90,
+  "center": [45, 103],
+  "collisionRadius": 125,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 124,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 0,
+      "locations": [75, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [42, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [9, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [98, -13]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [98, 13]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [95, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 255,
+      "angle": 180,
+      "locations": [-66, 0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -105,
+      "locations": [-47, -12]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 105,
+      "locations": [-47, 12]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-101, -15],
+      "length": 48,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-101, 15],
+      "length": 48,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-101, -0.5],
+      "length": 48,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-101, -19],
+      "length": 38,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-101, 19],
+      "length": 38,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-101, -4],
+      "length": 38,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-101, 4],
+      "length": 38,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-101, -11],
+      "length": 38,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-101, 11],
+      "length": 38,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-64, -33.5],
+      "length": 42,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-64, 33.5],
+      "length": 42,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_OVER"
+    }
+  ],
+  "bounds": [
+    -102, 18,
+    -92, 25,
+    -73, 25,
+    -63, 39,
+    -18, 39,
+    1, 29,
+    17, 29,
+    20, 24,
+    101, 17,
+    101, -17,
+    20, -24,
+    17, -29,
+    1, -29,
+    -18, -39,
+    -63, -39,
+    -73, -25,
+    -92, -25,
+    -102, -18
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "variantId": "sep_arbiter_as",
+  "hullId": "sep_arbiter",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "dedicated_targeting_core",
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sep_gator_launcher",
+        "WS0002": "sep_gator_launcher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sep_mk4"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sep_railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sep_mk41",
+        "WS0008": "sep_mk41",
+        "WS0009": "sep_mk41",
+        "WS0010": "sep_mk41"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "sep_mk38"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

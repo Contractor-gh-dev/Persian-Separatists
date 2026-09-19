@@ -1,0 +1,76 @@
+{
+  "variantId": "sep_station_small_module_flt",
+  "hullId": "sep_station_small_module",
+  "displayName": "Flight",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "sabot",
+        "WS0010": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "sep_shockwave"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "sep_gator_launcher",
+        "WS0012": "sep_gator_launcher",
+        "WS0013": "sep_gator_launcher",
+        "WS0014": "sep_gator_launcher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_mrag",
+        "WS0004": "sep_mrag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "sep_mk38",
+        "WS0006": "sep_mk38"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator",
+        "WS0002": "devastator"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sep_marguese_wing",
+    "sep_fearless_wing",
+    "sep_meteor_wing",
+    "sep_meteor_wing"
+  ]
+}

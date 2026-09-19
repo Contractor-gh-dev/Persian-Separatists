@@ -1,0 +1,54 @@
+{
+  "variantId": "sep_mainstay_nk",
+  "hullId": "sep_mainstay",
+  "displayName": "Nuclear",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 18,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "dedicated_targeting_core",
+    "reinforcedhull",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sep_dirty_nuke"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_mk4"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sep_mk31"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_mk48",
+        "WS0002": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [
+	{"MS0001": "sep_mainstay_aft_armor_sd"},
+	{"MS0002": "sep_mainstay_aft_armor_sd"},
+	{"MS0003": "sep_mainstay_fore_armor_sd"},
+	{"MS0004": "sep_mainstay_fore_armor_sd"}
+  ],
+  "wings": []
+}

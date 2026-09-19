@@ -1,0 +1,44 @@
+{
+  "variantId": "sep_starmaster_cargo_big_sd",
+  "hullId": "sep_starmaster_cargo_big",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "efficiency_overhaul",
+    "expanded_cargo_holds",
+    "unstable_injector",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "pilum",
+        "WS 002": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "sep_mk48",
+        "WS 010": "sep_mk48"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "sep_mk48",
+        "WS 009": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

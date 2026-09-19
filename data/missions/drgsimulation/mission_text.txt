@@ -1,0 +1,4 @@
+Location: Dusk Research Group Laboratories
+Date: Unknown
+
+Run combat simulations with all DRG ships.

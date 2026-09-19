@@ -1,0 +1,33 @@
+{
+  "variantId": "sep_comet_heg_sd",
+  "hullId": "sep_comet_heg",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "targetingunit",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualac"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

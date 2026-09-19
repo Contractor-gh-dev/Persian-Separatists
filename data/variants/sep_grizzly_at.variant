@@ -1,0 +1,63 @@
+{
+  "variantId": "sep_grizzly_at",
+  "hullId": "sep_grizzly",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 17,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "contractor_hardenedarmor",
+    "dedicated_targeting_core",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "sep_vls_small_dumb"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pulselaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ioncannon",
+        "WS0004": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sep_mk48",
+        "WS0006": "sep_mk48"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

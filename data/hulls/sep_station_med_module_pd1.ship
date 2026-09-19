@@ -1,0 +1,71 @@
+{
+  "hullName": "PD Node",
+  "hullId": "sep_station_med_module_pd1",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/contractor/station/sep_station_med_module1.png",
+  "style": "SEPARATISTS",
+  "height": 138,
+  "width": 124,
+  "center": [62, 69],
+  "collisionRadius": 84,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 82,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "contractor_hardenedarmor",
+    "supercomputer",
+    "do_not_fire_through",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": 0,
+      "locations": [11, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -15,
+      "locations": [21, -30]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 15,
+      "locations": [21, 30]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [50, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -48, 38,
+    18, 60,
+    31, 56,
+    67, 7,
+    67, -7,
+    31, -56,
+    18, -60,
+    -48, -38,
+    -66, -0
+  ]
+}

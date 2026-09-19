@@ -1,0 +1,367 @@
+{
+	id:"contractor_duskgroup",
+	"color":[145,2,105,255],
+	
+	"baseUIColor":[145,2,105,255],
+	"darkUIColor":[110,2,100,175],
+	"gridUIColor":[95,255,0,75],
+	"secondaryUIColor":[180,67,30,255],
+    "secondarySegments":6,
+	
+	"displayName":"Dusk Group",
+	"displayNameWithArticle":"the Dusk Group",
+	"displayNameLong":"Dusk Research Group",
+	"displayNameLongWithArticle":"the Dusk Research Group",
+	"displayNameIsOrAre":"is",
+	"logo":"graphics/factions/duskgroupflag.png",
+	"crest":"graphics/factions/duskgroupcrest.png",
+	"shipNamePrefix":"DRG",
+	"shipNameSources":{
+		"ABRAHAMIC":2,
+		"SPACE":1,
+		"EGYPTIAN":2,
+		"GREEK":1,
+	},
+	"names":{
+		"modern":1,
+		"future":1,	
+	},
+	"variantOverrides":{
+
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{},
+		"hulls":{
+			"drg_hydra":0.25,
+			"drg_seraph":0.25,
+			"drg_seraph_base":2,
+			"sep_comet_drg":2,
+			"sep_duffie":0.5,
+			"anubis":0.5,
+			"apogee":0.75,
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	# defaults to same as knownShips when empty
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[],
+	},
+	"knownShips":{
+		"tags":["drg_ship_bp"],
+		"hulls":[
+			"crig",
+			"ox",
+			"dram",
+			"phaeton",
+			"prometheus",
+			"gemini",
+			"atlas",
+			"mercury",
+			"hermes",
+			"kite_original",
+			"mudskipper",
+			"wayfarer",
+			"nebula",
+			"valkyrie",
+			"starliner",
+			"buffalo_pirates",
+
+    		"brawler_tritachyon",
+			
+			"shrike",
+			"medusa",
+			"anubis",
+			"apogee",
+			"fury",
+			
+			"drg_hydra",
+			"drg_boltzman",
+			"drg_amp",
+			"drg_seraph_base",
+			
+			"sep_duffie_drg",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["drg_fighter_bp"],
+		"fighters":[
+			"broadsword_wing",
+			"dagger_wing",
+			"trident_wing",
+			"wasp_wing",
+			"xyphos_wing",
+			"claw_wing",
+			"trident_wing",
+			"cobra_wing",
+			"longbow_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["drg_wep_bp"],
+		"weapons":[
+			"pdlaser",
+			"taclaser",
+			"ioncannon",
+			"irpulse",
+			"lrpdlaser",
+			"pdburst",
+			"amblaster",
+			
+			"phasebeam",
+			"gravitonbeam",
+			"pulselaser",
+			"heavyblaster",
+			"heavyburst",
+			"ionpulser",
+			"ionbeam",
+			
+			"plasma",
+			"hil",
+			"autopulse",
+			"guardian",
+			"tachyonlance",
+			
+			
+			"reaper",
+			"atropos",
+			"atropos_single",
+			"swarmer",
+			"annihilator",
+			"heatseeker",
+			"harpoon",
+			"harpoon_single",
+			"breach",
+			"sabot",
+			"sabot_single",
+			
+			"harpoonpod",
+			"breachpod",
+			"sabotpod",
+			"salamanderpod",
+			"phasecl",
+			"typhoon",
+			
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			
+			"railgun",
+			"lightneedler",
+			"hveldriver",
+			"heavyneedler",
+			"mjolnir",
+			"multineedler",
+			
+			"drg_3pc",
+			"drg_needle_big",
+		],
+	},
+	"priorityWeapons":{
+		"tags":["drg_wep_bp"],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["standard", "tritachyon"],
+		"hullMods":[
+			"contractor_reflectivearmor",
+			"drg_lereactor",
+			"drg_hereactor",
+		],
+	},
+	"weaponSellFrequency":{
+		
+	},
+	"fighterSellFrequency":{
+		"drg_voidwolf_wing":0.5,
+		"drg_voidwolf_b_wing":0.25,
+	
+	},
+	"hullmodSellFrequency":{
+		
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":1,
+		"phaseShips":1,
+		
+		"officerQuality":3,
+		"shipQuality":2,
+		"numShips":2,
+		
+		"shipSize":4,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0.5,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"officerSkillsShuffleProbability":0f,
+		"officerSkills":[
+		
+		],
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			#"fighter_uplink",
+			#"carrier_group",
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			#"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+		"ai_cores",
+	],
+	"music":{
+		"theme":"music_diktat_market_neutral",
+		"market_neutral":"music_diktat_market_neutral",
+		"market_hostile":"music_diktat_market_hostile",
+		"market_friendly":"music_diktat_market_friendly",
+		"encounter_neutral":"music_diktat_encounter_neutral",
+		"encounter_hostile":"music_diktat_encounter_hostile",
+		"encounter_friendly":"music_diktat_encounter_friendly",
+	},	
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_corporate01.png",
+			"graphics/portraits/portrait_corporate03.png",
+			"graphics/portraits/portrait_corporate05.png",
+			"graphics/portraits/portrait_corporate06.png",
+			"graphics/portraits/portrait_corporate08.png",
+			"graphics/portraits/portrait_corporate10.png",
+			"graphics/portraits/portrait13.png",
+			"graphics/portraits/portrait18.png",
+			"graphics/portraits/portrait25.png",
+			"graphics/portraits/portrait26.png",
+			"graphics/portraits/portrait30.png",
+			"graphics/portraits/portrait35.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_corporate02.png",
+			"graphics/portraits/portrait_corporate04.png",
+			"graphics/portraits/portrait_corporate07.png",
+			"graphics/portraits/portrait_corporate09.png",
+			"graphics/portraits/portrait_mercenary02.png",
+			"graphics/portraits/portrait_mercenary08.png",
+			"graphics/portraits/portrait16.png",
+			"graphics/portraits/portrait21.png",
+			"graphics/portraits/portrait28.png",
+			"graphics/portraits/portrait32.png",
+			"graphics/portraits/portrait34.png",
+			"graphics/portraits/portrait41.png",
+		],
+	},
+	"voices":{
+		"LOW":{
+			"soldier":5,	
+			"spacer":10,
+			"business":10,
+		},
+		"MEDIUM":{
+			"spacer":5,
+			"official":10,
+			"business":10,
+		},
+		"HIGH":{
+			"official":5,
+			"business":5,
+		},
+	},	
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"ignoreTradeWithEnemiesForReputation":true,
+		"allowsTransponderOffTrade":false,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":0.75,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":false,
+		"caresAboutAtrocities":false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+		"simulatorData":{
+            "showInSimulator":true,
+        },
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Director"},
+			"internalAffairs":{"name":"Internal Affairs Officer"},
+			
+			"customResearchAi":{"name":"Research AI"},
+
+            "spaceSailor":{"name":"Contractor"},
+            "spaceChief":{"name":"Chief"},
+            "spaceEnsign":{"name":"Ensign"},
+            "spaceLieutenant":{"name":"Lieutenant"},
+            "spaceCommander":{"name":"Commander"},
+            "spaceCaptain":{"name":"Captain"},
+            "spaceAdmiral":{"name":"Admiral"},
+            "spaceMarshal":{"name":"Grand Admiral"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Director"},
+			"internalAffairs":{"name":"Internal Affairs Officer"},
+			
+			"customResearchAi":{"name":"Research AI"},
+
+            "patrolCommander":{"name":"Security Agent"},
+            "fleetCommander":{"name":"Admiral"},
+            "baseCommander":{"name":"Chief of Security"},
+            "stationCommander":{"name":"Operations Administrator"},
+            "outpostCommander":{"name":"Representative"},
+            "portmaster":{"name":"Customer Relations"},
+
+            "supplyOfficer":{"name":"Head of Acquisitions"},
+            "supplyManager":{"name":"Supply Officer"},
+            "medicalSupplier":{"name":"Chief Medical Officer"},
+
+            "trader":{"name":"Logistics Agent"},
+            "merchant":{"name":"Acquisitions Agent"},
+
+            "investigator":{"name":"Property Enforcer"},
+
+            "administrator":{"name":"Administrator"},
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Acquisitions Fulfillment",
+		"tradeLiner":"Liner Convoy",
+		"tradeSmuggler":"Smuggler",
+		"smallTrader":"Logistics Agent",
+		
+		"patrolSmall":"Relations Agent",
+		"patrolMedium":"Property Enforcer",
+		"patrolLarge":"Resolution Force",
+		
+		"inspectionFleet":"Inspection Fleet",
+		"taskForce":"Task Force",
+		"duskInternalAffairs":"Internal Affairs",
+		
+		"foodReliefFleet":"Relief Convoy",
+	},
+},

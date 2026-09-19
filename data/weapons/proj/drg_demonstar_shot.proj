@@ -1,0 +1,19 @@
+{
+	"id":"drg_demonstar_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"onFireEffect":"contractor.data.scripts.weapons.DrgDemonstarEveryFrame",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":16,
+	"width":16,
+	"fadeTime":0.3,
+	"fringeColor":[220,10,00,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[220,10,00,100],
+	"glowRadius":12,
+	"hitGlowRadius":32,	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/drg_demonstar_shot.png"
+}

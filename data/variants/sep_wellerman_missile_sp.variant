@@ -1,0 +1,53 @@
+{
+  "variantId": "sep_wellerman_missile_sp",
+  "hullId": "sep_wellerman_missile",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missile_autoloader"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pilum",
+        "WS0010": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sep_type1_cruise_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sep_rag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_mk48",
+        "WS0002": "sep_mk48",
+        "WS0003": "sep_mk48"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

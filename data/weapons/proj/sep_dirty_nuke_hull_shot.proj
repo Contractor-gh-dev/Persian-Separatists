@@ -1,0 +1,22 @@
+{
+	"id":"sep_dirty_nuke_hull_shot",
+	"specClass":"missile",
+	"missileType":"ROCKET",
+	"sprite":"graphics/missiles/sep_missile_nuke_s1e.png",
+	"size":[16,21],	
+	"center":[8,10.5],
+	"collisionRadius":0.5,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[0,0,0,0],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":1, # purely visual
+	"flameoutTime":5, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration	
+	"engineSpec":{"turnAcc":1,
+				  "turnRate":1,
+				  "acc":1,
+				  "dec":1},
+	"engineSlots":[]
+}
+
+			

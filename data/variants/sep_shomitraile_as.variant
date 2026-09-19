@@ -1,0 +1,72 @@
+{
+  "variantId": "sep_shomitraile_as",
+  "hullId": "sep_shomitraile",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "ballistic_rangefinder",
+    "missleracks",
+    "targetingunit",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "sabotpod",
+        "WS0006": "sabot",
+        "WS0007": "sabot",
+        "WS0008": "sabot",
+        "WS0009": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_mk4"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sep_mrag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "sep_rag",
+        "WS0011": "sep_rag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_mk38",
+        "WS0004": "sep_mk38"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "sep_mk48",
+        "WS0013": "sep_mk48",
+        "WS0014": "sep_mk48",
+        "WS0015": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

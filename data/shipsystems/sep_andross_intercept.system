@@ -1,0 +1,26 @@
+{
+	"id":"sep_andross_intercept",
+	"type":"STAT_MOD",
+	"aiType":"NONE",
+	
+	"canNotCauseOverload":true,
+	"runScriptWhileIdle":true,
+	
+	"statsScript":"contractor.data.scripts.shipsystems.SepAndrossIntercept",
+	
+	"useSound":"drone_launch",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":1500,
+		"threatAmount":4,
+		"threatAngle":0,
+		"threatArc":360,
+		"threatDamage":500,
+		"threatSpeed":200,
+	}
+}
+
+
+
+

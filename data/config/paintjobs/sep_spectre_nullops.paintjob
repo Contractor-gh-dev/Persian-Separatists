@@ -1,0 +1,16 @@
+{
+  "engines":{
+    "color":[30,110,255,150],
+    "contrailColor":[40,40,60,50], 
+    "spawnDistMult":1, 
+    "contrailWidthMultiplier":0.8, 
+    "glowAlternateColor":[0,0,0,0], 
+    "glowSizeMult": 0.8
+  }, 
+  "shield":{
+    "innerColor":[100,100,255,50], 
+    "ringColor":[255,255,255,200], 
+    "innerRotationRate":1, 
+    "ringRotationRate":1
+  }
+}

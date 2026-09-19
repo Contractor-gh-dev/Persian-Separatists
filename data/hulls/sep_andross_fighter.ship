@@ -1,0 +1,64 @@
+{
+  "hullName": "Andross",
+  "hullId": "sep_andross_fighter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/contractor/andross/sep_andross_fighter.png",
+  "style": "SEPARATISTS",
+  "height": 24,
+  "width": 16,
+  "center": [8, 12],
+  "collisionRadius": 15,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 14.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "sep_termite_fighter",
+    "WS0002": "sep_termite_fighter",
+	"DS0001": "sep_glow_andross"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [11.5, 4.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [11.5, -4.5]
+    },
+    {
+      "id": "DS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, 0],
+      "length": 14,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -8, -6,
+    12, -6,
+    12, 6,
+    -8, 6
+  ]
+}

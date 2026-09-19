@@ -1,0 +1,21 @@
+{
+	"id":"sep_mk24_shot",
+	"specClass":"projectile",
+	"onHitEffect":"contractor.data.scripts.weapons.shots.SepMk4OnHit",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":52.0,
+	"hitGlowRadius":100,
+	"width":8.0,
+	"fadeTime":0.5,
+	"fringeColor":[255,175,125,130],
+	"coreColor":[255,255,255,150],
+	"glowColor":[255,175,125,80],
+	"glowRadius":26,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":false,
+	"bulletSprite":"graphics/missiles/shell_large_red.png"
+}

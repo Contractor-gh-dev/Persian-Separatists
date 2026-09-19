@@ -1,0 +1,67 @@
+{
+  "variantId": "drg_glacier_sd",
+  "hullId": "drg_glacier",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "reinforcedhull",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gravitonbeam",
+        "WS0003": "gorgon",
+        "WS0004": "gorgon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "SPC0001": "drg_cryobeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "phasebeam",
+        "WS0010": "phasebeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavyburst",
+        "WS0007": "irpulse",
+        "WS0008": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "swarmer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

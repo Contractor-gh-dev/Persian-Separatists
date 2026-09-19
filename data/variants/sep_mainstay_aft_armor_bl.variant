@@ -1,0 +1,10 @@
+{
+  "variantId": "sep_mainstay_aft_armor_bl",
+  "hullId": "sep_mainstay_aft_armor",
+  "displayName": "Standard",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0.5,
+  "hullMods": [],
+  "weaponGroups": []
+}

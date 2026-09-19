@@ -1,0 +1,109 @@
+{
+  "hullName": "Stardock",
+  "hullId": "separatists_stardockhull",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/contractor/separatists_stardockhull.png",
+  "style": "LOW_TECH",
+  "height": 322,
+  "width": 302,
+  "center": [151, 161],
+  "collisionRadius": 191,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 178.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vastbulk",
+    "shared_flux_sink",
+    "axialrotation",
+    "supercomputer"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [119, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [73, -97]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [73, 97]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [29, -118]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [29, 118]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-131, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-51, 104]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-51, -104]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    158.5, -44.5,
+    105.5, -62.5,
+    94.5, -117,
+    22, -124,
+    -48, -27.5,
+    -147.5, -22,
+    -147.5, 22,
+    -48, 27.5,
+    22, 124,
+    94.5, 117,
+    105.5, 62.5,
+    158.5, 44.5
+  ]
+}

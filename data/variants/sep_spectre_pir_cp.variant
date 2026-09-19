@@ -1,0 +1,66 @@
+{
+  "variantId": "sep_spectre_pir_cp",
+  "hullId": "sep_spectre_pir",
+  "displayName": "Captured",
+  "goalVariant": false,
+  "fluxCapacitors": 13,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missile_autoloader",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "harpoon",
+        "WS0009": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "irpulse_fighter",
+        "WS0012": "irpulse_fighter",
+        "WS0015": "irpulse_fighter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightac",
+        "WS0005": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightdualac",
+        "WS0007": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightdualmg",
+        "WS0003": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

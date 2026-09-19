@@ -1,0 +1,32 @@
+{
+  "id": "sep_battleship",
+  "specClass": "projectile",
+  "projectileSpecId": "sep_battleship_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/weapons/battleship/sep_mk1_turret.png",
+  "turretGunSprite": "graphics/weapons/battleship/sep_mk1_barrels.png",
+  "hardpointSprite": "graphics/weapons/battleship/sep_mk1_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/battleship/sep_mk1_barrels.png",
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 14,
+  "renderHints": [RENDER_BARREL_BELOW],
+  "turretOffsets": [36, -4, 36, 4],
+  "turretAngleOffsets": [0, 0],
+  "hardpointOffsets": [55, -4, 55, 4],
+  "hardpointAngleOffsets": [0, 0],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 36,
+    "particleSizeMin": 12,
+    "particleSizeRange": 32,
+    "particleDuration": 0.13,
+    "particleCount": 35,
+    "particleColor": [255,125,30,175]
+  },
+  "fireSoundTwo": "hellbore_fire"
+}

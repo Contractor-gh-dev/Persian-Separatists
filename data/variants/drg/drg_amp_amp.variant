@@ -1,0 +1,35 @@
+{
+  "variantId": "drg_amp_amp",
+  "hullId": "drg_amp",
+  "displayName": "Amped",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "drg_hereactor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "amblaster",
+        "WS0002": "amblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "drg_plasmacaster",
+        "WS0004": "drg_plasmacaster",
+        "WS0005": "drg_plasmacaster",
+        "WS0006": "drg_plasmacaster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,27 @@
+{
+  "variantId": "drg_shard_sd",
+  "hullId": "drg_shard",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_cargo_holds",
+    "efficiency_overhaul",
+    "unstable_injector",
+	"drg_lereactor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

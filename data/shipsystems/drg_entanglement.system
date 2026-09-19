@@ -1,0 +1,27 @@
+{
+	"id":"drg_entanglement",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"contractor.data.scripts.shipsystems.EntanglementAI",	
+	
+	#"runScriptWhileIdle":true,
+	"canUseWhileRightClickSystemOn":true,
+	
+	"statsScript":"contractor.data.scripts.shipsystems.EntanglementStats",
+	
+	"useSound":"system_construction_swarm",
+	"loopSound":"system_entanglement_loop",
+	"deactivateSound":"system_entropy_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":2000,
+		"threatAmount":4,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}
+
+
+
+

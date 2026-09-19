@@ -1,0 +1,33 @@
+{
+	"id":"drg_dazzler_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":24.0,
+	"hitGlowRadius":20,
+	"width":8,
+	"fadeTime":0.06,
+	"fringeColor":[10,40,255,255],
+	"coreColor":[50,200,255,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"sprite":"graphics/missiles/am_srm.png",
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"shotRangeVariance":0.05,
+					"range":0,
+					"explosionSpec":{"duration":0.12f,
+									 "radius":16,
+									 "coreRadius":0, # full damage within core radius - also equal to proximity fuse range
+									 "collisionClass":NONE,
+									 "collisionClassByFighter":NONE,
+									 "particleSizeMin":4.0,
+									 "particleSizeRange":3.0,
+									 "particleDuration":0.5,
+									 "particleCount":8,
+									 "particleColor":[10,40,255,255],
+									 "explosionColor":[10,40,255,125],
+									 "sound":"vpdriver_explode_before_max_range"
+									 },	
+	}
+}

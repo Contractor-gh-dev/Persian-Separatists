@@ -1,0 +1,31 @@
+{
+  "variantId": "sep_defense_drone_sd",
+  "hullId": "sep_defense_drone",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_mk38",
+        "WS0002": "sep_rag_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

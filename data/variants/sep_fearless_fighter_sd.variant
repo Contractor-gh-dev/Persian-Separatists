@@ -1,0 +1,24 @@
+{
+  "variantId": "sep_fearless_fighter_sd",
+  "hullId": "sep_fearless_fighter",
+  "displayName": "Fast Interceptor",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "contractor_hardenedarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_rag_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

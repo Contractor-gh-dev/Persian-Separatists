@@ -1,0 +1,57 @@
+{
+  "id": "sep_repairbeam",
+  "specClass": "beam",
+  "beamEffect":"contractor.data.scripts.weapons.SepRepairBeamEffect",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY",
+  "turretSprite": "graphics/weapons/fighter/sep_repairbeam.png",
+  "turretGlowSprite": "graphics/weapons/fighter/sep_repairbeam_tur_glow.png",
+  "hardpointSprite": "graphics/weapons/fighter/sep_repairbeam_hard.png",
+  "hardpointGlowSprite": "graphics/weapons/fighter/sep_repairbeam_hard_glow.png",
+  "glowColor": [
+    100,
+    255,
+    100,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    9,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    11.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    0,
+    155,
+    0,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 12,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 64,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundOne": "laser_intro",
+  "fireSoundTwo": "pd_laser_loop"
+}

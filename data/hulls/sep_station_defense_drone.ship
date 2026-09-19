@@ -1,0 +1,197 @@
+{
+  "hullName": "Nemesis",
+  "hullId": "sep_station_defense_drone",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/contractor/station/sep_station_drone.png",
+  "style": "SEPARATISTS",
+  "height": 88,
+  "width": 132,
+  "center": [66, 48],
+  "collisionRadius": 80,
+  "shieldCenter": [4, -0],
+  "shieldRadius": 75.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -40,
+      "locations": [12, -44]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 40,
+      "locations": [12, 44]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [4, -10]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [4, 10]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 0,
+      "locations": [25, -19]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 0,
+      "locations": [25, 19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44, -13.5],
+      "length": 48,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-44, 13.5],
+      "length": 48,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-44, -7.5],
+      "length": 36,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-44, 7.5],
+      "length": 36,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-44, -19.5],
+      "length": 36,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-44, 19.5],
+      "length": 36,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-38, -49],
+      "length": 36,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-38, 49],
+      "length": 36,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-38, -42],
+      "length": 36,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-38, 42],
+      "length": 36,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-15, -63],
+      "length": 40,
+      "width": 8,
+      "angle": -90,
+      "contrailSize": 40,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-15, 63],
+      "length": 40,
+      "width": 8,
+      "angle": 90,
+      "contrailSize": 40,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-9.5, -65],
+      "length": 48,
+      "width": 14,
+      "angle": -90,
+      "contrailSize": 48,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-9.5, 65],
+      "length": 48,
+      "width": 14,
+      "angle": 90,
+      "contrailSize": 48,
+      "style": "SEPARATISTS_OVER"
+    }
+  ],
+  "bounds": [
+    -41, 53,
+    -6, 62,
+    32, 61,
+    39, -0,
+    32, -61,
+    -6, -62,
+    -41, -53
+  ]
+}

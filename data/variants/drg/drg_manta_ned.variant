@@ -1,0 +1,57 @@
+{
+  "variantId": "drg_manta_ned",
+  "hullId": "drg_manta",
+  "displayName": "Needle",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 21,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "drg_needle_med",
+        "WS0002": "drg_needle_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "drg_demonstar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "drg_plasmacaster",
+        "WS0005": "drg_plasmacaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "pdburst",
+        "WS0007": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "pdburst",
+        "WS0009": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

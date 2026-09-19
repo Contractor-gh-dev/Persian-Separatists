@@ -1,0 +1,88 @@
+{
+  "hullName": "Voidwolf",
+  "hullId": "sep_voidwolf_fighter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/contractor/fighters/sep_voidwolf.png",
+  "style": "SEPARATISTS",
+  "height": 22,
+  "width": 50,
+  "center": [25, 11],
+  "collisionRadius": 27,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 26,
+  "viewOffset": 0,
+  "builtInMods": [
+    "insulatedengine"
+  ],
+  "builtInWeapons": {
+    "BI01": "sep_eclipse_fighter"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [0, -4]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [0, 4]
+    },
+    {
+      "id": "BI01",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-3, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, -8.5],
+      "length": 28,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-9, 8.5],
+      "length": 28,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-12, -8.5],
+      "length": 32,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-12, 8.5],
+      "length": 32,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "SEPARATISTS_UNDER"
+    }
+  ],
+  "bounds": [
+    -6, 23,
+    9, -0,
+    -6, -23
+  ]
+}

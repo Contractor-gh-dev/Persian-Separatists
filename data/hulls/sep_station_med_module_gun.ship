@@ -1,0 +1,84 @@
+{
+  "hullName": "Combat Node",
+  "hullId": "sep_station_med_module_gun",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/contractor/station/sep_station_med_module2.png",
+  "style": "SEPARATISTS",
+  "height": 90,
+  "width": 130,
+  "center": [65, 45],
+  "collisionRadius": 73.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 71.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "supercomputer",
+    "do_not_fire_through",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [1, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-6, -46]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [-6, 46]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 15,
+      "locations": [25, 26]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -15,
+      "locations": [25, -26]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -42.5, 42,
+    -32, 57,
+    -13, 63,
+    5.5, 57.5,
+    21, 43,
+    34, 39,
+    43, -0,
+    34, -39,
+    21, -43,
+    5.5, -57.5,
+    -13, -63,
+    -32, -57,
+    -42.5, -42,
+    -37, -0
+  ]
+}

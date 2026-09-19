@@ -1,0 +1,28 @@
+{
+  "variantId": "sep_mainstay_aft_armor_st",
+  "hullId": "sep_mainstay_aft_armor",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 1,
+  "quality": 1,
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sep_mk48"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_mk48"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "drg_seraphmain",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "contractor.data.scripts.weapons.DrgGabrielBeamEffect",
+  "collisionClass": "NONE",
+  "collisionClassByFighter": "NONE",
+  "turretSprite": "graphics/weapons/seraphmain/drg_seraphmain.png",
+  "turretGlowSprite": "graphics/weapons/seraphmain/drg_seraphmain_glow.png",
+  "hardpointSprite": "graphics/weapons/fx/drg_boltzman_sys.png",
+  "hardpointGlowSprite": "graphics/weapons/seraphmain/drg_seraphmain_hard_glow.png",
+  "glowColor": [
+    255,
+    180,
+    215,
+    150
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    14,
+    9,
+    14,
+    -9
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    12,
+    9,
+    12,
+    -9
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "fringeColor": [
+    255,
+    200,
+    225,
+    150
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 64,
+  "textureType": LASER,
+  "textureScrollSpeed": 256,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "convergeOnPoint":false,
+  #"fireSoundOne": "phase_beam_intro",
+  "fireSoundTwo": "drg_seraphmain_charge_short",
+  "coreWidthMult": 0.6
+}

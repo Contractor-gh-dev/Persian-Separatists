@@ -1,0 +1,22 @@
+{
+	"id":"sep_citadelmode",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+
+	"statsScript":"contractor.data.scripts.shipsystems.SepCitadelMode",
+	"aiScript":"contractor.data.scripts.shipsystems.SepCitadelModeAI",
+	
+	"engineGlowLengthMult":0.25,
+	"engineGlowWidthMult":0.5,
+	"engineGlowGlowMult":0.5,
+	
+	"runScriptWhileIdle":true,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.9,
+	"soundFilterGainHF":0.1,
+	
+	#"useSound":"sep_sys_overcharge_start",
+	"loopSound":"sep_sys_overcharge_loop",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

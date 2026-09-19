@@ -1,0 +1,20 @@
+{
+	"id":"sep_quadauto_small_shot",
+	"specClass":"projectile",
+	"onHitEffect":"contractor.data.scripts.weapons.shots.SepQuadOnHit",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"hitGlowRadius":24,
+	#"spawnType":"BALLISTIC",
+	#"collisionClass":"PROJECTILE_FF",
+	#"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":30.0,
+	"width":5,
+	"fadeTime":0.3,
+	"fringeColor":[240,220,180,200],
+	"coreColor":[245,245,225,80],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_medium_green.png"
+}

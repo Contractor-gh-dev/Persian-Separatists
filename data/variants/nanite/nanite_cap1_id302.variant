@@ -1,0 +1,82 @@
+{
+  "variantId": "nanite_cap1_id302",
+  "hullId": "nanite_cap1",
+  "displayName": "ID 302",
+  "goalVariant": false,
+  "fluxCapacitors": 3,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "sabot_single",
+        "WS0010": "sabot_single",
+        "WS0012": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0021": "nanite_corrupter",
+        "WS0022": "nanite_corrupter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "gravitonbeam",
+        "WS0017": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0007": "ioncannon",
+        "WS0008": "ioncannon",
+        "WS0011": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0001": "flak",
+        "WS0005": "heavymortar",
+        "WS0013": "pdlaser",
+        "WS0014": "heatseeker",
+        "WS0015": "lightmg",
+        "WS0016": "lightmg",
+        "WS0018": "lightmg",
+        "WS0019": "pdlaser",
+        "WS0020": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "nanite_fighter_wing2"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "nanite_fighter2_id002",
+  "hullId": "nanite_fighter2",
+  "displayName": "ID 002",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "harpoon_single"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "bomb"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

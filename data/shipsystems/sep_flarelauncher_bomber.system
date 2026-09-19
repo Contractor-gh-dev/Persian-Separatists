@@ -1,0 +1,9 @@
+{
+	"id":"sep_flarelauncher_bomber",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	
+	"weaponDataId":"sep_flare_bomber",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+}

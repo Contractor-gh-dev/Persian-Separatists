@@ -1,0 +1,57 @@
+{
+  "id": "drg_cascade",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "everyFrameEffect": "contractor.data.scripts.weapons.DrgCascadeEveryFrame",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/cascade/drg_cascade_turret.png",
+  "turretGlowSprite": "graphics/weapons/cascade/drg_cascade_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/cascade/drg_cascade_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/cascade/drg_cascade_hardpoint_glow.png",
+  "hitGlowBrightenDuration":0.25,
+  "glowColor": [
+    175,
+    40,
+    110,
+    255
+  ],
+  "hitGlowRadius": 8,
+  "turretOffsets": [
+    21,
+    -7.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    25,
+    -7.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    125,
+    20,
+    50,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    100
+  ],
+  "width": 12,
+  "textureType": LASER,
+  "textureScrollSpeed": 64,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundOne": "guardian_pd_fire"
+}

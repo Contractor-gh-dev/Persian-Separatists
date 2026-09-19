@@ -1,0 +1,47 @@
+{
+  "variantId": "sep_comet_sep_sd",
+  "hullId": "sep_comet_sep",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "targetingunit",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_mk41"
+      }
+    },
+	{
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "BI02": "sep_gator_launcher"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "BI01": "sep_mk55",
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

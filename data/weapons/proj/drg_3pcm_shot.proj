@@ -1,0 +1,17 @@
+{
+	"id":"drg_3pcm_shot",
+	"specClass":"projectile",
+	"onHitEffect":"contractor.data.scripts.weapons.shots.Drg3PCOnHit",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":36.0,
+	"hitGlowRadius":80,
+	"width":18,
+	"fadeTime":0.3,
+	"fringeColor":[50,50,255,255],
+	"coreColor":[175,40,100,125],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"sprite":"graphics/missiles/hungering_rift_projectile.png"
+}

@@ -1,0 +1,97 @@
+{
+  "hullName": "Shard",
+  "hullId": "drg_shard",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/contractor/shard/drg_shard.png",
+  "style": "DUSK_GROUP",
+  "height": 100,
+  "width": 64,
+  "center": [32, 50],
+  "collisionRadius": 57.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 56,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0002": "drg_cryogenicemitter",
+    "WS0003": "drg_cryogenicemitter",
+    "WS0004": "drg_cryogenicemitter",
+    "WS0005": "drg_cryogenicemitter"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 180,
+      "locations": [-32, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -135,
+      "locations": [-8, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 135,
+      "locations": [-8, 24]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -110,
+      "locations": [-19, -16.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 110,
+      "locations": [-19, 16.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50, -4],
+      "length": 36,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-50, 4],
+      "length": 36,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "DUSK_GROUP"
+    }
+  ],
+  "bounds": [
+    -48, 7,
+    -39, 12,
+    -23, 13,
+    -2, 28,
+    48, 3,
+    48, -3,
+    -2, -28,
+    -23, -13,
+    -39, -12,
+    -48, -7
+  ]
+}

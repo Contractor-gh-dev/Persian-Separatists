@@ -1,0 +1,69 @@
+{
+  "id": "drg_entangled_spark",
+  "specClass": "projectile",
+  "projectileSpecId": "drg_entangled_spark_shot",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "displayArcRadius": 1,
+  "turretSprite": "graphics/weapons/decorative/blinker_blue/blinker_blue_01.png",
+  "hardpointSprite": "graphics/weapons/decorative/blinker_blue/blinker_blue_01.png",
+  "turretOffsets": [
+    16.5,
+    6.5,
+    16.5,
+    -6.5,
+    10.5,
+    11.5,
+    10.5,
+    -11.5,
+    3.5,
+    14.5,
+    3.5,
+    -14.5
+  ],
+  "turretAngleOffsets": [
+    10,
+    -10,
+    45,
+    -45,
+    75,
+    -75
+  ],
+  "hardpointOffsets": [
+    20,
+    6.5,
+    20,
+    -6.5,
+    14.5,
+    11.5,
+    14.5,
+    -11.5,
+    7.5,
+    14.5,
+    7.5,
+    -14.5
+  ],
+  "hardpointAngleOffsets": [
+    10,
+    -10,
+    45,
+    -45,
+    75,
+    -75
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 4,
+    "particleSizeRange": 8,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.5,
+    "cloudRadius": 3,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 15,
+    "blowbackSpread": 6,
+    "particleColor": [175,50,110,120]
+  },
+  "fireSoundTwo": "entangled_spark_fire"
+}

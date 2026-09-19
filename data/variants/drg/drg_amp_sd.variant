@@ -1,0 +1,43 @@
+{
+  "variantId": "drg_amp_sd",
+  "hullId": "drg_amp",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "contractor_hardenedarmor",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "drg_plasmacaster",
+        "WS0002": "drg_plasmacaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "irpulse",
+        "WS0006": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ioncannon",
+        "WS0004": "ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

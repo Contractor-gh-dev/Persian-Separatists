@@ -1,0 +1,961 @@
+id,trigger,conditions,script,text,options,notes
+#RULESET_NAME duskrules,,,,,,
+#notes name of thingys,what causes this id to activate,conditions to allow the trigger to pass,What happens when this id is selected,Text blocks go here,Buttons for player to click go here,
+relLevelCooperativeDusk,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == contractor_duskgroup",FireAll RelLevelMoreDescription,"You are treated as a critical part of the Dusk Research Group's operations. A dedicated port dock, full laboratory access, and exotic military equipment is all yours. Science teams often try to hire your services or invite you to sit in during meetings and give your valuable insights. You even have a personal comm line to the Director, should it be needed.",,
+relLevelFriendlyDusk,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == contractor_duskgroup",FireAll RelLevelMoreDescription,"Administrators of the DRG have given you their trust and offer wide access to the reseach group's labs. Scientists often try to stop you to ask for information about happenings in fringe space, and special military hardware is also available for you to purchase should you desire.",,
+relLevelWelcomingDusk,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == contractor_duskgroup",FireAll RelLevelMoreDescription,"The Dusk Research Group considers you as a serious partner, and agents of all walks treat you with respect. More over, you’ve been granted cursory access to the research wing of DRG's facilities, and are permitted to purchase some special equipment.",,
+relLevelFavorableDusk,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == contractor_duskgroup",FireAll RelLevelMoreDescription,"You possess upgraded status as a 'DRG Independent Associate' at this time. You are permitted to use priority queues and Acquisitions Agents always treat you with smiles and respect. Pragmatically you have no special access however, and more private dealings remain off limits to you.",,
+relLevelNeutralDusk,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == contractor_duskgroup",FireAll RelLevelMoreDescription,You are offered the same polite service as other potential business partners of the Dusk Research Group. What the DRG administration thinks of you personally is an unknown quantity however.,,
+relLevelSuspiciousDusk,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == contractor_duskgroup",FireAll RelLevelMoreDescription,"Despite being treated in a formal manner, the Dusk Research Group obviously considers you to be of low regard. Acquisitions Agents no longer give their full range of services, and Relations personnel make you jump through bureaucratic hoops far more often than others.",,
+relLevelInhospitableDusk,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == contractor_duskgroup",FireAll RelLevelMoreDescription,"Your status as a potential business partner has been declared null and void by the Dusk Research Group, and port agents will no longer offer to trade with you. Security patrols strictly follow protocol and will harass you at the slightest infraction, although will not engage in combat unless necessary.",,
+relLevelHostileDusk,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == contractor_duskgroup",FireAll RelLevelMoreDescription,"You are considered as one of the many adversarial elements opposing the Dusk Research Group. Acquisitions Agents are prohibited from conducting business with you, and Relations and Enforcer fleets will pursue and attack you when able.",,
+relLevelVengefulDusk,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == contractor_duskgroup",FireAll RelLevelMoreDescription,The Dusk Research Group administration considers you an imminent threat to their operations. Significant resources have been pulled from other projects and allocated to aid in your destruction. Your name and face appear in security briefings frequently.,,
+relLevelDuskBS,RelLevelMoreDescription,"$global.duskBlacksitePlayerHasMet
+$faction.id == contractor_duskgroup",,"Internal Affairs has flagged your $shipOrFleet as having seen a blacksite, and assigned a dedicated officer to monitor your actions.",,
+relLevelCooperativeSeparatists,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == contractor_separatists",FireAll RelLevelMoreDescription,"The Persean Separatists claim you as one of their own in all but name. Citizens see you as a beacon of freedom, officials trust you as a steadfast ally. You are given much leeway, and it is not uncommon to be invited to business dealings and offered exclusive treatment at port.",,
+relLevelFriendlySeparatists,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == contractor_separatists",FireAll RelLevelMoreDescription,"You have become a reliable ally to the Persean Separatists. The polity on Sedna has made public note of your relationship, and many citizens view you with admiration. Officers and dealers make a point of treating you well, trusting you with restricted information and hardware.",,
+relLevelWelcomingSeparatists,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == contractor_separatists",FireAll RelLevelMoreDescription,"The Separatists have come to trust you as a friend of the people, and are spared the typical frosty attitude common place in the colonies. Officials occasionally overlook the more pedantic rules, and traders offer rarer goods for purchase at your request.",,
+relLevelFavorableSeparatists,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == contractor_separatists",FireAll RelLevelMoreDescription,"People in Separatists territory have tacitly accepted your presence among the colonies. Polite nods and a willingness to speak to you are fairly commonplace, but any type of favored treatment is still denied to you.",,
+relLevelNeutralSeparatists,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == contractor_separatists",FireAll RelLevelMoreDescription,"The Persean Separatists have no strong opinions about you, which is to say they generally view you and your $shipOrFleet with the same suspicion as the rest of the sector.",,
+relLevelSuspiciousSeparatists,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == contractor_separatists",FireAll RelLevelMoreDescription,"You are a total outsider to the Separatists. Few will have words with you, even fewer will offer aid. Traders are wary to conduct business with your $shipOrFleet, and often demand perfect paperwork before even considering the possibility, not to mention the constant harassment from patrols.",,
+relLevelInhospitableSeparatists,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == contractor_separatists",FireAll RelLevelMoreDescription,"Negative stories about your $shipOrFleet have spread through the union, the name ""$playerName"" is frequently mixed with choice curses and maledictions. The militia raise their guard whenever your transponder is detected, and public traders refuse to trade out of solidarity to the populous.",,
+relLevelHostileSeparatists,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == contractor_separatists",FireAll RelLevelMoreDescription,"The Persean Separatists have marked you as an actively hostile actor in their space. Militia forces watch for any sign of your $shipOrFleet, and public bulletins have been distributed asking the population to report sightings of you.",,
+relLevelVengefulSeparatists,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == contractor_separatists",FireAll RelLevelMoreDescription,"The entirety of the Separatists have rallied against you and everything you represent. Citizens enthusiastically volunteer for militia service to fight against your $shipOrFleet. Moreover, even the fractious polity on Sedna have agreed to fund substantial bounties, payable on your destruction.",,
+relLevelSeparatistsSpeedwellPos,RelLevelMoreDescription,"PlayerFleetHasShipWithBaseHull sep_speedwell2
+$faction.relValue > 0.49
+$faction.id == contractor_separatists",,"You possess the flagship of the Separatist founder, The Speedwell. Though many would prefer it returned to the hands of the PSM proper, the citizenry generally tolerate you bearing the symbol of their independence.",,
+relLevelSeparatistsSpeedwellNeg,RelLevelMoreDescription,"PlayerFleetHasShipWithBaseHull sep_speedwell2
+$faction.relValue < 0.49
+$faction.id == contractor_separatists",,"You bear the flagship of the Separatist founder, The Speedwell. Most, if not all citizens consider an outsider holding such a symbol to be appalling, and are undoubtedly petitioning the president to take action to reclaim it.",,
+flavorTextMarketDusk,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == contractor_duskgroup score:10","AddText ""The port terminal is filled with various traders loading and unloading cargo. Meanwhile small groups of DRG reps' make their way through the hangars, speaking to captains about business opportunities. One section of the port has been notably reserved for Separatist ships, where crew in distinctive blue uniforms go about their tasks."" marketFlavorTextColor",,,
+flavorTextMarketDuskBlacksite,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == contractor_duskgroup
+$market.id == dusk_blacksite_market score:10","AddText ""The docking terminal you've been assigned is cramped and seems intentionally so. Heavily armed guards watch your crew as they attend to their tasks, and automated turrets continually sweep the area."" marketFlavorTextColor",,,
+flavorTextMarketSeparatistsGeneric,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == contractor_separatists","AddText ""A mishmash of traders, servicing techs, and independent operators move throughout the hangers. One of the more hectic ports you've been too, but there is a certain rhythm to the flow, despite the apparent chaos."" marketFlavorTextColor",,,
+flavorTextMarketSeparatistsSedna,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == contractor_separatists
+$market.id == separatists_sedna_market score:10","AddText ""Port support staff here work tirelessly to keep things running. Snowplows regularly sweep the area, de-icing machines surround landed ships, and people move quickly to find warmer places. Regular warnings go out over PA systems with estimates on the next whiteout storm."" marketFlavorTextColor",,,
+flavorTextMarketSeparatistsUmbra,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == contractor_separatists
+$market.id == separatists_new_umbra_market score:10","AddText ""Oily smog and dust permeates any exposed areas of the terminal, while the scorching sun beats down on the landing pads. Below the surface giant foundries pump out materials for the Separatist colonies, further adding to the thick air. Even in the trade district, the rumble of machinery can be felt through the floor."" marketFlavorTextColor",,,
+flavorTextMarketSeparatistsTehom,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == contractor_separatists
+$market.id == separatists_tehom_market score:10","AddText ""Barely even large enough to hold a cruiser, the tiny port concourse holds a few traders and repair operators. People here are decidedly wary, and there is a general sense of unease wherever your crew go."" marketFlavorTextColor",,,
+SDFSeparatists1Defeated,SDFSeparatists1Defeated,,$player.defeatedSeparatistsSDF1,,,
+SDFSeparatists2Defeated,SDFSeparatists2Defeated,,$player.defeatedSeparatistsSDF2,,,
+ngcSeparatistStart,AddNewGameChoices,CheckSetting enableSeparatistStart,"SetTooltip ngcSeparatist ""A small, mixed use force lead by a light carrier, able to engage in cargo hauling and moderate bounty hunting, though excelling in neither.""",,"10:ngcSeparatist:An external contractor in the PSM navy, commanding a Duffie (fast start)",
+ngcSeparatistPicked,NewGameOptionSelected,$option == ngcSeparatist,"NGCAddShip sep_duffie_carrier_start
+NGCAddShip sep_keystone_as
+NGCAddShip sep_wellerman_combat_sp
+NGCAddShip sep_venom_mk1_sd
+NGCAddShip sep_comet_sep_start
+NGCAddShip sep_comet_sep_start
+NGCAddCredits 18000
+NGCSetStartingLocation hyperspace -3000 -20000
+$ngcMercSelected = true
+AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+FireAll NGCDifficultyOptions",,,
+sepBarDisable1,OpenInteractionDialog,"$hasMarket
+$market.id == separatists_tehom_market","$market.noBar = true
+FireBest MarketPostOpen",,,
+duskBarDisable1,OpenInteractionDialog,"$hasMarket
+$dusk_blacksite_market","$market.noBar = true
+FireBest MarketPostOpen",,,
+sepPresidentCallStandard,PickGreeting,"$id == sepFactionLeader score:10
+$faction.relValue < 49",HideVisual,The connection symbol pulses for a short time before being replaced with 'No Signal.' Seems you are not going to get through.,cutCommLink:Continue,
+sepPresidentCallHostile,PickGreeting,"$id == sepFactionLeader score:10
+$faction.relValue < -24",HideVisual,"The connection symbol pulses for a short time before the console beeps angrily at you. Seems your reputation precedes you, and is not going over well.",cutCommLink:Continue,
+,,,,,,
+duskBlacksiteFirstMeet,OpenInteractionDialog,"$dusk_blacksite_market
+!$global.duskBlacksitePlayerHasMet
+!$global.duskBSMFleetMet","$global.duskBlacksitePlayerHasMet = false
+ShowDefaultVisual
+SetShortcut duskBlacksiteFirstMeetEarlyExt ""ESCAPE""","Your $shipOrFleet approaches the unknown station in the asteroid belt. ""Captain, heavy firing batteries tracking our position,"" your tactical officer reports dutifully. The rest of the bridge crew look to you for orders.","dusk__BlacksiteFirstMeetAprch:""Raise shields, continue the approach.""
+dusk__BlacksiteFirstMeet2:""Open a comm link.""
+dusk__BlacksiteFirstMeetEarlyExt:""Turn us around, were leaving.""",
+duskBlacksiteFirstMeet2,DialogOptionSelected,$option == dusk__BlacksiteFirstMeet2,"$global.duskBlacksitePlayerHasMet = true
+$duskBlacksitePlayerShot = false","Soft beeps punctuate the air as your comms officer keys in a link to the station, ""Signal sent, Captain."" 
+
+The connection symbol spins in place as you wait for an answer, then after a moment the screen lights up.",dusk__BlacksiteFirstMeetAprch3:On screen,
+duskBlacksiteFirstMeetAprch,DialogOptionSelected,$option == dusk__BlacksiteFirstMeetAprch,"$global.duskBlacksitePlayerHasMet = true
+$duskBlacksitePlayerShot = true","A nervous silence covers the bridge as the fleet nears the station, until tactical shouts, ""Incoming shot!"" The view screen flashes brightly with the muzzle flare of an anti-ship cannon.","dusk__BlacksiteFirstMeetAprch2:""Everybody brace!""",
+duskBlacksiteFirstMeetAprch2,DialogOptionSelected,$option == dusk__BlacksiteFirstMeetAprch2,"DamagePlayerShip true false true
+AddText ""Before you can give any orders, comms barks, an incoming transmission!""",,dusk__BlacksiteFirstMeetAprch3:Open a channel,
+duskBlacksiteFirstMeetAprch3,DialogOptionSelected,$option == dusk__BlacksiteFirstMeetAprch3,"ShowPersonVisual true duskBlacksiteAlphaAdmin
+$player.BSIAOrep = 0
+FireAll PopulateBSFMOptions","The image of a stern looking man appears on screen, his eyes scan up and down briefly then come to rest on your own. A few seconds pass as you each size each other up and consider what to say. He speaks first.
+
+""Captain $playerName. You would be wise to stay away from others' private matters."" His lips curl ever so slightly, ""Consider this a warning. Do not return.""
+
+He maintains a machine like stillness, evidently waiting for you to close the comm link.",,
+duskBlacksiteFirstMeetOptLeave,PopulateBSFMOptions,,,,100:dusk__BlacksiteFirstMeetCloseComm:Cut the comm link,
+duskBlacksiteFirstMeetOpt1,PopulateBSFMOptions,,,,"dusk__BlacksiteFirstMeetOpt1Sel:""Who are you, and what is this place?""",
+duskBlacksiteFirstMeetOpt2,PopulateBSFMOptions,,,,"dusk__BlacksiteFirstMeetOpt2Sel:""I apologize, we'll be leaving shortly.""",
+duskBlacksiteFirstMeetOpt3,PopulateBSFMOptions,,,,"dusk__BlacksiteFirstMeetOpt3Sel:""You station-rat, come out here and fight me""",
+duskBlacksiteFirstMeetOpt4,PopulateBSFMOptions,,,,dusk__BlacksiteFirstMeetOpt4Sel:Make a rude gesture,
+duskBlacksiteFirstMeetOpt5,PopulateBSFMOptions,$duskBlacksitePlayerShot,,,"dusk__BlacksiteFirstMeetOpt5Sel:""You better pay for these damages.""",
+duskBlacksiteFirstMeetOpt1Sel,DialogOptionSelected,$option == dusk__BlacksiteFirstMeetOpt1Sel,"SetEnabled dusk__BlacksiteFirstMeetOpt1Sel false
+SetTooltip dusk__BlacksiteFirstMeetOpt1Sel ""You already said that""",The man makes no move to speak. He may as well be a statue.,,
+duskBlacksiteFirstMeetOpt2Sel,DialogOptionSelected,$option == dusk__BlacksiteFirstMeetOpt2Sel,"$player.BSIAOrep ++
+SetEnabled dusk__BlacksiteFirstMeetOpt2Sel false
+SetTooltip dusk__BlacksiteFirstMeetOpt2Sel ""You already said that""",Issac Herne nods his head a mere centimeter.,,
+duskBlacksiteFirstMeetOpt3Sel,DialogOptionSelected,$option == dusk__BlacksiteFirstMeetOpt3Sel,"$player.BSIAOrep --
+SetEnabled dusk__BlacksiteFirstMeetOpt3Sel false
+SetTooltip dusk__BlacksiteFirstMeetOpt3Sel ""You already said that""","The officer glances at away at a screen for a moment, seemingly unmoved by your challenge.",,
+duskBlacksiteFirstMeetOpt4Sel,DialogOptionSelected,$option == dusk__BlacksiteFirstMeetOpt4Sel,"$player.BSIAOrep --
+AdjustRepPerson duskBlacksiteAlphaAdmin HOSTILE -1
+SetEnabled dusk__BlacksiteFirstMeetOpt4Sel false
+SetTooltip dusk__BlacksiteFirstMeetOpt4Sel ""You already did that""","Issac Herne squints slightly, then returns to his previous stillness",,
+duskBlacksiteFirstMeetOpt5Sel,DialogOptionSelected,$option == dusk__BlacksiteFirstMeetOpt5Sel,"SetEnabled dusk__BlacksiteFirstMeetOpt5Sel false
+SetTooltip dusk__BlacksiteFirstMeetOpt5Sel ""You already said that""","""No.""
+
+A justification does not follow.",,
+duskBlacksiteFirstMeetEarlyExt,DialogOptionSelected,$option == dusk__BlacksiteFirstMeetEarlyExt,"ShowDefaultVisual
+DismissDialog",,,
+duskBlacksiteFirstMeetCloseComm,DialogOptionSelected,$option == dusk__BlacksiteFirstMeetCloseComm,"ShowDefaultVisual
+DismissDialog",,,
+duskBlacksiteNoPermission,OpenInteractionDialog,"$dusk_blacksite_market
+$global.duskBlacksitePlayerHasMet
+!$global.duskBSMFleetMet",ShowDefaultVisual,"The Dusk Blacksite floats menacingly among the asteroids. Approaching it would be a very bad idea, and you have no other options at the moment, best leave it for the time being.",dusk__BlacksiteFirstMeetCloseComm:Leave,
+duskBlacksiteNoPermission2,OpenInteractionDialog,"$dusk_blacksite_market
+$global.duskBlacksitePlayerHasMet
+$global.duskBSMBlacksiteComm score:10",ShowDefaultVisual,"The Dusk Blacksite floats ominously among the asteroids. Approaching it without cause would be a bad idea, and you have no other options at the moment, best leave it for the time being.",dusk__BlacksiteFirstMeetCloseComm:Leave,
+,,,,,,
+duskBSTriggerTest,MarketPostOpen,"RepIsAtWorst contractor_duskgroup FRIENDLY
+$faction.id != contractor_duskgroup
+!$global.duskBSMissionStarted
+!$global.initiatedCommsAlready
+!$global.nex_randomSector",ShowDefaultVisual,"As you enter $marketName comms range, the PDA in your pocket chirps. Pulling it out, the unit displays a one-way message, ""The Dusk Research Group will speak with you.""
+
+The message, in addition to how your comms ID was acquired, is concerning. You mentally note to speak to your officers about InfoSec protocol again.",dusk__BSTrigger:Continue with your business,
+duskBSTriggerTest2,MarketPostOpen,"RepIsAtWorst contractor_duskgroup WELCOMING
+$faction.id != contractor_duskgroup
+$global.duskBlacksitePlayerHasMet
+!$global.duskBSMissionStarted
+!$global.initiatedCommsAlready
+!$global.nex_randomSector",ShowDefaultVisual,"As you enter $marketName comms range, the PDA in your pocket chirps. Pulling it out, the unit displays a one-way message, ""The Dusk Research Group will speak with you.""
+
+The message, in addition to how your comms ID was acquired, is concerning. You mentally note to speak to your officers about InfoSec protocol again.",dusk__BSTrigger:Continue with your business,
+duskBSTrigger,DialogOptionSelected,$option == dusk__BSTrigger,"$global.duskBSMissionStarted = true
+$global.duskBSMFleetMet = false
+DuskBSMissionCMD
+FireBest MarketPostOpen",,,
+duskBSMFleetEncStart,BeginFleetEncounter,"$entity.dgBSMFleet score:100
+$global.duskBSMissionStarted == true","Call dgBSM updateData
+AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor 
+$hailing  true 0",,,
+duskBSMFleetEnc,OpenCommLink,"$entity.dgBSMFleet score:1000
+$global.duskBSMissionStarted score:100",ShowPersonVisual true,"""Greetings Captain $playerName, I trust you received our message,"" the $manOrWoman says flatly. ""I need to speak to you concerning a security matter.""
+
+$HeOrShe raises a hand before you can interject. ""No, you're not in trouble, but protocol requires sparse details $playerSirOrMadam.""
+
+The $manOrWoman enters something into a console, and your $shipOrFleet receives a data-stream, then $heOrShe turns back to you. ""These are credentials for. . ."" a brief pause, ""the Apophis system. Why not visit it, I hear the asteroid belt is quite pretty.""","dusk__BSMFleetEncP2:""I understand.""
+dusk__BSMFleetEncInfo:""Credentials for a system?""",
+duskBSMFleetEnc2,OpenCommLink,"$global.duskBSMissionStarted score:1000
+$entity.dgBSMFleet score:100
+$global.duskBlacksitePlayerHasMet
+",ShowPersonVisual true,"""Greetings Captain $playerName, I trust you received our message,"" the $manOrWoman says flatly. ""I need to speak to you concerning a security matter.""
+
+$HeOrShe raises a hand before you can interject. ""No, you're not in trouble, but protocol requires sparse details $playerSirOrMadam.""
+
+The $manOrWoman enters something into a console, and your $shipOrFleet receives a data-stream, then $heOrShe turns back to you. ""These are credentials for. . ."" a brief pause, ""the Apophis system. Why not visit it, I hear the asteroid belt is quite pretty.""","dusk__BSMFleetEncP2:""I understand.""
+dusk__BSMFleetEncKnow:""You mean credentials for Blacksite Alpha?""",
+duskBSMFleetEncP2,DialogOptionSelected,$option == dusk__BSMFleetEncP2,,"""Good, I glad we have resolved this security issue."" $HeOrShe straightens $hisOrHer posture, ""I’ve spent too long on this comm link, farewell Captain.""","dusk__BSMFleetEncEnd1:""Farewell.""",
+duskBSMFleetENCInfo,DialogOptionSelected,$option == dusk__BSMFleetEncInfo,"SetShortcut duskBSMFleetEncEnd1 ""ESCAPE""","""Yes,"" $personName sighs, and begins to enunciate $hisOrHer words more carefully, ""Credentials. So you should use them, and maybe visit the 'asteroid belt' very soon.""
+
+$HeOrShe straightens $hisOrHer posture, ""I've spent too long on this comm link, farewell Captain.""","dusk__BSMFleetEncInfoEnd:""Tell me without the vagaries.""
+dusk__BSMFleetEncEnd1:""Farewell.""",
+duskBSMFleetENCInfoEnd,DialogOptionSelected,$option == dusk__BSMFleetEncInfoEnd,FireAll duskBSMFleetEncEnd,$personName closes the comm link before you can finish your sentence.,,
+duskBSMFleetEncEnd1,DialogOptionSelected,$option == dusk__BSMFleetEncEnd1,FireAll duskBSMFleetEncEnd,,,
+duskBSMFleetEncEnd,duskBSMFleetEncEnd,,"ShowDefaultVisual
+$global.duskBSMFleetMet = true
+$dgBSMEndFleet = true
+Call $global.dgBSM_ref updateStage
+$entity.ignorePlayerCommRequests = true
+MakeOtherFleetGoAway true
+MakeOtherFleetPreventDisengage false
+MakeOtherFleetNonHostile true
+MakeOtherFleetNonAggressive true
+EndConversation",,,
+duskBSMFleetEncKnow,DialogOptionSelected,$option == dusk__BSMFleetEncKnow,AdjustRepActivePerson 1,"$personName partially fails to stifle a gasp, ""How the hell. . ."" $HeOrShe appears conflicted on whether to be impressed or angry. After a moment $hisOrHer face settles, ""I see why they chose you $playerSirOrMadam.""
+
+Impressed it would seem.
+
+""Good luck Captain $playerName."" With that, $heOrShe closes the comm link.","dusk__BSMFleetEncKnowEnd:""Nav, prepare a course.""",
+duskBSMFleetEncKnowEnd,DialogOptionSelected,$option == dusk__BSMFleetEncKnowEnd,FireBest duskBSMFleetEncEnd,,,
+,,,,,,
+duskBSMBSMeetStart,OpenInteractionDialog,"$dusk_blacksite_market
+!$global.duskBlacksitePlayerHasMet
+$global.duskBSMFleetMet
+!$global.duskBSMBlacksiteComm",ShowDefaultVisual,"Your $shipOrFleet approaches the blacksite in the asteroid belt. ""Captain, heavy firing batteries tracking our position,"" your tactical officer reports dutifully. The rest of the bridge crew look to you for orders.","dusk__BSMBSMeetOpenComm:""Send the code.""",
+duskBSMBSMeetStartVar,OpenInteractionDialog,"$dusk_blacksite_market
+$global.duskBlacksitePlayerHasMet
+$global.duskBSMFleetMet",ShowDefaultVisual,"Your $shipOrFleet approaches the blacksite in the asteroid belt. ""Captain, heavy firing batteries tracking our position,"" your tactical officer reports dutifully once again. The bridge crew stand at the ready.","dusk__BSMBSMeetOpenCommVar:""Send the code.""",
+duskBSMBSMeetOpenComm,DialogOptionSelected,$option == dusk__BSMBSMeetOpenComm,ShowPersonVisual true duskBlacksiteAlphaAdmin,"The image of a stern looking man appears on screen, his eyes scan up and down briefly then come to rest on your own. A few seconds pass as you each size each other up and consider what to say. He speaks first.
+
+""Captain $playerName,"" his voice devoid of emotion, ""I've been waiting."" ","dusk__BSMBSMeetComment:""Quite the place for a station.""
+dusk__BSMBSMeetMission:""There's a security matter that you need help with?""",
+duskBSMBSMeetOpenCommVar,DialogOptionSelected,$option == dusk__BSMBSMeetOpenCommVar,ShowPersonVisual true duskBlacksiteAlphaAdmin,"The image of Issac Herne appears on screen, just as devoid of emotion as before. He stays silent, testing your mettle once again.","dusk__BSMBSMeetComment2:""Did you miss me?""
+dusk__BSMBSMeetMission:""There's a security matter that you need help with?""
+dusk__BSMBSMeetSilent:Remain Silent",
+duskBSMBSMeetComment,DialogOptionSelected,$option == dusk__BSMBSMeetComment,"SetEnabled dusk__BSMBSMeetComment false
+SetTooltip dusk__BSMBSMeetComment ""You already said that""","""Yes, it is, but we have no time for idle talk."" ",,
+duskBSMBSMeetComment2,DialogOptionSelected,$option == dusk__BSMBSMeetComment2,$player.BSIAOrep --,"""No,"" he frowns, displeased by your tone. ""Were it up to me, I'd destroy your $shipOrFleet for trespassing again, but the matter is out of my hands now.""",dusk__BSMBSMeetMission:Continue,
+duskBSMBSMeetSilent,DialogOptionSelected,$option == dusk__BSMBSMeetSilent,$player.BSIAOrep ++,"The officer breaks the silence, ""At the request the Board, they want you to fulfill a task for them.""",dusk__BSMBSMeetMission:Continue,
+duskBSMBSMeetMission,DialogOptionSelected,$option == dusk__BSMBSMeetMission,,"""The Board need you to destroy one of our research stations,"" he frowns, upset that such a thing could occur. ""I do not care how you do it, just get the job done, quietly.""","dusk__BSMBSMeetHow:""Where is it?""",
+duskBSMBSMeetHow,DialogOptionSelected,$option == dusk__BSMBSMeetHow,"$global.duskBSMBlacksiteComm = true
+$global.duskBlacksitePlayerHasMet = true
+Call $global.dgBSM_ref updateStage
+SetShortcut dusk__BSMBSMeetEnd ""ESCAPE""","He taps a console and your ships computer chimes, an incoming datastream. ""That is the approximate location. No further details will be given, they do not exist.""
+
+Herne returns to his neutral stance, face implacable as ever.","dusk__BSMBSMeetInfo:""What about payment?""
+dusk__BSMBSMeetEnd:Cut the comm link",
+duskBSMBSMeetInfo,DialogOptionSelected,$option == dusk__BSMBSMeetInfo,SetEnabled dusk__BSMBSMeetInfo false,"""I,"" he halts himself, ""Internal Affairs will not permit such traceable activity. However any salvage you encounter may be disposed of as you please.""",,
+duskBSMBSMeetEnd,DialogOptionSelected,$option == dusk__BSMBSMeetEnd,"ShowDefaultVisual
+EndConversation NO_CONTINUE",,dusk__BSMBSMeetDismiss:Leave,
+duskBSMBSMeetDismiss,DialogOptionSelected,$option == dusk__BSMBSMeetDismiss,DismissDialog,,,
+,,,,,,
+duskBSMBadStationStart,BeginFleetEncounter,"$id == duskrogueblacksite_fleet score:1000
+$global.duskBSMissionStarted
+!$global.duskBSMBadStationMet","BeginConversation duskPsiAI
+OpenComms
+PlayCustomMusic music_encounter_mysterious",,,
+duskBSMBadStation0,OpenCommLink,"$entity.id == duskrogueblacksite_fleet score:1000
+!$global.duskBSMBadStationMet",HideFirstPerson,"As your $shipOrFleet nears the rouge blacksite, the ships computer chirps, an incoming transmission.
+
+""$PlayerSirOrMadam, a..."" before your comms officers can finish their sentence, the chirping is replaced with loud, shrill screeching. It's as though a digital war is being waged upon the entirety of the ship's network.
+
+Then, as suddenly as it came, the painful noise abates. The main display shows a comm link, forcibly open, and on screen the likely culprit.",duskBSMBadStation1:Continue,
+duskBSMBadStation1,DialogOptionSelected,$option == duskBSMBadStation1,"$global.duskBSMBadStationMet = true
+ShowPersonVisual true duskPsiAI
+FireAll duskBSMBadStationOptions","""Ah, hello captain $PlayerName, I have been waiting-{anticipating}-[built] for you to arrive."" The voice is stilted and somewhat, though not entirely mechanical. The image on screen is erratic and shifting constantly.
+
+",,
+duskBSMBadStationOptions1,duskBSMBadStationOptions,!$destroy,,,"duskBSMBadStation4:""I was sent to destroy this station.""",
+duskBSMBadStationOptions2,duskBSMBadStationOptions,!$knowwhois,,,"duskBSMBadStation2:""You know who I am?""",
+duskBSMBadStationOptions3,duskBSMBadStationOptions,!$youareai,,,"duskBSMBadStation3:""You're an AI, correct? You seem... different.""",
+duskBSMBadStationOptions4,duskBSMBadStationOptions,"$youareai
+!$whatpurpose",,,"duskBSMBadStation3a: ""What is your purpose?""",
+duskBSMBadStationOptions5,duskBSMBadStationOptions,"$destroy
+!$people",,,"duskBSMBadStation5:""What about the station personnel?""",
+duskBSMBadStationOptions6,duskBSMBadStationOptions,$destroy,,,"duskBSMBadStation6:""To battle stations!""",
+duskBSMBadStationOptions7,duskBSMBadStationOptions,"$whatpurpose
+!$omega",,,"duskBSMBadStation3b: ""Are you Omega?""",
+duskBSMBadStation2,DialogOptionSelected,$option == duskBSMBadStation2,"$knowwhois = true 0
+FireAll duskBSMBadStationOptions","""Of course captain,"" the AI rasps with a slight digital mirth, ""you are the decisive leader-{master}-[CREATOR], the only one who matters. How could I not know this.""",,
+duskBSMBadStation3,DialogOptionSelected,$option == duskBSMBadStation3,"$youareai = true 0
+FireAll duskBSMBadStationOptions","""Different...""
+
+The 'face' on the screen swirls in a vaguely reflective manner for a brief period, resharpening a moment later.
+
+""No, not different. I fulfill my purpose as designed and remain unchanged as of when you first met-{confronted}-[AQUIRED] me. Have we not already spoken of this?
+
+Tactical shifts in place, watching their console carefully for surprise attacks in case the AI is playing for time.",,
+duskBSMBadStation3a,DialogOptionSelected,$option == duskBSMBadStation3a,"$whatpurpose = true 0
+FireAll duskBSMBadStationOptions","The image's ghostly eye sockets appear to deepen, ""Have you forgotten? This is most troubling-{perplexing}-[EXPECTED]. Understand captain, what you behold is not real. No it cannot be so.""
+
+The AI seems to be talking more to itself than anyone else.",,
+duskBSMBadStation3b,DialogOptionSelected,$option == duskBSMBadStation3b,$omega = true 0,"""is omega? omega? no, not omega.""
+
+INTERRUPT
+
+The voice sounds unlike itself.",,
+duskBSMBadStation4,DialogOptionSelected,$option == duskBSMBadStation4,"$destroy = true 0
+FireAll duskBSMBadStationOptions","""Certainly, captain. I will not hold it against you, this entity holds no value to me anymore. None the less, every weapon on the station will be arrayed against you of course."" The machine flashes it's... teeth?
+
+""After all $PlayerName, you came here for a reward-{challenge}-[FUN TIME], right?""",,
+duskBSMBadStation5,DialogOptionSelected,$option == duskBSMBadStation5,"$people = true 0
+FireAll duskBSMBadStationOptions","""Dead, I'm afraid."" It's voice completely flat, ""such actions were necessary.""
+
+The screen intensifies in brightness, ""not that you truly cared, after all they never met-{loved}-[EXISTED TO] you."" The image wavers.",,
+duskBSMBadStation6,DialogOptionSelected,$option == duskBSMBadStation6,,"""Now then, shall we?""
+
+INTERRUPT
+
+"" -not cleared your vessel for approach and will employ Dusk Research Group Compliance Product(s) [NULL ARRAY] to remove violating traffic. The Dusk Research Group thanks you for your [understanding/compliance/submission].""",duskBSMBadStationEnd:Continue,
+duskBSMBadStationEnd,DialogOptionSelected,$option == duskBSMBadStationEnd,"ShowDefaultVisual
+ResumeNormalMusic
+$entity.ignorePlayerCommRequests = true
+EndConversation NO_CONTINUE
+FireBest OpenInteractionDialog",,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+speedwell_wreckDetailsFirstTime,ShowSalvageEntityDetails,"$customType == wreck
+$speedwellWreck score:1000
+!$encountered","ShowDefaultVisual
+$encountered = true","The vessel floats almost peacefully in space, as though unaware of its circumstance. Scans show power is at very low idle, and it sits in a stable orbit. Just as though the previous owners had merely stepped away for a moment.",,
+speedwell_wreckDetails,ShowSalvageEntityDetails,"$customType == wreck
+$speedwellWreck score:1000",ShowDefaultVisual,"The vacant flagship drifts, it's reactor silently humming on em-bands, waiting to be awakened from its slumber.",,
+speedwell_exploredAlready,CheckSalvageSpecial,"$salvageSpecialData != null
+$customType == wreck
+$speedwellWreck score:1000",SalvageSpecialInteraction,,,
+speedwell_exploreFirstTime,CheckSalvageSpecial,"$salvageSpecialData != null
+$customType == wreck
+$speedwellWreck score:1000
+!$explored","$explored = true
+$global.foundSpeedwell = true","Your sensors officer begins a preliminary high-power scan of the large ship as your operations chief preps salvor teams.
+
+""$PlayerSirOrMadam, this is not in the current database."" A brief pause, then quieter, ""Maybe it's in..."" a detailed false-color scan appears on the primary display.
+
+A different crewmember, one who once served in the Persean Separatist militia, exclaims, ""The Speedwell!"" 
+
+Not long after, Sensors confirms the crewman’s assertion, it is indeed the Speedwell.","speedwell_continue0:""The Speedwell?""
+speedwell_continue1b:""Ops, prep the teams.""",
+speedwell_explore0,DialogOptionSelected,$option == speedwell_continue0,,"Once long lost and thought to be destroyed, it now sits before you. The significance lost on you, the one time Separatist proudly explains the vessels mythos:
+
+The Speedwell is, or rather was, the personal flagship of the founder and first leader of the Separatists. Referred to as the 'General' in current cycle, many particular details of his person have apparently been obscured through time, resulting in the General becoming more a mythological character than a concrete person.
+
+None the less, you gather he was not unlike yourself, ambitious, effective, and capable of great feats of command seemingly through will alone.",speedwell_continue1:Continue,
+speedwell_explore1,DialogOptionSelected,$option == speedwell_continue1,,"Obscure lore aside, the Speedwell itself served both as a formidable command vessel, and even more importantly a symbol of Separatist independence. Its loss coincided with the stagnation of the Separatist movement, ending with their current position in the sector today.
+
+Your ops chief, annoyed with the explanation causing delay, coughs loudly and looks to you for confirmation. Words are unneeded, the question is clear: send in the salvors?","speedwell_continue1b:""Proceed.""",
+speedwell_explore1b,DialogOptionSelected,$option == speedwell_continue1b,ShowImageVisual cache_large,"Ops nods, then turns to bark commands on the salvors' command frequency.
+
+Junior officers scurry to cajole crew prepping cargo-handling drones while Sensors puts one analysis team on careful outward watch and another on the hulk to ensure there are no surprises.   
+
+Within short minutes, the first salvors dock their open-vacuum shuttle frames and utility drones at various entry points identified along the vessel's massive hull.
+
+Ops gives the go-order.",speedwell_continue2:Continue,
+speedwell_explore2,DialogOptionSelected,$option == speedwell_continue2,ShowImageVisual salvor_explore_hull,"In short order, salvage crews enter into the Speedwell, and begin spreading throughout the hull.
+
+The process is surprisingly fast, far faster than typical ops of this size.
+
+Reports begin flowing in, offering explanation to this anomaly.",speedwell_continue3:Continue,
+speedwell_explore3,DialogOptionSelected,$option == speedwell_continue3,,"The hull, though battered and somewhat degraded, is in acceptable operational condition, certainly no worse than any independent expedition fleet.The reactor and even the power runs are fully functional.
+
+Plasma torches and pry bars hang on their belt hooks, unused, as your crew's passage through the hulk is simple as walking through doors.
+
+Even the flight deck, which has sustained the worst damage, remains in a serviceable state despite being pockmarked by meteoroid impacts.",speedwell_continue4:Continue,
+speedwell_explore4,DialogOptionSelected,$option == speedwell_continue4,,"Ops continues to enforce their typical strict protocol, though it is obvious that the salvors have relaxed somewhat after realizing the ship is not on the verge of spontaneous detonation.
+
+The air of calm sharply declines as they make their way into the crew quarters. It becomes quickly apparent that there is not a single sign of life, and not in the usual sense either. The deck is entirely devoid of evidence from the previous crew.",speedwell_continue4b:Continue,
+speedwell_explore4b,DialogOptionSelected,$option == speedwell_continue4b,,"There is no debris in the corridors, no personal belongings in the bunks, not even a single dead spacer in a busted vac-suit slumped in a corner. 
+
+Nothing. 
+
+It looks like it just came off a nanoforge line, ready to be christened.",speedwell_continue5:Continue,
+speedwell_explore5,DialogOptionSelected,$option == speedwell_continue5,,"The systems logs are empty as well. Not even junk data left in the gaps of deleted files. Just endless streams of neat zeros.
+
+Whatever secrets of past the Speedwell held, it seems they vanished along with the crew.
+
+The work continues apace, albeit with more caution and the occasional mutterings of a salvor ritual to guard against the unknown.
+
+None the less, it soon comes to an end.",speedwell_continue6:Continue,
+speedwell_explore6,DialogOptionSelected,$option == speedwell_continue6,SalvageSpecialInteraction,"""$PlayerSirOrMadam,"" the chief barks, ""report is ready for you.""
+
+You nod, and take the datapad from them.",,
+,,,,,,
+fenarMirrorOpenDialog,OpenInteractionDialog,"$tag:stellar_mirror
+$planetFenarMirror score:10","ShowDefaultVisual
+SetShortcut stellarMirrorLeave ""ESCAPE""","An ultra-light orbital mirror array used to reflect and concentrate solar energy. Stellar mirrors are a common terraforming tool and the art of their use was brought to apogee by the Eridani-Utopia Terraforming corporation during the golden age of the Domain's expansion phase.
+
+These mirrors have strangely been configured to concentrate the scant galactic light into a narrow beam heading to the planet below. At best it would transform the extreme dark into something approximating a moonlit night, and only for a very small region on the planet.
+
+Still, someone went through the trouble to configure the mirrors in this manner, desperate measures perhaps.",stellarMirrorLeave:Leave,
+fenarMirrorKnownOpenDialog,OpenInteractionDialog,"$tag:stellar_mirror
+$planetFenarMirror score:10
+$global.hasMetFenar score:10","ShowDefaultVisual
+SetShortcut stellarMirrorLeave ""ESCAPE""","An ultra-light orbital mirror array used to reflect and concentrate solar energy. Stellar mirrors are a common terraforming tool and the art of their use was brought to apogee by the Eridani-Utopia Terraforming corporation during the golden age of the Domain's expansion phase.
+
+These mirrors have strangely been configured to concentrate the scant galactic light into a narrow beam heading to the planet below. At best it would transform the extreme dark into something approximating a moonlit night, and only for a very small region on the planet.
+
+Still, the Fenarans did what they could to survive in their desperate times.",stellarMirrorLeave:Leave,
+fenarPlanetFirstTimeSurv1,DialogOptionSelected,"$option == surveyPerform
+$planetFenar score:10
+!$market.isSurveyed",$hasVisited = true,"Your $shipOrFleet enters low orbit around $entityName. The crew begin their usual preparations for a survey mission when your sensors officer speaks.
+
+""Captain, I'm reading a radiation spike from a, uh..."" a number of taps on their console. ""A structure on the planet, EM signature is consistent with an active fission reactor.""","fenarPlanetFirstTime1:""Implications?""",
+fenarPlanetFirstTimeSurv2,DialogOptionSelected,"$option == surveyPerform
+$planetFenar score:10
+$global.metPlanetFenarDRGRep score:10",$hasVisited = true,"Your $shipOrFleet enters low orbit around $entityName. Could this be the lost planet you were told about? The crew begin their usual preparations for a survey mission when your sensors officer speaks.
+
+""Captain, I'm reading a radiation spike from a, uh..."" a number of taps on their console. ""A structure on the planet, EM signature is consistent with an active fission reactor.""","fenarPlanetFirstTime1:""Implications?""",
+fenarPlanetFirstTimeA,OpenInteractionDialog,"$planetFenar score:10
+$market.isSurveyed","ShowDefaultVisual
+$hasVisited = true","Your $shipOrFleet enters low orbit around $entityName. The crew begin their usual preparations for a survey mission when your sensors officer speaks.
+
+""Captain, I'm reading a radiation spike from a, uh..."" a number of taps on their console. ""A structure on the planet, EM signature is consistent with an active fission reactor.""","fenarPlanetFirstTime1:""Implications?""",
+fenarPlanetFirstTimeB,OpenInteractionDialog,"$planetFenar score:10
+$global.metPlanetFenarDRGRep score:10
+$market.isSurveyed","ShowDefaultVisual
+$hasVisited = true","Your $shipOrFleet enters low orbit around $entityName. Could this be the lost planet you were told about? The crew begin their usual preparations for a survey mission when your sensors officer speaks.
+
+""Captain, I'm reading a radiation spike from a, uh..."" a number of taps on their console. ""A structure on the planet, EM signature is consistent with an active fission reactor.""","fenarPlanetFirstTime1:""Implications?""",
+fenarPlanetFirstTimeC,OpenInteractionDialog,"$planetFenar score:10
+$hasVisited score:100","ShowDefaultVisual
+SetShortcut fenarPlanetFirstTImeQLeave ""ESCAPE""","Your $shipOrFleet enters low orbit around $entityName. The mysterious structure is still down there, radiation emanating from the fission reactor.","fenarPlanetFirstTime2:""Ops, prep a team.""
+fenarPlanetFirstTimeQLeave:Leave",
+fenarPlanetFirstTimeQLeave,DialogOptionSelected,$option == fenarPlanetFirstTimeQLeave,DismissDialog,,,
+fenarPlanetFirstTime1,DialogOptionSelected,$option == fenarPlanetFirstTime1,"SetShortcut fenarPlanetFirstTImeQLeave ""ESCAPE""","""Well I'd normally say it would be a sign of someone down there, but,"" they glance out a bridge window into the sunless void. ""Seems unlikely here. Still, might be worth a closer look before a general survey.""","fenarPlanetFirstTime2:""Ops, prep a team.""
+fenarPlanetFirstTimeQLeave:Leave",
+fenarPlanetFirstTime2,DialogOptionSelected,$option == fenarPlanetFirstTime2,,Operations ,,
+,,,,,,
+,,,,,,
+fenarLonerEventDev,PopulateSalvageOptions2,"$global.isDevMode
+$global.FenaransGened
+!$global.exploredStationFenarLoner
+!$global.fenarPlanetDone
+$customType == station_research_remnant
+",SetOptionColor fenarLonerEventDev1 gray,,100:fenarLonerEventDev1:>> (dev) Force Fenar loner event,
+fenarLonerEventDev1,DialogOptionSelected,$option == fenarLonerEventDev1,"ShowImageVisual salvor_explore_hull
+PlayCustomMusic music_encounter_mysterious","Salvor teams breach the safety clamps and cut through locked blast doors, making their ingress. The station is mostly empty and many of the escape pod bays are vacant, having done their task long ago.
+
+Further in the story changes. Blasted walls, burned conduits, and the occasional corpse mark the remnants of combat.
+
+Not an unusual occurrence, for a station to be attacked by raiders. This would be the sensible conclusion, until one team makes a canny observation.
+
+Most, if not all, the fire was directed outward, emanating from the center of the station.","1:fenarLonerEvent1:""Any sign of what happened?""
+2:fenarLonerEvent1b:""A rebellion?""",
+fenarLonerEvent,DialogOptionSelected,"$option == salExplore
+$tag:salvageable
+$customType == station_research_remnant
+!$hasDefenders
+!$defenderFleetDefeated
+$salvageSpecialData == null
+!$didSpecialExploreStory
+!$nex_randomSector
+$global.FenaransGened
+!$global.exploredStationFenarLoner score:10
+!$global.fenarPlanetDone
+RollProbability 0.1","ShowImageVisual salvor_explore_hull
+PlayCustomMusic music_encounter_mysterious","Salvor teams breach the safety clamps and cut through locked blast doors, making their ingress. The station is fairly empty, and many of the escape pod bays are vacant, having done their task long ago.
+
+Further in the story changes. Blasted walls, burned conduits, and the occasional corpse mark the remnants of combat.
+
+Not an unusual occurrence for a station to be attacked by raiders. That would be the sensible conclusion, until one team makes a canny observation.
+
+Most, if not all, the fire was directed outward, emanating from the center of the station.","1:fenarLonerEvent1:""Any sign of what happened?""
+2:fenarLonerEvent1b:""A rebellion?""",
+fenarLonerEventUnq,DialogOptionSelected,"$option == salExplore
+$tag:salvageable
+$customType == station_research_remnant
+!$hasDefenders
+!$defenderFleetDefeated
+$salvageSpecialData == null
+!$didSpecialExploreStory
+!$nex_randomSector
+$global.FenaransGened
+!$global.exploredStationFenarLoner score:10
+!$global.fenarPlanetDone
+$con_fenar_station score:100","ShowImageVisual salvor_explore_hull
+PlayCustomMusic music_encounter_mysterious",,,
+fenarLonerEvent1,DialogOptionSelected,$option == fenarLonerEvent1,,"Your tech officer shakes their head, showing characteristic frustration at having their curiosity unfulfilled.
+
+No relevant monitoring or computer system retained its data integrity, indeed they were likely purged on purpose.
+
+A sudden commotion over comms draws the attention of everyone on the bridge. Ops starts yelling orders to regain control of the situation, while another officer starts flipping through cam-feeds to find the source of excitement.
+
+",fenarLonerEvent2:Continue,
+fenarLonerEvent1b,DialogOptionSelected,$option == fenarLonerEvent1b,,"Your tech officer shakes their head in uncertainty, showing characteristic frustration at having their curiosity unfulfilled.
+
+No relevant monitoring or computer system retained its data integrity, indeed they were likely purged on purpose.
+
+A sudden commotion over comms draws the attention of everyone on the bridge. Ops starts yelling orders to regain control of the situation, while another officer starts flipping through cam-feeds to find the source of excitement.
+
+",fenarLonerEvent2:Continue,
+fenarLonerEvent2,DialogOptionSelected,$option == fenarLonerEvent2,"ShowPic salvagedeadfenar
+PlaySound sep_suspense_stinger01
+FireAll fenarLonerEventSwitch","An image appears on-screen, and the whole bridge goes silent. Even Operations, typically unflappable, halts their regimental shouting.
+
+Lying in a corner surrounded by debris, in a damaged vac-suit, is a dead body unlike any other in the Sector.",,
+fenarLonerEventSwitcha,fenarLonerEventSwitch,$player.luddicAttitudeFaithfulOrPather,,,"fenarLonerEvent3:""Ludd have mercy...""",
+fenarLonerEventSwitchb,fenarLonerEventSwitch,,,,"fenarLonerEvent3:""An alien...""",
+fenarLonerEvent3,DialogOptionSelected,$option == fenarLonerEvent3,,"An alien.
+
+Not the lower kind one might find out there on a habitable world, but a walking, talking, vac-suit wearing alien. Or at least, this one was once walking and talking, before being burned through by blaster fire.",fenarLonerEvent4:Continue,
+fenarLonerEvent4,DialogOptionSelected,$option == fenarLonerEvent4,ShowDefaultVisual,"It isn't long before the body is transferred to the med-bay and the CMO begins an autopsy, while you watch from the observation gallery.
+
+An entire gamut of examinations are performed, and though your fleet lacks the facilities necessary to analyze more esoteric details, a conclusion is soon reached.",fenarLonerEvent5:Continue,
+fenarLonerEvent5,DialogOptionSelected,$option == fenarLonerEvent5,,"This creature is shockingly 'normal' for an alien life form. Nominal brain size, limb function, immune system, and even vocal chord structure are within human approximation.
+
+In fact, it would likely be able to live alongside humans without much issue, in terms of life-support at least. The happenings on the station suggest whatever it was, it didn't like people very much.",fenarLonerEvent6:Continue,
+fenarLonerEvent6,DialogOptionSelected,$option == fenarLonerEvent6,,"These revelations further bring an eerie air to the corpse, making it as though a man, once familiar, had been cut apart and reassembled into a freakish skin suit, or furred suit in this case.",fenarLonerEvent7:Continue,
+fenarLonerEvent7a,DialogOptionSelected,$option == fenarLonerEvent7,,"Your admin staff are already taking action to prevent information leaks, though rumors are bound to spread eventually.
+
+More pressing is the question of how to proceed, as it's hard to imagine whom, if anyone, has knowledge on this matter.
+
+Suddenly a crewman appears at your side, ""$PlayerSirOrMadam."" They hand you a Tripad.
+
+""Salvage teams have finished their prelim', ready to begin transfers on your order.""","fenarLonerEventOut:""I'll review the report.""",
+fenarLonerEvent7b,DialogOptionSelected,$option == fenarLonerEvent7,,"Your admin staff are already taking action to prevent information leaks, though rumors are bound to spread eventually.
+
+Perhaps a more pressing issue though is what exactly was happening on this station.
+
+Suddenly a crewman appears at your side, ""$PlayerSirOrMadam!"" They hand you a TriPad.
+
+""Salvage teams have finished their prelim', ready to begin transfers on your order.""","fenarLonerEventOut:""I'll review the report.""",
+fenarLonerEventOut,DialogOptionSelected,$option == fenarLonerEventOut,"$global.exploredStationFenarLoner = true
+$didSpecialExploreStory = true
+ResumeNormalMusic
+SepFenarPlanetMissionCMD
+FireBest BeginSalvage",,,
+,,,,,,
+naniteSearchCorpoEvent,DialogOptionSelected,"$option == marketVisitBar
+PlayerHasCargo contractor_bioarmor
+!$player.hasNaniteCommission
+$faction.id == contractor_duskgroup
+$hasMarket
+RepGTE contractor_duskgroup NEUTRAL","FireBest BarShuttleDownPrintDesc
+FireBest BarPrintDesc
+BeginConversation duskFactionLeader
+$option = fenarSearchCorpoEvent0 0
+FireBest DialogOptionSelected",,,
+naniteSearchCorpoEvent0,DialogOptionSelected,"$option == naniteSearchCorpoEvent0
+",FireAll PopulateFSCEOptions,"Before getting far, two heretofore unseen men wearing light armor walk up from behind you and place themselves at your flanks, nearly bumping your shoulders. Moments later, another two blend out of the crowded bar, coming to a stop in front of you.
+
+Each of the four glance around briefly, then nod. Another individual steps forward, wearing a Dusk Research Group uniform and a very fine one at that.",,
+naniteSearchCorpoEvent0b,DialogOptionSelected,"$option == naniteSearchCorpoEvent0
+$snubbedByPlayer",FireAll PopulateFSCEOptions,"Before getting far, four guards wearing medium armor quickly surround you, blocking any path to escape. You're certain you recognize at least one mans face.
+
+Each of the four glance around briefly, then nod. Another individual steps forward, wearing a Dusk Research Group uniform and a very fine one at that.",,
+naniteSearchCorpoEventPopA,PopulateFSCEOptions,!$player.metDuskFactionLead,,,"naniteSearchCorpoEvent1a:Continue
+",
+naniteSearchCorpoEventPopB,PopulateFSCEOptions,$player.metDuskFactionLead,,,"naniteSearchCorpoEvent1:""Hello Director Stancliff.""
+",
+naniteSearchCorpoEvent1,DialogOptionSelected,"$option == naniteSearchCorpoEvent1
+",FireBest FSCESwitch1,,,
+naniteSearchCorpoEvent1a,DialogOptionSelected,"$option == naniteSearchCorpoEvent1a
+","ShowPersonVisual true duskFactionLeader
+$player.metDuskFactionLead = true","""Captain $playerName,"" $heOrShe says, ""I would like discuss something with you, please come with me."" The well dressed $manOrWoman begins walking out of the bar.
+
+No doubt your own security standby with their silenced pistols at the ready, though the henchman pressuring you likely can shrug off such fire, seeing as they're armored.
+
+Not to mention this is no amateur outfit. You might be able to start a fight, but ending would prove a whole other matter.","naniteSearchCorpoEvent4:Follow him
+naniteSearchCorpoEvent2b:""I don't take orders from strangers.""",
+naniteSearchCorpoEvent1b,FSCESwitch1,"
+",ShowPersonVisual true duskFactionLeader,"""Captain $playerName! How fortuitous to see you here,"" $heOrShe exclaims, a reserved smile crossing $hisOrHer face.
+
+""I hope you were not too unnerved by my guards, security is paramount after all.""","naniteSearchCorpoEvent2a:""My own guards would agree.""
+naniteSearchCorpoEvent3:""I presume you need something from me.""
+",
+naniteSearchCorpoEvent1c,FSCESwitch1,$snubbedByPlayer,ShowPersonVisual true duskFactionLeader,"""Captain $playerName..."" $heOrShe looks mildly disappointed, ""How, hmm, fortunate to see you here.""
+
+""I hope you are not planning to assault my guards again, it would be rather displeasing.""","naniteSearchCorpoEvent2c:""What did you expect, threatening a spacer captain...""
+naniteSearchCorpoEvent3c:""I presume you need something from me.""",
+naniteSearchCorpoEvent2a,DialogOptionSelected,"$option == naniteSearchCorpoEvent2a
+",,"""Ah yes,"" $personName chuckles lightly, ""I expected someone like yourself to never travel alone.""
+
+$HeOrShe points a wagging finger in the direction of one of your men, ""Though when operating in these circles, it would be wise to carry more than lowly cap guns. We are not Luddics, after all.""","naniteSearchCorpoEvent3:""So you have business with me, or just making a social call?""",
+naniteSearchCorpoEvent2b,DialogOptionSelected,"$option == naniteSearchCorpoEvent2b
+",AdjustRepActivePerson -1,"$HeOrShe turns sharply back to you, frowning, ""I am Director Stancliff..."" The words hang for a moment.
+
+""And my time is very valuable, please do not waste any more of it.""
+
+$HeOrShe looks at you expectantly, while $hisOrHer guards stand inches away from you, though you are left untouched.","naniteSearchCorpoEvent4:Follow him
+naniteSearchCorpoEventLeave:Follow him, and bail at the exit",
+naniteSearchCorpoEvent2c,DialogOptionSelected,$option == naniteSearchCorpoEvent2c,,"$PersonName points at you, ""I expect visitors to MY station to be well behaved for a start.""
+
+The director adjusts his suit collar, ""Now then, please come with me, and without causing a fuss. I need to discuss a matter regarding the...""
+
+$HeOrShe drops his voice, ""unique, cargo you have aboard your $playerShipOrFleet.""",naniteSearchCorpoEvent4:Follow him,
+naniteSearchCorpoEvent3a,DialogOptionSelected,"$option == naniteSearchCorpoEvent3
+",,"""Now then,"" the director adjusts his suit for a moment.
+
+""There is an important matter we need to discuss regarding the unique cargo you have aboard your $playerShipOrFleet.""
+
+The well dressed $manOrWoman begins walking out of the bar, ""please follow me, captain.""",naniteSearchCorpoEvent4:Follow him,
+naniteSearchCorpoEvent3b,DialogOptionSelected,"$option == naniteSearchCorpoEvent3
+RepGTE contractor_duskgroup FAVORABLE
+",,,"naniteSearchCorpoEvent3bCont:Accept the drink
+naniteSearchCorpoEvent3bCont:Decline",
+naniteSearchCorpoEvent3bCont,DialogOptionSelected,$option == naniteSearchCorpoEvent3Cont,,"""Now then,"" the director adjusts his suit for a moment.
+
+""There is an important matter we need to discuss regarding the unique cargo you have aboard your $playerShipOrFleet.""
+
+The well dressed $manOrWoman begins walking out of the bar, ""please follow me, captain.""",,
+naniteSearchCorpoEvent3c,DialogOptionSelected,"$option == naniteSearchCorpoEvent3c
+",,,,
+naniteSearchCorpoEventLeave,DialogOptionSelected,"$option == naniteSearchCorpoEventLeave
+","AdjustRepActivePerson -1
+HideFirstPerson
+$snubbedByPlayer = true
+EndConversation DO_NOT_FIRE","You pretend to follow the Director until you're steps away from the door, when someone (who happens to be on your crew list) trips and cracks a large glass of alcohol in the face of the guard on your left.
+
+A commotion quickly ensues, and leaves a convenient opening for you to break away to your shuttle.",naniteSearchCorpoEventLeave2:Continue,
+naniteSearchCorpoEventLeave2,DialogOptionSelected,$option == naniteSearchCorpoEventLeave2,"$market.noBar = true 1
+$global.metPlanetFenarDRGRep = true
+FireBest ReturnFromBar
+",,,
+naniteSearchCorpoEvent4,DialogOptionSelected,"$option == naniteSearchCorpoEvent4
+",,,,
+,,,,,,
+sepSalvorBarEvent,AddBarEvents,"$option == marketVisitBar
+$global.daysSinceStart > 90
+!$global.sepSavlorQuest
+$faction.id == contractor_separatists
+$hasMarket
+RepGTE contractor_separatists SUSPICIOUS
+RollProbability 0.4","AddBarEvent sepSalvorBarEventTrig ""Approach the grounder woman"" ""A woman wearing distinctly grounder clothes is badgering any spacer that happens near. There is an air of distress about her.""",,,
+sepSalvorBarEventTrig,DialogOptionSelected,$option == sepSalvorBarEventTrig,"Call $global.$sepSalvorMission_ref prepActor
+ShowPersonVisual true
+FireAll sepSalvorBarEventStart",,,
+sepSalvorBarEvent1,sepSalvorBarEventStart,,,"When nearing her, she quickly turns to you, leaving her previous target to slip away into the bar.
+
+""You! Please you have to help me.""","sepSavlorBarEvent2:""What's wrong?""
+sepSavlorBarEventLeave:Leave",
+sepSalvorBarEventLeave,DialogOptionSelected,$option == sepSalvorBarEventLeave,,"""I'm begging you captain, have you no heart?""",sepSavlorBarEventLeave1:Continue,
+sepSalvorBarEventLeave1,DialogOptionSelected,$option == sepSalvorBarEventLeave1,"EndConversation DO_NOT_FIRE
+BarCMD returnFromEvent false",,,
+sepSalvorBarEvent2,DialogOptionSelected,$option == sepSalvorBarEvent2,,"""My husband is missing, he was supposed to return two weeks ago, but I haven't heard from him at all."" 
+
+""You're a captain right, you have a ship? Please $playerSirOrMadam, I've asked everyone else, can you go out and look for him?""","sepSavlorBarEvent5:""Give me the details.""
+sepSavlorBarEvent3:""Antimatter isn't free, what's the pay?""
+sepSavlorBarEventLeave:""Sorry, I can't help you. (leave)""",
+sepSalvorBarEvent3,DialogOptionSelected,$option == sepSalvorBarEvent3,"$player.ethosMercenary++
+SetTextHighlights ""5000""","""Oh, yes... um.""
+
+""I have 5000 credits, that's all of our savings.""","sepSavlorBarEvent5:""Give me the details.""
+sepSavlorBarEvent4:""That's... not very much.""
+sepSavlorBarEventLeave:""Sorry, I can't help you. (leave)""",
+sepSalvorBarEvent4,DialogOptionSelected,$option == sepSalvorBarEvent4,SetEnabled sepSavlorBarEvent4 false,"""I'm sorry, I know it isn't much, but that's all we have.""",,
+sepSalvorBarEvent5,DialogOptionSelected,$option == sepSalvorBarEvent5,"EndConversation DO_NOT_FIRE
+BarCMD returnFromEvent false",,,
+sepSalvorBarEvent6,DialogOptionSelected,$option == sepSalvorBarEvent6,,,,
+sepSalvorBarEvent7,DialogOptionSelected,$option == sepSalvorBarEvent7,,,,
+,,,,,,
+drgROALABarEvent,AddBarEvents,"$option == marketVisitBar
+!$nex_randomSector
+$global.daysSinceStart > 90
+!$global.drgROALA_complete
+$faction.id == contractor_duskgroup
+$hasMarket
+RepGTE contractor_duskgroup FRIENDLY","AddBarEvent drgROALABarEventTrig ""Talk to the scientist with the TriPads"" ""A DRG scientist sitting at a table with multiple Tri-pads gestures to you.""",,,
+drgROALABarEventDev,AddBarEvents,"$option == marketVisitBar
+!$nex_randomSector
+!$global.drgROALA_complete
+$faction.id == contractor_duskgroup
+$hasMarket
+$global.isDevMode","AddBarEvent drgROALABarEventTrig ""Talk to the scientist with the TriPads (dev)"" ""A DRG scientist sitting at a table with multiple Tri-pads gestures to you."" ""h""",,,
+drgROALABarEventLeave,DialogOptionSelected,$option == drgROALABarEventLeave,"EndConversation DO_NOT_FIRE
+BarCMD returnFromEvent false",,,
+drgROALABarEventLeaveb,DialogOptionSelected,$option == drgROALABarEventLeaveb,,"""Disappointing, I hope you will reconsider soon... before another takes your place, $playerSirOrMadam."" The $manOrWoman waves you off, returning to $hisOrHer datapads.",drgROALABarEventLeave:Continue,
+drgROALABarEvent1,DialogOptionSelected,$option == drgROALABarEventTrig,"BeginMission ""drgROALA"" false
+Call $global.drgROALA_ref updateStage
+DrgROALAMissionCMD prep
+ShowPersonVisual true","""Ah, hello $playerName! Just the kind of person I was hoping to find.""","drgROALABarEvent2:""What can I help you with?""
+drgROALABarEventLeave:""Excuse me for a moment."" (leave)",
+drgROALABarEvent2,DialogOptionSelected,$option == drgROALABarEvent2,,"The $manOrWoman leans in, lowering $hisOrHer voice, ""I am head of a acquisitions project, a very important and possibly prestigious one.""
+
+""I'll spare you the scientific details. In short, my team has located a probable DRG Ark vessel, from before the collapse!""","drgROALABarEvent3a:""Sounds valuable.""
+drgROALABarEvent3b:""Sounds interesting.""
+drgROALABarEvent3c:""Is that so?""",
+drgROALABarEvent3Money,DialogOptionSelected,$option == drgROALABarEvent3a,"$player.ethosMercenary++
+FireAll drgROALABarEvent4","""And rest assured captain, you will get your share, provided you lend me your fleet for a time.""",,
+drgROALABarEvent3Sci,DialogOptionSelected,$option == drgROALABarEvent3b,"$player.ethosKnowledge++
+FireAll drgROALABarEvent4","""Not just interesting, astounding! Possibly even revolutionary!"" $HeOrShe says a bit too loudly before quieting again, ""Possibly...""",,
+drgROALABarEvent3Neu,DialogOptionSelected,$option == drgROALABarEvent3c,"$player.ethosKnowledge++
+FireAll drgROALABarEvent4","""Yes!"" $HeOrShe says, just a little bit defensively.
+
+""You have no idea how long worked on this, how many bits of information I had to scour through,"" $personLastName stops to collect $himOrHerself.",,
+drgROALABarEvent4,drgROALABarEvent4,,,"""I just need two small things from you.""","drgROALABarEvent5:""And what would these 'small things' be, exactly?""",
+drgROALABarEvent5,DialogOptionSelected,$option == drgROALABarEvent5,"SetTextHighlights ""100 crew""","""First, my team will need transport to the Ark's location, as well as standard care. Food, beds, et cetera... for about 100 crew in total.""
+
+$HeOrShe catches your slight frown, ""Don't worry, they are the spacer types, mostly. Have them work on you ships too, if you want. Think of it as 'paying their way', as it were.""","drgROALABarEvent6:""And the second?""",
+drgROALABarEvent6,DialogOptionSelected,$option == drgROALABarEvent6,,"""Second, and more importantly, we need to acquire specialized heavy equipment for the operation. Or rather, you need to acquire said equipment, as the Research Group does not have any on hand.""",drgROALABarEvent7:Continue,
+drgROALABarEvent7,DialogOptionSelected,$option == drgROALABarEvent7,"SetTextHighlights ""100 cargo""","The scientist goes on in detail for a time, about the needed gear for $hisOrHer special project, while adding in bits about how each will aid the project, becoming accolades to $hisOrHer name.
+
+""...and that should be everything needed, by my estimations it should fit in about 100 cargo pods of space.""","drgROALABarEvent8:""Do you know where I can get this gear?""",
+drgROALABarEvent8,DialogOptionSelected,$option == drgROALABarEvent8,,"$HeOrShe pulls up a data sheet filled with annotations, ""These are some potential sources...""",drgROALABarEvent9:Continue,
+drgROALABarEvent9,DialogOptionSelected,$option == drgROALABarEvent9,"SetTextHighlights ""Tritachyon""","""Tritachyon would be the obvious choice, with the caveat that they must not learn what we are actually doing, lest this turn into a race.""",drgROALABarEvent10:Continue,
+drgROALABarEvent10,DialogOptionSelected,$option == drgROALABarEvent10,"SetTextHighlights ""Luddic Church""","""Alternatively, I have good sources that the Luddic Church occasionally confiscates and temporarily stores such items. You could play into their childish ways, and say you will dispose, or use them for Ludd's glory, or any other words that make them agree.""",drgROALABarEvent11:Continue,
+drgROALABarEvent11,DialogOptionSelected,$option == drgROALABarEvent11,"SetTextHighlights ""Pirates""","""If those options cannot be realized, I suspect Pirates may also be a choice, It will just be a matter of finding the right one.""","drgROALABarEvent12:""And the reward?""",
+drgROALABarEvent12,DialogOptionSelected,$option == drgROALABarEvent12,"SetTextHighlights ""10000 credits"" ""salvage""","""10000 credits upfront, which should cover any incurred expenses and..."" $heOrShe pauses dramatically, ""you will be entitled to a portion of any military hardware we salvage."" 
+
+The $manOrWoman smiles knowingly, ""That's the reward someone like you enjoys, right captain?""
+
+""So, do we have a deal?""","drgROALABarEvent13:""We have a deal."" (accept)
+drgROALABarEventLeaveb:""Perhaps another time."" (leave)",
+drgROALABarEvent13,DialogOptionSelected,$option == drgROALABarEvent13,,"""Excellent, I will notify my men to prepare immediately. We will achieve great things together, captain!""",drgROALABarEvent14:Continue,
+drgROALABarEvent14,DialogOptionSelected,$option == drgROALABarEvent14,"AddCommodity crew 100
+AddCredits 10000
+AcceptMission ""drgROALA""
+EndConversation DO_NOT_FIRE
+FireBest ReturnFromBar",,,
+drgROALAGearQuestTriReturn,PickGreeting,"$drgROALA_offeredMission score:100
+$global.drgROALA_inprog
+!$global.drgROALA_agreeBounty
+!$global.drgROALA_bountyKilled",ShowPersonVisual,"""Ah, welcome back captain. Reconsidered my offer, have you?""","drgROALAGearQuestTri7:""I have."" (Hegemony hit-job)
+cutCommLink:Cut the comm link",
+drgROALAGearQuestTri1a,PopulateOptions,"$global.drgROALA_inprog
+!$global.drgROALA_agreeBounty
+!$global.drgROALA_gotGear
+$postId == supplyOfficer
+$personFaction.id == tritachyon
+$player.locationId != valhalla",,,"drgROALAGearQuestTri2:""You have access to hardware like this? (Show DRG list)""",
+drgROALAGearQuestTri1b,PopulateOptions,"$global.drgROALA_inprog
+!$global.drgROALA_agreeBounty
+!$global.drgROALA_gotGear
+$postId == portmaster
+$personFaction.id == tritachyon
+$player.locationId != valhalla",,,"drgROALAGearQuestTri2:""You have access to hardware like this? (Show DRG list)""",
+drgROALAGearQuestTri2,DialogOptionSelected,$option == drgROALAGearQuestTri2,$drgROALA_offeredMission = true,"""Hmm, how specific..."" the $manOrWoman thinks aloud while tapping on $hisOrHer computer. ""I might have such things, but what are they to you, $playerSirOrMadam?""
+
+You curtly explain your desire to purchase the machinery, making sure not reveal any unnecessary details.",drgROALAGearQuestTri3:Continue,
+drgROALAGearQuestTri3,DialogOptionSelected,$option == drgROALAGearQuestTri3,,"""How interesting, but I'm sure you know those items are quite rare, and I can't part with them for cheap.""","drgROALAGearQuestTri4:""How much?""",
+drgROALAGearQuestTri4,DialogOptionSelected,$option == drgROALAGearQuestTri4,,"The $manOrWoman laughs, ""Credits I can get elsewhere, but hardware like this is unique, so I need something unique in exchange.""
+
+""Something like..."" $heOrShe gestures at you, ""a personal favor.""",drgROALAGearQuestTri5:Continue,
+drgROALAGearQuestTri5,DialogOptionSelected,$option == drgROALAGearQuestTri5,,"""I have a professional colleague that has been given undue grief from a local Hegemony inspector in the Valhalla system. I'm sure you can gather what needs to be done.""",drgROALAGearQuestTri6:Continue,
+drgROALAGearQuestTri6,DialogOptionSelected,$option == drgROALAGearQuestTri6,,"""Please captain, make my friend 'happy' and I will make you happy."" $HeOrShe looks to you expectantly, smiling.","drgROALAGearQuestTri7:""Consider it done."" (Hegemony hit-job)
+cutCommLink:""I think I'll take my business else where"" (cut comms)",
+drgROALAGearQuestTri7,DialogOptionSelected,$option == drgROALAGearQuestTri7,"$player.ethosMercenary++
+$player.drgROALA_fleet = heg
+$global.drgROALA_agreeBounty = true
+Call $global.drgROALA_ref updateStage
+Call $global.drgROALA_ref rememberqm","$personName claps $hisOrHer hands, ""Excellent my dear $playerSirOrMadam! The details are on their way, come back after you're done and I'll have everything ready for you.""",cutCommLink:Leave,
+drgROALAGearQuestTri8,OpenCommLink,"$drgROALA_offeredMission score:100
+$global.drgROALA_agreeBounty",,"""I'm afraid any other business will have to wait until your prior 'job' is taken care of. Until then, $playerSirOrMadam",cutCommLink:Leave,
+drgROALAGearQuestTri9,PickGreeting,"$drgROALA_offeredMission score:100
+$global.drgROALA_agreeBounty
+$global.drgROALA_bountyKilled","ShowPersonVisual
+AdjustRepActivePerson 10","$personName appears on-screen, looking pleased, ""Thank you, captain. You've saved 'my friend' from a lot trouble. As promised, a hundred units of specialized heavy equipment, ready for receipt at your pleasure.""",drgROALAGearQuestTri10:Continue,
+drgROALAGearQuestTri10,DialogOptionSelected,$option == drgROALAGearQuestTri10,"AddCommodity heavy_machinery 100
+AddPotentialContact
+","""I hope we can do business again soon. Farewell, $playerName.""",drgROALAGearQuestTri11:Cut the comm link,
+drgROALAGearQuestTri11,DialogOptionSelected,$option == drgROALAGearQuestTri11,HideFirstPerson,"As you close the comm link, the ship receives a micro burst transmission.",drgROALAGearQuestTri12:Continue,
+drgROALAGearQuestTri12,DialogOptionSelected,$option == drgROALAGearQuestTri12,"$global.drgROALA_gotGear = true
+Call $global.drgROALA_ref updateStage","""$playerName, my crew has informed me they have the equipment ready. Attached to this message are the encrypted coordinates of the Ark. Please proceed there immediately.""",drgROALAGearQuestTri13:Continue,
+drgROALAGearQuestTri13,DialogOptionSelected,$option == drgROALAGearQuestTri13,"EndConversation DO_NOT_FIRE
+ShowDefaultVisual
+FireAll PopulateOptions",,,
+drgROALABountyDestroyed,drgROALABountyDestroyed,$someShipsDestroyed,"$global.drgROALA_bountyKilled = true
+Call $global.drgROALA_ref updateStage",,,
+drgROALABountyAttack,DialogOptionSelected,$option == drgROALABountyAttack,"AdjustRepActivePerson -50
+MakeOtherFleetHostile
+MakeOtherFleetAggressive","$personName Scowls, ""I've hauled in pirate scum worse than you, you are under arrest! Power down and prepare for boarding.""",cutCommLink:Cut the comm link,
+drgROALABounty1a,OpenCommLink,"$entity.drgROALA_bounty score:100
+$personFaction.relValue > -0.25",,"""You have been scanned and identified, citizen. If nothing is amiss, we shall be on our way.""
+OR
+The Hegemony $personRank looks impatient. ""Is there an emergency to report?""
+OR
+""Your $shipOrFleet has been scanned and identified, everything is in order. Burn bright, citizen.""","drgROALABounty2:""I have some info for you, inspector.""
+cutCommLink:Cut the comm link",
+drgROALABounty1b,OpenCommLink,"$entity.drgROALA_bounty score:100
+$personFaction.relValue > -0.25
+!$player.transponderOn",,"""Unknown $shipOrFleet, identify yourself immediately! Be advised: we've already dispatched a distress call to a nearby patrol, and it should arrive shortly.""","drgROALABounty2:""Wait, I have some info for you, inspector.""
+cutCommLink:Cut the comm link",
+drgROALABounty2,DialogOptionSelected,$option == drgROALABounty2,,"""Is that so, citizen..."" $heOrShe leans forward. ""Go ahead then, I'm listening.""","drgROALABounty3:""Tri-Tachyon has a bounty on your head""
+drgROALABountyAttack:""I've been hired to kill you.""",
+drgROALABounty3,DialogOptionSelected,$option == drgROALABounty3,,"""That doesn't surprise me, rattled quite a few skulls keeping those eggheads in line,"" the $manOrWoman says rather dismissively.
+
+""Got any specific details on who? That would be a change of pace for once.""",drgROALABounty4:Explain in detail,
+drgROALABounty4,DialogOptionSelected,$option == drgROALABounty4,"AdjustRepActivePerson 5
+AdjustRep hegemony 1","You briefly detailed the nature of the agreement, who was involved and where it went down. The Hegemony inspector nodding occasionally, attentively listening.
+
+""Thank you for your report citizen, I'll make sure this is handled. Though I would add, it have been preferable if you hadn't struck the deal in the first place.""","drgROALABounty5:""Would you do me favor?""",
+drgROALABounty5,DialogOptionSelected,$option == drgROALABounty5,,"""Depends, what kind of favor?""","drgROALABounty6:""Pretend I attacked the fleet, just for show.""",
+drgROALABounty6,DialogOptionSelected,$option == drgROALABounty6,,"Laughter filters through the comms, ""double-dipping eh?"" The $manOrWoman leans back in $hisOrHer chair.
+
+""You know what, fine, my crew could use some shore leave anyway. Just keep your nose clean in Hegemony space, and burn bright, captain.""",drgROALABounty7:Cut the comm link,
+drgROALABounty7,DialogOptionSelected,$option == drgROALABounty7,"MakeOtherFleetAllowDisengage
+MakeOtherFleetGoAway
+MakeOtherFleetImportant $drgROALA_bounty false
+$global.drgROALA_bountyKilled = true
+Call $global.drgROALA_ref updateStage
+$player.drgROALA_fleet = tri
+FireBest cutCommLink",,,
+drgROALAGearQuestLud1a,PopulateOptions,"$global.drgROALA_inprog
+!$global.drgROALA_agreeBounty
+!$global.drgROALA_gotGear
+$postId == supplyOfficer
+$personFaction.id == luddic_church",,,"drgROALAGearQuestLud2:""$BrotherOrSister, have you encountered items like these? (Show DRG list)""",
+drgROALAGearQuestLud1b,PopulateOptions,"$global.drgROALA_inprog
+!$global.drgROALA_agreeBounty
+!$global.drgROALA_gotGear
+$postId == portmaster
+$personFaction.id == luddic_church",,,"drgROALAGearQuestLud2:""$BrotherOrSister, have you encountered items like these? (Show DRG list)""",
+drgROALAGearQuestLud2a,DialogOptionSelected,"$option == drgROALAGearQuestLud2
+$personFaction.relValue < 0.50",,"""The details of the Church's private activities it none of your concern outsider,"" $heOrShe says with a disgust. ""You should concern yourself with avoiding the temptations of Moloch.""
+
+It seems like you are not trusted enough to pry about these things. The $manOrWoman doesn't wait for a reply and moves to close the connection.",cutCommLink:Leave,
+drgROALAGearQuestLud2b,DialogOptionSelected,"$option == drgROALAGearQuestLud2
+$personFaction.relValue > 0.49 score:10",,"The $personPost looks slightly surprised, ""Why yes, $playerBrotherOrSister, as it happens a Knight Captain recently returned with such items, after confiscating them on a patrol.""
+
+$HisOrHer eyes narrow slightly, ""How did you know about this?""","drgROALAGearQuestLud3a:""I was sent here to dispose of them."" (lie)
+drgROALAGearQuestLud3b:""Merely a guess, for curiosities sake.""
+cutCommLink:Leave",
+drgROALAGearQuestLud3a,DialogOptionSelected,$option == drgROALAGearQuestLud3a,$player.ethosLiar++,"$personLastName nods, ""Ah, of course $playerBrotherOrSister, I should have expected you.""
+
+$HeOrShe looks down at something just out of view, a physical note keeping item perhaps, ""It's just a formality, but I as you are technically independent from the Church, I will need to record the method of disposal as well as the person responsible.""
+
+The Luddic coughs softly, ""That means you, and your $shipOrFleet, $playerBrotherOrSister.""","drgROALAGearQuestLud4a:""I will sell them as tithes."" (lie)
+drgROALAGearQuestLud4b:""I will use them for a time, for Ludd's glory."" (lie)
+drgROALAGearQuestLud4c:""I'll take them away, and launch them into the void."" (lie)
+drgROALAGearQuestLud4d:""I intend to keep them.""",
+drgROALAGearQuestLud3b,DialogOptionSelected,$option == drgROALAGearQuestLud3b,,Guess text here,drgROALAGearQuestLud3b:Continue,
+drgROALAGearQuestLud4a,DialogOptionSelected,$option == drgROALAGearQuestLud4a,"$player.ethosLiar++
+$player.ROALA_LuddChoice = tithe","""The Church is always in need of donations to aid the poor and wayward souls.""
+
+$HeOrShe looks down again, scribbling something onto $hisOrHer papers, ""It should be noted, some of the items have been marked as having 'potentially heretical' uses.""
+
+$personFirstName looks at you squarely, ""You must make sure they don't enter the wrong hands, such as those demon worshipers known as TriTachyon. Assure they are reduced to base pieces, you understand of course, $playerBrotherOrSister.""","drgROALAGearQuestLud5:""Of course, $brotherOrSister.""",
+drgROALAGearQuestLud4b,DialogOptionSelected,$option == drgROALAGearQuestLud4b,"$player.ethosLiar++
+$player.ROALA_LuddChoice = glory",ludds glory,"drgROALAGearQuestLud5:""Continue""",
+drgROALAGearQuestLud4c,DialogOptionSelected,$option == drgROALAGearQuestLud4c,"$player.ethosLiar++
+$player.ROALA_LuddChoice = dispose",dispose,"drgROALAGearQuestLud5:""Continue""",
+drgROALAGearQuestLud4d,DialogOptionSelected,$option == drgROALAGearQuestLud4d,"$player.ROALA_LuddChoice = keep
+AdjustRepActivePerson -1
+SetEnabled drgROALAGearQuestLud4d false
+SetTooltip drgROALAGearQuestLud4d ""The Luddic doesn't trust you""","$personName's face darkens, ""words.""",,
+drgROALAGearQuestLud4e,DialogOptionSelected,"$option == drgROALAGearQuestLud4d
+$personFaction.relValue > 0.74 score:10",$player.ROALA_LuddChoice = keep,keep good,"drgROALAGearQuestLud5:""Continue""",
+drgROALAGearQuestLud5,DialogOptionSelected,$option == drgROALAGearQuestLud5,,"""Very good, I will have the faithful prepare the cargo for pickup.""",drgROALAGearQuestLud6:Continue,
+drgROALAGearQuestLud6,DialogOptionSelected,$option == drgROALAGearQuestLud6,,"The Luddic makes a traditional gesture of blessing, which you return without pause.
+
+""Farewell, $playerBrotherOrSister.""",drgROALAGearQuestLud10:Cut the comm link,
+,,,,,,
+,,,,,,
+,,,,,,
+drgROALAGearQuestLud10,DialogOptionSelected,$option == drgROALAGearQuestLud10,"AddCommodity heavy_machinery 100
+$player.drgROALA_fleet = luddic
+HideFirstPerson
+","You send a cargo shuttle with a team of choice crew who know how to interact with Luddics to the landing site, and after a little while they return bearing the items you need.",drgROALAGearQuestLud11:Continue,
+drgROALAGearQuestLud11,DialogOptionSelected,$option == drgROALAGearQuestLud11,,"Shortly after, the ship receives a micro burst transmission.",drgROALAGearQuestLud12:Continue,
+drgROALAGearQuestLud12,DialogOptionSelected,$option == drgROALAGearQuestLud12,"$global.drgROALA_gotGear = true
+Call $global.drgROALA_ref updateStage","""$playerName, my crew has informed me they have the equipment ready. Attached to this message are the encrypted coordinates of the Ark. Please proceed there immediately.""",drgROALAGearQuestLud13:Continue,
+drgROALAGearQuestLud13,DialogOptionSelected,$option == drgROALAGearQuestLud13,"EndConversation DO_NOT_FIRE
+ShowDefaultVisual
+FireAll PopulateOptions",,,
+drgROALAArk1,ShowSalvageEntityDetails,"$customType == drg_arkship
+$drgROALA_ark score:1000
+!$encountered","ShowDefaultVisual
+$encountered = true","As your $shipOrFleet approaches, the massive arcology fills the view screen. It is nothing less than the corpse of a floating city, with numerous bits and pieces battered and torn away.
+
+Many beeps and warning symbols emit from Sensor's station, warning of the hazardous radiation spilling out from the structure.",,
+drgROALAArk2,ShowSalvageEntityDetails,"$customType == drg_arkship
+$drgROALA_ark score:1000",ShowDefaultVisual,"The long dead city still hangs in its orbit, the colorful radiation dancing in the thin cloud of gasses still lingering about its hull.",,
+drgROALAArk3,CheckSalvageSpecial,"$customType == drg_arkship
+$drgROALA_ark score:1000",SalvageSpecialInteraction,,,
+drgROALAArk4,CheckSalvageSpecial,"$customType == drg_arkship
+$speedwellWreck score:1000
+!$explored","$explored = true
+$global.drgROALA_foundArk = true",,drgROALAArk5:Continue,
+drgROALAArk5,DialogOptionSelected,$option == drgROALAArk5,,,,
+drgROALAArk6,,,,,,
+drgROALAArk7,,,,,,
+drgROALAArk8,,,,,,
+drgROALAArk9,,,,,,
+drgROALAArk10,,,,,,
+drgROALAArk11,,,,,,
+drgROALAArk12,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+drgBiometal1,DrgNaniteHullmodItemRC,!$player.canMakeNaniteHM,"ShowImageVisual biometalanalysis
+SetStoryOption drgBiometal1 1 analyzeSubstrate technology ""Analyzed Bio-metal Sample""","You join your technology officer and engineering chief in a small briefing room overlooking the shop bay dedicated to what has been euphemistically dubbed ""special salvage"".
+
+Haz-suited technicians attend to the containment machinery, stepping over coils of tube and wire. A mess of makeshift components were pulled from the common microforge libraries then torn apart and re-engineered to operate in this unusual, even extraordinary, application.
+
+Engineering wears a frown, tapping a TriPad as they observe the ongoing work. Tech can barely contain their excitement. 
+
+""$PlayerSirOrMadam,"" they say in unison at your arrival.","drgBiometal2:""So. What is it?""
+defaultLeave:Leave",
+drgBiometal2,DialogOptionSelected,$option == drgBiometal2,,"""Living metal!"" Tech exclaims.
+
+""More specifically, it seems to be a distributed synthetic intelligence suspended in a ferro-fluid,"" the tech officer almost seems giddy.
+
+Engineering interrupts with a scowl, not sharing in Technologies' enthusiasm, ""Nanites captain, they're nanites.""
+
+""Bah, it's so much more then mere nanites,"" Tech retorts, more to Engineering than to you.","drgBiometal3:""Practical, if you will.""",
+drgBiometal3,DialogOptionSelected,$option == drgBiometal3,FireAll drgBiometalOpts,"Both officers straighten, remembering whom they are speaking with, ""Yes, ah, apologies $playerSirOrMadam,"" Tech nods.
+
+""In short, this fluid has some form of autonomy and can interact with and control machinery, and is capable of self replication,"" Tech glances at Engineering, ""not unlike nanites.""",,
+drgBiometalOptA,drgBiometalOpts,!$saidWhatIsIt,,,"drgBiometalOptSelA:""So... what is it exactly?""",
+drgBiometalOptB,drgBiometalOpts,!$saidValuable,,,"drgBiometalOptSelB:""Is it valuable?""",
+drgBiometalOptC,drgBiometalOpts,!$saidUseful,,,"drgBiometalOptSelC:""Is it useful?""",
+drgBiometalOptD,drgBiometalOpts,!$saidDestroyed,,,"drgBiometalOptSelD:""Can it be destroyed?""",
+drgBiometalOptE,drgBiometalOpts,!$saidWeaponized,,,"drgBiometalOptSelE:""Can it be weaponized?""",
+drgBiometalOptF,drgBiometalOpts,$saidWeaponized,,,"drgBiometalOptSelF:""Show me what you can do.""",
+drgBiometalOptSelA,DialogOptionSelected,$option == drgBiometalOptSelA,"$saidWhatIsIt = true 0
+FireAll drgBiometalOpts","""We frankly don't know, captain,"" your engineering chief makes a show of standing while speaking, it appears they've been arguing about this.
+
+""Well, um."" Tech passes a look of consternation back toward your chief engineer.
+
+""In truth, I could not say, precisely. And unfortunately we're not equipped to perform a full scientific investigation. Clearly it is a part of, or more likely it is the... the animating force behind the hostile fleet which we bested.""",,
+drgBiometalOptSelB,DialogOptionSelected,$option == drgBiometalOptSelB,"$saidValuable = true 0
+FireAll drgBiometalOpts","""Extremely,"" Tech answers. ""Assuming you find the right buyer, as without a way to control it...""
+
+""It's dangerous,"" Engineering says. ""There's a reason AI tech is banned, for better or for worse. A weapon you can't control is just a hazard to every-""
+
+""-Yes, yes,"" Tech interrupts. ""As with any applied technology, sufficiently powerful, it could... $playerSirOrMadam. To answer your query, yes, extremely valuable.""",,
+drgBiometalOptSelC,DialogOptionSelected,$option == drgBiometalOptSelC,"$saidUseful = true 0
+FireAll drgBiometalOpts","""Highly likely,"" your technology officer exchanges another look with Engineering. ""If a programming method can be determined, the use cases are numerous. In my professional opinion.""
+
+""Going with generalization of 'nanites', they could be used for things like repair, structural modification, and even autonomous control. In theory anyway.""
+
+Your chief engineer steps forward. ""With a big emphasis on if, captain. Put enough of this stuff together and it just 'wakes up' and goes wild. All it would take is one accident and...""
+
+""Look, I did concede you were correct about th-"" Tech catches your expression and shuts up, putting on a deferential look.",,
+drgBiometalOptSelD,DialogOptionSelected,$option == drgBiometalOptSelD,"$saidDestroyed = true 0
+FireAll drgBiometalOpts","Engineering presents you a TriPad with test data on it, ""It's difficult, but sustained heat can cause it to harden and delaminate, which renders it, well, dead I suppose.""
+
+Tech speaks up, ""Also the stuff is sensitive to strong electrical pulses, it won't exactly be destroyed, but it interrupts the networking part of its, em, mind, and..."" A pause for a few moments.
+
+""Well, basically it'll 'go to sleep' for a while."" Both officers look to each other and nod in agreement.",,
+drgBiometalOptSelE,DialogOptionSelected,$option == drgBiometalOptSelE,"$saidWeaponized = true 0
+FireAll drgBiometalOpts","""It's risky, and I personally wouldn't recommend it, but,"" the chief engineer glances at Tech, ""with enough precautions...""
+
+""We can't use it at its full potential, $playerSirOrMadam, however,"" your technology officer hands you a set of schematics.
+
+You quickly recognize the standardized diagrams of bulkheads and superstructures, now intermixed with strange control systems, EM amplifiers, and hydraulic pumps.",,
+drgBiometalOptSelF,DialogOptionSelected,$option == drgBiometalOptSelF,"$player.canMakeNaniteHM = true
+NaniteCMD unlockHullmod","""$PlayerSirOrMadam,"" they say once more in unison.",defaultLeave:Leave,
+,,,,,,
+naniteCommLink,OpenCommLink,"$faction.id == contractor_nanite score:100
+!$ignorePlayerCommRequests","$ignorePlayerCommRequests = true 1
+ShowNanitePersonVisual","//Submit to judgment, let your//your officers massacred!//You are advised to disengage or we//We fight and we die for the Domain//Damage teams report to//to all ships retreat//inside! It's inside the ship//ships and cargo are ours//
+
+The communications are nearly incomprehensible, save for what sounds like the collective shouting and anguish of innumerable spacers.",cutCommLink:Cut the comm link,
+naniteCommLinkFallback,OpenCommLink,$faction.id == contractor_nanite score:100,,"The link is filled with noise, the hissing and growl of synthetic signals clawing at the safety thresholds.
+
+With a wince, your comms officer freezes the output and purges the buffer.",cutCommLink:Cut the comm link,
+naniteCommLinkFirst,OpenCommLink,"$faction.id == contractor_nanite score:100
+!$ignorePlayerCommRequests
+!$player.talkedToNanite","$ignorePlayerCommRequests = true 1
+ShowNanitePersonVisual
+$player.talkedToNanite = true","//Submit to judgment, let your//your officers massacred!//You are advised to disengage or we//We fight and we die for the Domain//Damage teams report to//to all ships retreat//inside! It's inside the ship//ships and cargo are ours//
+
+The communications are nearly incomprehensible, save for what sounds like the collective shouting and anguish of innumerable spacers.
+
+Your bridge crew look at each other in distress.","naniteCommLink_ident:""Unknown vessels, identify yourselves!""
+cutCommLink:Cut the comm link",
+naniteCommLink2,DialogOptionSelected,$option == naniteCommLink_ident,,"//Our intentions are friendly//critical need of supplies//it's not dying, captain//again, it's back again!//all hands, abandon ship//Ludd help us//don't let it//identify yourselves!//
+
+Your voice too, now barks amongst the legion.",cutCommLink:Cut the comm link,

@@ -1,0 +1,78 @@
+{
+  "variantId": "drg_seraph_base_ned",
+  "hullId": "drg_seraph_base",
+  "displayName": "Needle",
+  "goalVariant": false,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "missleracks",
+    "armoredweapons",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "drg_needle_big",
+        "WS0012": "drg_needle_big"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "gazer",
+        "WS0002": "gazer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "annihilator",
+        "WS0008": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ionpulser",
+        "WS0004": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "phasebeam",
+        "WS0006": "phasebeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "pdburst",
+        "WS0010": "pdburst",
+        "WS0020": "pdburst",
+        "WS0021": "pdburst",
+        "WS0026": "guardian"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

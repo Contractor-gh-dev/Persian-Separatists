@@ -1,0 +1,181 @@
+{
+  "hullName": "New Hull",
+  "hullId": "nanite_des3",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/bananoofdoom/3.png",
+  "style": "CON_NANITE",
+  "height": 190,
+  "width": 198,
+  "center": [94, 90],
+  "collisionRadius": 100,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 99,
+  "viewOffset": 0,
+  "builtInMods": [
+    "contractor_nanite_hull",
+	"contractor_bioarmor",
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 30,
+      "locations": [51, 20]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -45,
+      "locations": [63, -12]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -45,
+      "locations": [19, -56]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -45,
+      "locations": [36, -45]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -45,
+      "locations": [52, -29]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [33, -4]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [10, -26]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 75,
+      "locations": [42, 45]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -120,
+      "locations": [-41, -14]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 115,
+      "locations": [-29, 16]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": -90,
+      "locations": [-29, -69]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-71, 2],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-70, 16],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-69, 26.5],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-69, 35],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-67, 43.5],
+      "length": 32,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-63, -15],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    64, 41,
+    71, -10,
+    17, -64,
+    -56, -53,
+    -69, -4,
+    -64, 49,
+    -33, 57,
+    12, 54,
+    32, 67
+  ]
+}

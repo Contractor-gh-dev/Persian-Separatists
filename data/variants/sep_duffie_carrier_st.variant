@@ -1,0 +1,72 @@
+{
+  "variantId": "sep_duffie_carrier_st",
+  "hullId": "sep_duffie_carrier",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sep_kessler",
+        "WS0008": "sep_kessler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sep_mk55",
+        "WS0006": "sep_mk55"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_lightcycler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sep_mk48"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sep_mk38"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sep_voidwolf_wing",
+    "sep_voidwolf_wing"
+  ]
+}

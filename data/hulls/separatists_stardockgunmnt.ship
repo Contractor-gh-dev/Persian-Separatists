@@ -1,0 +1,67 @@
+{
+  "hullName": "Stardock Gun Array",
+  "hullId": "separatists_stardockgunmnt",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/contractor/separatists_stardockgunmnt.png",
+  "style": "LOW_TECH",
+  "height": 108,
+  "width": 80,
+  "center": [40, 26],
+  "collisionRadius": 100.5,
+  "shieldCenter": [28, 0],
+  "shieldRadius": 69,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [73, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 40,
+      "locations": [44, 30]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -40,
+      "locations": [44, -30]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 0,
+      "locations": [34, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    81, -11.5,
+    50, -39,
+    11, -39,
+    -26, -5,
+    -26, 5,
+    11, 39,
+    50, 39,
+    81, 11.5
+  ]
+}

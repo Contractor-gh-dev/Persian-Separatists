@@ -1,0 +1,74 @@
+{
+  "variantId": "nanite_cru1_id200",
+  "hullId": "nanite_cru1",
+  "displayName": "ID 200",
+  "goalVariant": false,
+  "fluxCapacitors": 30,
+  "fluxVents": 27,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavymg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "lightac",
+        "WS0012": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyburst",
+        "WS0005": "lrpdlaser",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "lightdualmg",
+        "WS0013": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mining_drone_wing"
+  ]
+}

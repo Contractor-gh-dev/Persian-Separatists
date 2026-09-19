@@ -1,0 +1,60 @@
+{
+  "variantId": "sep_wellerman_missile_vls",
+  "hullId": "sep_wellerman_missile",
+  "displayName": "VLS",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "sep_vls_med",
+        "WS0010": "sep_vls_med"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sep_gator_launcher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sep_mk24"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_termite"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sep_mk48"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,48 @@
+{
+  "variantId": "sep_venom_mk1_sd",
+  "hullId": "sep_venom_mk1",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "contractor_dclockers",
+    "reinforcedhull",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sep_termite_heavy",
+        "WS0007": "sep_termite_heavy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0003": "sep_gator_launcher"
+	  }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sep_mk48"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_termite"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

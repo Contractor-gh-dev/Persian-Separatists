@@ -1,0 +1,73 @@
+{
+  "variantId": "nanite_cru2_id250",
+  "hullId": "nanite_cru2",
+  "displayName": "ID 250",
+  "goalVariant": false,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tpc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hveldriver",
+        "WS0006": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "nanite_corrupter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "flak",
+        "WS0008": "lightmg",
+        "WS0009": "lightmg",
+        "WS0010": "lightdualmg",
+        "WS0012": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "nanite_fighter_wing1"
+  ]
+}

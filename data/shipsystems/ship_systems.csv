@@ -1,0 +1,22 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Entanglement Device,drg_entanglement,,0.25,,,,,,,,2,,1,15,TRUE,,,,,,,,,,,offensive,graphics/icons/hullsys/teleport.png
+Intercept Protocol,sep_andross_intercept,,,,0,,,,,,0,0,0,1,,,,,,,,,,,,offensive,graphics/icons/hullsys/termination_sequence.png
+Anvil Strike,sep_andross_pirate_launch,,,,0,,,,,,0,0,0,1,,,,,,,,,,,,offensive,graphics/icons/hullsys/termination_sequence.png
+Retrograde Burst,sep_retrograde,,0.1,,,0.1,,,,,0.3,0.6,1,15,,,,,,,,,TRUE,TRUE,,movement,graphics/icons/retrograde.png
+Cryogenic Discharge,drg_cryogenicdischarge,,,,1500,,,,3,0.07,1,0.75,0,5,,,,,,,,,,TRUE,,offensive,graphics/icons/hullsys/tenebrous_expulsion.png
+Flare Trail (Fighter),sep_flarelauncher_bomber,,,,,,,,5,,,,,6,,,,,,,,,,,,defensive,graphics/icons/hullsys/flare_launcher.png
+Flare Trail (Fighter),sep_flarelauncher_sys,,,,,,,,5,,,,,6,,,,,,,,,,,,defensive,graphics/icons/hullsys/flare_launcher.png
+Flare Trail,sep_flarelauncher_ship,,,,,,,,5,,,,,6,,,,,,,,,,,,defensive,graphics/icons/hullsys/flare_launcher.png
+Wing Sweep,sep_wingsweep,,,,,0.05,,,,,,0.5,,1,,,,,,,,,,,,movement,graphics/icons/hullsys/burn_drive.png
+Entropic Lash,drg_entropic_lash,,,,,,0.5,,,,1.75,0.25,0.25,18,,,,,,,,,,,,offensive,graphics/icons/hullsys/energy_lash.png
+Interdictor Array,sep_interdictor,,0.5,,,,,,,,1.25,15,0.75,14,TRUE,,,,,,,,TRUE,,,offensive,graphics/icons/hullsys/energy_lash.png
+Heavy Interdictor Array,sep_interdictor_station,,0.25,,,,,,,,1.25,15,0.75,10,TRUE,,,,,,,,TRUE,,,offensive,graphics/icons/hullsys/energy_lash.png
+Interdictor Array (Pulsed),sep_interdictor_pulse,,0.4,,,,,,,,1.25,3,0.75,8,,,,,,,,,TRUE,,,offensive,graphics/icons/hullsys/energy_lash.png
+Reactor Purge,sep_citadelmode,100,,,,,,,,,1,,0,0,TRUE,,,,,,,,,,,offensive,graphics/icons/hullsys/combat_burn.png
+Phase Cloak,drg_linearphasecloak,,,,,,,,,,0.25,,0.25,1,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,defensive,graphics/icons/hullsys/phase_cloak.png
+Defense Drones,sep_defense_drones,,,,,,,,4,,0,,0,0,,,,,,,,,,,,defensive,graphics/icons/hullsys/station_defense_drones_high.png
+Defense Drones,sep_station_defense_drones,,,,,,,,3,,0,,0,0,,,,,,,,,,,,defensive,graphics/icons/hullsys/station_defense_drones_high.png
+Directional Thrusters,sep_directionalthrusters,,,,,,,,,,0.5,15,1,10,,,,,,,,,,,,movement,graphics/icons/hullsys/maneuvering_jets.png
+Secondary Loader,sep_secondaryloader,,,,,,,,2,0.0334,0.4,2,0.3,7.3,,,,,,,,,,TRUE,,offensive,graphics/icons/hullsys/ammo_feeder.png
+Spectrum Jammer,sep_spoofjammer,,0.8,,,,,,,,0.75,20,0.75,20,TRUE,,,,,,,,TRUE,,,defensive,graphics/icons/tactical/sep_jammer_icon.png

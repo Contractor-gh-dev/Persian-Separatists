@@ -1,0 +1,91 @@
+{
+  "hullName": "Battlestation",
+  "hullId": "sep_station_medium",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/contractor/station/sep_station_small_base.png",
+  "style": "SEPARATISTS",
+  "height": 422,
+  "width": 414,
+  "center": [207, 208],
+  "collisionRadius": 220,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 220,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+    "vastbulk",
+    "shared_flux_sink",
+    "supercomputer"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 180,
+      "locations": [-127, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": -60,
+      "locations": [64, -109]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 60,
+      "locations": [64, 109]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": -120,
+      "locations": [-139, -241]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 120,
+      "locations": [-137, 244]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 0,
+      "locations": [249, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -91, 40,
+    -128, 172,
+    -85, 197,
+    5, 104,
+    77, 60,
+    212, 25,
+    212, -25,
+    77, -60,
+    5, -104,
+    -85, -197,
+    -128, -172,
+    -91, -40
+  ]
+}

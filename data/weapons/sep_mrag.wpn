@@ -1,0 +1,48 @@
+{
+  "id": "sep_mrag",
+  "specClass": "projectile",
+  "projectileSpecId": "sep_quadauto_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/rag/sep_mrag_turret00.png",
+  "hardpointSprite": "graphics/weapons/rag/sep_mrag2_hard00.png",
+  "turretOffsets": [
+    19,
+    -6,
+    19,
+    6
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    30.5,
+    -6,
+    30.5,
+    6
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 5,
+  "frameRate": 30,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 8,
+    "particleSizeMin": 8,
+    "particleSizeRange": 10,
+    "particleDuration": 0.33,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "sep_quadauto_fire"
+}

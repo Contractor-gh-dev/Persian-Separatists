@@ -1,0 +1,63 @@
+{
+  "variantId": "drg_observer_amp",
+  "hullId": "drg_observer",
+  "displayName": "Amped",
+  "goalVariant": false,
+  "fluxCapacitors": 3,
+  "fluxVents": 30,
+  "quality": 0.8,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "drg_hereactor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "sabotpod",
+        "WS0015": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gravitonbeam",
+        "WS0002": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "drg_electrocat",
+        "WS0004": "drg_electrocat",
+        "WS0005": "drg_electrocat",
+        "WS0006": "drg_electrocat",
+        "WS0007": "drg_electrocat",
+        "WS0008": "drg_electrocat",
+        "WS0011": "drg_electrocat",
+        "WS0012": "drg_electrocat"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "taclaser",
+        "WS0010": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "taclaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

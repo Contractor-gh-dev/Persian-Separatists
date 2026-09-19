@@ -1,0 +1,66 @@
+{
+  "hullName": "Stardock Missile Array",
+  "hullId": "separatists_stardockmismnt",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/contractor/separatists_stardockmissmnt.png",
+  "style": "LOW_TECH",
+  "height": 94,
+  "width": 133,
+  "center": [65, 47],
+  "collisionRadius": 79.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 76,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [27, -16]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [27, -44]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [17, 18]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 40,
+      "locations": [8, 49]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    44.5, -0.5,
+    35.5, -60.5,
+    -5.5, -65,
+    -43.5, -40,
+    -43.5, 40,
+    -5.5, 65,
+    31, 61.5,
+    44.5, 30
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "sep_starmaster_armor",
+    "hullMods": [
+        "contractor_hardenedarmor"
+    ],
+    "quality": 0.5,
+    "variantId": "sep_starmaster_armor_sd",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "sep_mk48",
+                "WS 001": "sep_mk48"
+            }
+        }
+    ]
+}

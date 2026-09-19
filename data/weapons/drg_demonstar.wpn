@@ -1,0 +1,62 @@
+{
+  "id": "drg_demonstar",
+  "specClass": "projectile",
+  "projectileSpecId": "drg_demonstar_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "everyFrameEffect": "contractor.data.scripts.weapons.DrgDemonstarEveryFrame",
+  "turretSprite": "graphics/weapons/demonstar/drg_demonstar_turret.png",
+  "turretGlowSprite": "graphics/weapons/demonstar/drg_demonstar_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/demonstar/drg_demonstar_hard.png",
+  "hardpointGlowSprite": "graphics/weapons/demonstar/drg_demonstar_hard_glow.png",
+  "glowColor": [
+    220,
+    10,
+    0,
+    200
+  ],
+  "turretOffsets": [
+    15,
+    0,
+    12,
+    0,
+    12,
+    -0
+  ],
+  "turretAngleOffsets": [
+    0,
+    4,
+    -4
+  ],
+  "hardpointOffsets": [
+    24,
+    0,
+    21,
+    0,
+    21,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    4,
+    -4
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 30,
+    "particleSizeMin": 4,
+    "particleSizeRange": 6,
+    "particleDuration": 0.3,
+    "particleCount": 8,
+    "particleColor": [
+      220,
+      10,
+      0,
+      255
+    ]
+  },
+  "fireSoundTwo": "heavy_blaster_fire"
+}

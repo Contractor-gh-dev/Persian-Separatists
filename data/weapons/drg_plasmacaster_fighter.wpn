@@ -1,0 +1,50 @@
+{
+  "id": "drg_plasmacaster_fighter",
+  "specClass": "projectile",
+  #"everyFrameEffect":"contractor.data.scripts.weapons.PlasmaCasterEveryFrame",
+  "type": "SYNERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/plasmacaster/drg_plasmacaster_turret.png",
+  "turretGlowSprite": "graphics/weapons/plasmacaster/drg_plasmacaster_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/plasmacaster/drg_plasmacaster_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/plasmacaster/drg_plasmacaster_hardpoint_glow.png",
+  "glowColor": [
+    175,
+    40,
+    100,
+    200
+  ],
+  "turretOffsets": [
+    15,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    24,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "interruptibleBurst":false,
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 32,
+    "particleSizeMin": 8,
+    "particleSizeRange": 12,
+    "particleDuration": 0.5,
+    "particleCount": 12,
+    "particleColor": [
+      175,
+      40,
+      100,
+      200
+    ]
+  },
+  "projectileSpecId": "drg_plasmacaster_fighter_shot",
+  "fireSoundTwo":"amsrm_fire",
+}

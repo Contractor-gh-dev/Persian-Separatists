@@ -1,0 +1,51 @@
+{
+	"SEPARATISTS_OVER":{
+		"engineColor":[230,90,20,200],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[110,100,100,25],
+		"contrailCampaignColor":[150,110,100,75],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"SEPARATISTS_UNDER":{
+		"engineColor":[30,110,255,150],
+		"engineCampaignColor":[30,110,255,150],
+		"glowAlternateColor":[0,0,0,0],
+		"glowSizeMult":0,
+		"contrailParticleSizeMult":2,
+		"contrailParticleDuration":3,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.5,
+		"contrailColor":[40,40,90,50],
+		"contrailCampaignColor":[40,40,90,75],
+		"type":"SMOKE" # GLOW or SMOKE
+	},
+	"DUSK_GROUP":{		
+		"engineColor":[180,60,160,200],
+		"contrailParticleSizeMult":3,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":2,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[110,40,130,25],
+		"contrailCampaignColor":[110,40,130,75],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"CRYOGENIC_FLARE":{		
+		"engineColor":[150,150,255,200],
+		"contrailParticleSizeMult":2.5,
+		"contrailParticleDuration":3,
+		"contrailParticleFinalSizeMult":1,
+		"contrailMaxSpeedMult":-0.1,
+		"contrailMinSeg":4,
+		"contrailAngularVelocityMult":0.1,
+		"contrailColor":[175,175,255,150],
+		"contrailCampaignColor":[175,175,255,50],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+}
+

@@ -1,0 +1,23 @@
+{
+	"id":"sep_interdictor_pulse",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"contractor.data.scripts.shipsystems.SepInterdictorAI",	
+		
+	"statsScript":"contractor.data.scripts.shipsystems.SepInterdictor",
+	
+	"useSound":"sep_sys_overcharge_fast_start",
+	"loopSound":"sep_sys_overcharge_fast_loop",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":1000,
+		"threatAmount":4,
+		"threatAngle":0,
+		"threatArc":120,
+	}
+}
+
+
+
+

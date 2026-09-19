@@ -1,0 +1,34 @@
+{
+	"id":"drg_cryogenicemitter_shot",
+	"specClass":"missile",	
+	"missileType":"FLARE",
+	"onHitEffect":"contractor.data.scripts.weapons.shots.DrgCryogenicEmitterOnHit",
+	"sprite":"graphics/missiles/bomblet0.png",
+	"size":[4,4],	
+	"center":[2,2],
+	"collisionRadius":7,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[150,150,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":50, # purely visual
+	"flameoutTime":0.25, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.1, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration
+	"behaviorSpec":{"behavior":"CUSTOM",
+					"effectRange":300,
+					"effectChance":0.1,
+				   },	
+	"engineSpec":{"turnAcc":1000,
+				  "turnRate":250,
+				  #"maxSpeed":150,
+				  "acc":100,
+				  "dec":0},
+	"engineSlots":[
+					{"id":"ES1",
+					"loc":[0, 0],
+				    "style":"CUSTOM",
+				    "styleId":"CRYOGENIC_FLARE",
+				    "width":12.0,
+				    "length":12.0,
+				    "angle":180.0},
+				   ]
+}

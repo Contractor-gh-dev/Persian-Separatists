@@ -1,0 +1,36 @@
+{
+  "variantId": "drg_voidwolf_fighter_sd",
+  "hullId": "drg_voidwolf_fighter",
+  "displayName": "Stealth Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_bowe_fighter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sep_bowe_fighter"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "BI01": "sep_eclipse_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

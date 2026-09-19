@@ -1,0 +1,49 @@
+{
+  "variantId": "sep_keystone_vls",
+  "hullId": "sep_keystone",
+  "displayName": "VLS",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 10,
+  "quality": 1.2,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "armoredweapons",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "sep_vls_small_dumb",
+        "WS0006": "sep_vls_small_dumb",
+        "WS0007": "sep_vls_small_dumb",
+        "WS0008": "sep_vls_small_dumb"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_lightcycler",
+        "WS0002": "sep_lightcycler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_mk48",
+        "WS0004": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "MS0001": "sep_keystone_armor_sd"
+    }
+  ],
+  "wings": []
+}

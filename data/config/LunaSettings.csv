@@ -1,0 +1,30 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+sep_settingsHeader,Keybinds Header,Header,Keybinds,,,,,
+sep_CommandKey,Command Missile Mode Select,Keycode,20,,"Set the Keybind for switching between [command missile modes] on player ships. 
+See the related [codex] entry for more details.",,,
+,,,,,,,,
+sep_settingsHeader2,Configure Values,Header,Configure Values,,,,,
+sep_SeparatistStart,Separatists Start,Boolean,TRUE,,Enables the Separatists fleet option for new games.,,,
+sep_StatusEffects,Status Effects,Boolean,true,,"Enables the status effect system if set to true.
+Note: Disabling will nerf certain ships/weapons a lot.",,,
+sep_CmdLimitFrig,Frigate Command Limit,Int,1,,"Max number of [command missiles] a frigate can fire at once.
+(default: 1)",0,10,
+sep_CmdLimitDest,Destroyer Command Limit,Int,2,,"Max number of [command missiles] a destroyer can fire at once.
+(default: 2)",0,10,
+sep_CmdLimitCru,Cruiser Command Limit,Int,2,,"Max number of [command missiles] a cruiser can fire at once.
+(default: 2)",0,10,
+sep_CmdLimitCap,Capital Command Limit,Int,3,,"Max number of [command missiles] a capital ship can fire at once.
+(default: 3)",0,10,
+sep_EccmBonus,ECCM Bonus,Int,2,,"Bonus number of [command missiles] the [ECCM] hullmod provides.
+(default: 2)",0,10,
+sep_McBonus,Missile CIC Bonus,Int,2,,"Bonus number of [command missiles] the [Missile CIC] hullmod provides.
+(default: 2)",0,10,
+sep_RepairBeamLimit,Repair Beam Limit,Double,0.2,,"Max average percentage of armor the repair beam can fix. (default: 0.1)
+1.0 = repair armor to full always, even if totally lost.
+0.2 = a ship with 30 percent armor can be repaired up to 50 percent, but no higher.
+0.0 = no repair all.",0,1,
+,,,,,,,,
+sep_miscHeader,Misc Header,Header,Miscellaneous,,,,,
+sep_FenarEnable,Enable Fenarans,Boolean,FALSE,,"woe unto thee.
+(enabling during an active game may cause minor errors)
+(disabling during an active game does nothing)",,,

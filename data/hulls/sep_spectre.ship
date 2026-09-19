@@ -1,0 +1,294 @@
+{
+  "hullName": "Spectre",
+  "hullId": "sep_spectre",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/contractor/spectre/sep_spectre.png",
+  "style": "SEPARATISTS",
+  "height": 198,
+  "width": 102,
+  "center": [51, 99],
+  "collisionRadius": 124,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 123,
+  "viewOffset": 0,
+  "builtInMods": [
+    "contractor_stealthplating",
+    "ecm",
+    "hiressensors"
+  ],
+  "builtInWeapons": {
+    "WS0010": "blinker_green",
+    "WS0011": "blinker_red",
+    "WS0012": "blinker_green",
+    "WS0013": "blinker_red",
+    "WS0014": "blinker_green",
+    "WS0015": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [92, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -75,
+      "locations": [25, -34]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 75,
+      "locations": [25, 34]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -90,
+      "locations": [-1, -34]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 90,
+      "locations": [-1, 34]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -115,
+      "locations": [-51, -17]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 115,
+      "locations": [-51, 17]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-50, -41]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-50, 41]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [38.5, -49.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [38.5, 40.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [86.5, -12.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [86.5, 12.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-81.5, -37.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-81.5, 37.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-83, -20],
+      "length": 36,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-83, 20],
+      "length": 36,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-81, -31.5],
+      "length": 34,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-81, 31.5],
+      "length": 34,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-81, -27],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-81, 27],
+      "length": 40,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-92, -6],
+      "length": 58,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-92, 6],
+      "length": 58,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-91, -0],
+      "length": 56,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-87, -31.5],
+      "length": 38,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-87, 31.5],
+      "length": 38,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-89, -20],
+      "length": 42,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-89, 20],
+      "length": 42,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-97, -0],
+      "length": 60,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "SEPARATISTS_UNDER"
+    }
+  ],
+  "bounds": [
+    -91, 15,
+    -82, 38,
+    -26, 38,
+    -14, 44,
+    34, 44,
+    75, 23,
+    98, -0,
+    75, -23,
+    58, -48,
+    34, -48,
+    -14, -44,
+    -26, -38,
+    -82, -38,
+    -91, -15
+  ]
+}

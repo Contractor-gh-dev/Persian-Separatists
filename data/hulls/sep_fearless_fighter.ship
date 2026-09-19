@@ -1,0 +1,88 @@
+{
+  "hullName": "Fearless",
+  "hullId": "sep_fearless_fighter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/contractor/fighters/sep_fearless.png",
+  "style": "SEPARATISTS",
+  "height": 28,
+  "width": 20,
+  "center": [10, 13],
+  "collisionRadius": 16,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 15.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0002": "sep_fearless_deco_r",
+    "WS0003": "sep_fearless_deco_l"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [6, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -140,
+      "locations": [-1, -5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 140,
+      "locations": [-1, 5],
+      "renderOrderMod": 1
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12.5, -2],
+      "length": 30,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-12.5, 2],
+      "length": 30,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-15.5, -2],
+      "length": 32,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-15.5, 2],
+      "length": 32,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "SEPARATISTS_UNDER"
+    }
+  ],
+  "bounds": [
+    -12, 9,
+    14, -0,
+    -12, -9
+  ]
+}

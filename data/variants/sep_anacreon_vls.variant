@@ -1,0 +1,66 @@
+{
+  "variantId": "sep_anacreon_vls",
+  "hullId": "sep_anacreon",
+  "displayName": "VLS",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 14,
+  "quality": 1.1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "dedicated_targeting_core",
+	"stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "sep_vls_med",
+        "WS0003": "sep_vls_med"
+      }
+    },
+	{
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sep_vls_med_dumb"
+      }
+    },
+	{
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "shredder"
+      }
+    },
+	{
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sep_gator_launcher"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sep_lightcycler",
+        "WS0010": "sep_lightcycler"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sep_mk48",
+        "WS0006": "sep_mk48",
+        "WS0007": "sep_mk48",
+        "WS0008": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

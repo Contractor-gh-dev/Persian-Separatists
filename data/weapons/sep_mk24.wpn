@@ -1,0 +1,34 @@
+{
+  "id": "sep_mk24",
+  "specClass": "projectile",
+  "projectileSpecId": "sep_mk24_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/mk24/sep_mk24_turret.png",
+  "turretGunSprite": "graphics/weapons/mk24/sep_mk24_turret_barrel.png",
+  "hardpointSprite": "graphics/weapons/mk24/sep_mk24_hard.png",
+  "hardpointGunSprite": "graphics/weapons/mk24/sep_mk24_hard_barrel.png",
+  "visualRecoil": 6,
+  "renderHints": [RENDER_BARREL_BELOW],
+  "turretOffsets": [21,0],
+  "turretAngleOffsets": [0],
+  "hardpointOffsets": [24,0],
+  "hardpointAngleOffsets": [0],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 60,
+    "spread": 20,
+    "particleSizeMin": 16,
+    "particleSizeRange": 22,
+    "particleDuration": 0.12,
+    "particleCount": 32,
+    "particleColor": [
+      255,
+      185,
+      115,
+      215
+    ]
+  },
+  "fireSoundTwo": "sep_mk24_fire"
+}

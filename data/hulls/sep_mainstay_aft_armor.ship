@@ -1,0 +1,45 @@
+{
+  "hullName": "Mainstay Aft Module",
+  "hullId": "sep_mainstay_aft_armor",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/contractor/mainstay/sep_mainstay_armor2.png",
+  "style": "SEPARATISTS",
+  "height": 42,
+  "width": 146,
+  "center": [73, 16],
+  "collisionRadius": 74,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 72,
+  "viewOffset": 0,
+  "builtInHullMods":[
+	"always_detaches",
+	"reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [-2, -11]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -0,
+      "locations": [-2, 11]
+    }
+  ],
+  "bounds": [
+    4, 69,
+    -15, 68,
+    -15, -68,
+    4, -69,
+    25, -0
+  ]
+}

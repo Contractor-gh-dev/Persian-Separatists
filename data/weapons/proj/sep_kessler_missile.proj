@@ -1,0 +1,26 @@
+{
+	"id":"sep_kessler_missile",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/sep_vls_med_missile.png",
+	"size":[4,8],	
+	"center":[2,4],
+	"collisionRadius":4,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,255,255,200],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":16, # purely visual
+	"flameoutTime":2.5,
+	"noEngineGlowTime":0.25,
+	"dudProbabilityOnFlameout":0,
+	"engineSpec":{"turnAcc":720,
+				  "turnRate":420,
+				  "acc":1200,
+				  "dec":600},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-4, 0],
+				    "style":"SEPARATISTS_OVER",
+				    "width":3.5,
+				    "length":24.0,
+				    "angle":180.0},
+				    ]
+}

@@ -1,0 +1,75 @@
+{
+  "variantId": "drg_observer_ned",
+  "hullId": "drg_observer",
+  "displayName": "Needle",
+  "goalVariant": false,
+  "fluxCapacitors": 15,
+  "fluxVents": 14,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "drg_needle_med",
+        "WS0002": "drg_needle_med"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "drg_plasmacaster",
+        "WS0006": "drg_plasmacaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "sep_kessler",
+        "WS0015": "sep_kessler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "taclaser",
+        "WS0008": "taclaser",
+        "WS0011": "taclaser",
+        "WS0012": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lrpdlaser",
+        "WS0004": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

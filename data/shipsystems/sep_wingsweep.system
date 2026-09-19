@@ -1,0 +1,14 @@
+{
+	"id":"sep_wingsweep",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"contractor.data.scripts.shipsystems.SepWingSweepStats",
+	"aiScript":"contractor.data.scripts.shipsystems.SepWingSweepAI",
+	
+	"canNotCauseOverload":true,
+	"runScriptWhileIdle":true,
+
+	"useSound":"system_maneuvering_jets",
+	"outOfUsesSound":"engine_disabled",
+}

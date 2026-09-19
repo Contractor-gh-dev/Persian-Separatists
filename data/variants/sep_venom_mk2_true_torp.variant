@@ -1,0 +1,57 @@
+{
+  "variantId": "sep_venom_mk2_true_torp",
+  "hullId": "sep_venom_mk2_true",
+  "displayName": "Torpedo",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 5,
+  "quality": 0.75,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "sep_bowe_rack",
+        "WS0010": "sep_bowe_rack",
+        "WS0011": "sep_bowe_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sep_termite_heavy",
+        "WS0007": "sep_termite_heavy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sep_lightcycler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_rag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "sep_mk48",
+        "WS0009": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

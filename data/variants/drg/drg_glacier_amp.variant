@@ -1,0 +1,73 @@
+{
+  "variantId": "drg_glacier_amp",
+  "hullId": "drg_glacier",
+  "displayName": "Amplified",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "high_scatter_amp",
+    "drg_hereactor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "SPC0001": "drg_cryobeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "sep_vls_small_dumb"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "ionbeam",
+        "WS0010": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gravitonbeam",
+        "WS0002": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "taclaser",
+        "WS0004": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "taclaser",
+        "WS0008": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lrpdlaser",
+        "WS0006": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,35 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+duskstardock,Stardock,5,10,,1,,spaceport,"spaceport, important, structure",,graphics/icons/industry/light_industry_orbital_low.png,contractor.data.scripts.industries.DuskStardock,"Crude docking station to facilitate basic stellar trade and minimal colony access. Ships are made to stay in orbit, and cargo is ferried via light shuttles.",151,EXTREME
+duskstardockstation,Stardock Combat Module,100,120,,5,,sep_orbitalstation_small,"station, sub_item, unraidable, structure","{
+radius:50,
+variant:separatists_stardockhull_core,
+fleetName:Stardock
+}",graphics/icons/industry/patrol_hq.png,contractor.data.scripts.industries.DuskStardockMil,Military combat modules to provide enhanced protection to stardock operations.,2030,
+duskworksite,Worksite,,,5,1,,,"population, unraidable, no_saturation_bombardment",,graphics/icons/industry/population.png,contractor.data.scripts.industries.DuskWorksite,"A ship-based mobile worksite, where assigned crew eat, sleep, and work on whatever the task at hand may be.",100,
+duskblacksite,Dusk Blacksite,200,180,,5,,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:duskblacksite_var,
+fleetName:Blacksite
+}",graphics/icons/duskblacksite.png,contractor.data.scripts.industries.DuskBlacksite,"A research blacksite, presumably where the DRG preforms its most secret projects. Not that anyone would tell you of course. Heavily armed, it should be considered equally dangerous as a starfortress.",2030,
+duskinternalaffairs,Internal Affairs,300,180,,10,,,unraidable,,graphics/icons/industry/high_command.png,contractor.data.scripts.industries.DuskInternalAffairs,DRG's Internal Affairs Division are tasked with keeping things as quiet as possible when working on sensitive operations. Although that usually entails scenarios like 'long walks out a short airlock' it also includes less notorious action such as maintaining an undercover supply chain to secret bases.,2050,EXTREME
+sep_orbitalstation_small,Orbital Station - Separatist,50,90,,3,,sep_orbitalstation_medium,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:sep_station_small_mix,
+fleetName:Orbital Station,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A space station of Separatist design, featuring short ranged but heavy firepower on all sides.
+
+Must be reduced before a bombardment can be attempted.",5200,
+sep_orbitalstation_medium,Battlestation - Separatist,100,120,,4,sep_orbitalstation_small,sep_orbitalstation_big,"station, battlestation, unraidable, structure","{
+radius:55,
+variant:sep_station_medium_mix,
+fleetName:Battlestation,
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A space station of Separatist design, featuring short ranged but heavy firepower on all sides, and augmented with defense nodes.
+
+Must be reduced before a bombardment can be attempted.",5200,
+sep_orbitalstation_big,Star Fortress - Separatist,100,120,,4,sep_orbitalstation_medium,,"station, battlestation, unraidable, structure","{
+radius:70,
+variant:sep_station_big_mix,
+fleetName:Star Fortress,
+}",graphics/icons/industry/star_fortress.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A space station of Separatist design, featuring short ranged but heavy firepower on all sides, and augmented with defense nodes, drones, and a minefield.
+
+Must be reduced before a bombardment can be attempted.",5200,

@@ -1,0 +1,66 @@
+{
+  "variantId": "sep_arbiter_ln",
+  "hullId": "sep_arbiter",
+  "displayName": "Lance",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 19,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "contractor_dclockers",
+    "contractor_hardenedarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_vls_med_dumb"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sep_battleship"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sep_mk4"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_lightcycler",
+        "WS0002": "sep_lightcycler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sep_mk38"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sep_mk48",
+        "WS0008": "sep_mk48",
+        "WS0009": "sep_mk48",
+        "WS0010": "sep_mk48",
+        "WS0011": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

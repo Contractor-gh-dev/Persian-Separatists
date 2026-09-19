@@ -1,0 +1,29 @@
+{
+  "variantId": "sep_northstar_fighter_sd",
+  "hullId": "sep_northstar_fighter",
+  "displayName": "Strike Fighter",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_mk41_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_gator_launcher_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

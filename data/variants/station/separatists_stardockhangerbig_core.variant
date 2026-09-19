@@ -1,0 +1,26 @@
+{
+  "variantId": "separatists_stardockhangerbig_core",
+  "hullId": "separatists_stardockhangerbig",
+  "displayName": "Core Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualac",
+        "WS0002": "lightdualac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "warthog_wing",
+    "broadsword_wing"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "variantId": "sep_speedwell_sd",
+  "hullId": "sep_speedwell",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "dedicated_targeting_core",
+    "blast_doors",
+    "reinforcedhull",
+    "pointdefenseai",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sep_type1_cruise_med",
+        "WS0002": "sep_type1_cruise_med"
+      }
+    },
+	{
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "annihilator",
+        "WS0004": "annihilator"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sep_mrag",
+        "WS0006": "sep_mrag"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sep_mk41"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "sep_lightcycler"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sep_mk48",
+        "WS0010": "sep_mk48",
+        "WS0011": "sep_mk48",
+        "WS0012": "sep_mk48",
+        "WS0013": "sep_mk48",
+        "WS0014": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sep_andross_wing",
+    "sep_andross_wing",
+    "sep_northstar_wing",
+    "sep_northstar_wing",
+    "hoplon_wing",
+    "hoplon_wing"
+  ]
+}

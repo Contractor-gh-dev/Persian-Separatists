@@ -1,0 +1,67 @@
+{
+  "variantId": "sep_station_small_module_mis",
+  "hullId": "sep_station_small_module",
+  "displayName": "Missile",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "sep_vls_med",
+        "WS0008": "sep_vls_med"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "annihilator",
+        "WS0010": "annihilator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "sep_gator_launcher",
+        "WS0012": "sep_gator_launcher",
+        "WS0013": "sep_gator_launcher",
+        "WS0014": "sep_gator_launcher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_mrag",
+        "WS0004": "sep_mrag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "devastator",
+        "WS0002": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "dualflak",
+        "WS0006": "dualflak"
+      }
+    }
+  ],
+  "wings": [
+    "sep_marguese_wing",
+    "sep_andross_wing",
+    "sep_andross_wing"
+  ]
+}

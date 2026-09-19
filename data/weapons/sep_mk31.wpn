@@ -1,0 +1,36 @@
+{
+  "id": "sep_mk31",
+  "specClass": "projectile",
+  "projectileSpecId": "sep_mk31_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/mk31/sep_mk31_turret.png",
+  "turretGunSprite": "graphics/weapons/mk31/sep_mk31_turret_barrels.png",
+  "turretUnderSprite": "graphics/weapons/mk31/sep_mk31_turret_base.png",
+  "hardpointSprite": "graphics/weapons/mk31/sep_mk31_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/mk31/sep_mk31_hardpoint_barrels.png",
+  "visualRecoil": 8,
+  "renderHints": [RENDER_BARREL_BELOW],
+  "turretOffsets": [
+	21,3.5,
+	21,-3.5
+  ],
+  "turretAngleOffsets": [0,0],
+  "hardpointOffsets": [
+	23,3.5,
+	23,-3.5
+  ],
+  "hardpointAngleOffsets": [0,0],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 22,
+    "spread": 9,
+    "particleSizeMin": 7,
+    "particleSizeRange": 7,
+    "particleDuration": 0.3,
+    "particleCount": 28,
+    "particleColor": [255,225,200,225]
+  },
+  "fireSoundTwo": "heavy_mauler_fire"
+}

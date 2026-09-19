@@ -1,0 +1,315 @@
+{
+	id:"contractor_separatists",
+	"color":[0,100,225,255],
+	
+	"baseUIColor":[0,100,225,255],
+	"darkUIColor":[0,90,210,175],
+	"gridUIColor":[0,100,225,75],
+	"secondaryUIColor":[195,255,255,255],
+    "secondarySegments":8,
+	
+	"displayName":"Separatists",
+	"displayNameWithArticle":"the Separatists",
+	"displayNameLong":"Persean Separatists",
+	"displayNameLongWithArticle":"the Persean Separatists",
+	"displayNameIsOrAre":"are",
+	"logo":"graphics/factions/separatistsflag.png",
+	"crest":"graphics/factions/separatistscrest.png",
+	"shipNamePrefix":"PSM",
+	"shipNameSources":{
+		"REVOLUTIONARY":3,
+		"BRITISH_NAVY":2,
+		"GENERAL":1,
+	},
+	"names":{
+		"old english":1,
+		"modern":2,
+		"future":2,	
+	},
+	"variantOverrides":{
+
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{},
+		"hulls":{
+			"sep_comet_sep":1.4,
+			"sep_venom_mk1":0.8,
+			"sep_grizzly":0.9,
+			"sep_starmaster":0.2,
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	# defaults to same as knownShips when empty
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[],
+	},
+	"knownShips":{
+		"tags":["sep_ship_bp","sep_ship_mil_bp","sep_ship_rare_bp"],
+		"hulls":[
+			"dram",
+			"phaeton",
+			"prometheus",
+			"atlas",
+			"mercury",
+			"hermes",
+			"starliner",
+			
+			"sep_starmaster",
+			"sep_safeguard",
+			"sep_overlord",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["sep_ship_bp","sep_ship_mil_bp","sep_ship_rare_bp",],
+		"hulls":[
+			"sep_safeguard",
+		],
+	},
+	"knownFighters":{
+		"tags":["sep_fighter_bp"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":["sep_fighter_bp"],
+		"fighters":[
+			"sep_andross_wing",
+			"sep_fearless_wing",
+			"sep_northstar_wing",
+			"sep_voidwolf_wing",
+			"sep_ripcord_wing",
+		],
+	},
+	"knownWeapons":{
+		"tags":["sep_wep_bp", "sep_wep_rare_bp"],
+		"weapons":[
+			"lightmg",
+			"lightdualmg",
+			"vulcan",
+
+			"heavymortar",
+			"chaingun",
+			"heavyac",
+			"flak",
+			"dualflak",
+			
+			"devastator",
+			
+			"reaper",
+			"atropos",
+			"atropos_single",
+			"swarmer",
+			"annihilator",
+			"heatseeker",
+			"harpoon",
+			"harpoon_single",
+			"breach",
+			"sabot",
+			"sabot_single",
+			
+			"pilum",
+			"breachpod",
+			"harpoonpod",
+			"sabotpod",
+			"typhoon"
+		],
+	},
+	"priorityWeapons":{
+		"tags":["sep_wep_bp", "sep_wep_rare_bp"],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["standard"],
+		"hullMods":[
+			"contractor_hardenedarmor",
+			"contractor_compositearmor",
+			"contractor_dclockers",
+		],
+	},
+	"weaponSellFrequency":{
+		
+	},
+	"fighterSellFrequency":{
+		"sep_voidwolf_wing":0.25,
+		"sep_marguese_wing":0.5,
+		"sep_andross_wing":3,
+	
+	},
+	"hullmodSellFrequency":{
+		
+	},
+	"factionDoctrine":{
+		"warships":3,
+		"carriers":3,
+		"phaseShips":0,
+		
+		"officerQuality":1,
+		"shipQuality":2,
+		"numShips":4,
+		
+		"shipSize":3,
+		
+		"aggression":4,
+		
+		"combatFreighterProbability":0.4,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.1,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"officerSkillsShuffleProbability":0f,
+		"officerSkills":[
+		
+		],
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"fighter_uplink",
+			"carrier_group",
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"wolfpack_tactics",
+			#"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+		"ai_cores",
+		"organs",
+	],
+	"music":{
+		"theme":"music_persean_league_market_neutral",
+		"market_neutral":"music_persean_league_market_neutral",
+		"market_hostile":"music_persean_league_market_hostile",
+		"market_friendly":"music_persean_league_market_friendly",
+		"encounter_neutral":"music_persean_league_encounter_neutral",
+		"encounter_hostile":"music_persean_league_encounter_hostile",
+		"encounter_friendly":"music_persean_league_encounter_friendly",
+	},	
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_mercenary03.png",
+			"graphics/portraits/portrait12.png",
+			"graphics/portraits/portrait13.png",
+			"graphics/portraits/portrait15.png",
+			"graphics/portraits/portrait17.png",
+			"graphics/portraits/portrait18.png",
+			"graphics/portraits/portrait20.png",
+			"graphics/portraits/portrait23.png",
+			"graphics/portraits/portrait25.png",
+			"graphics/portraits/portrait26.png",
+			"graphics/portraits/portrait30.png",
+			"graphics/portraits/portrait31.png",
+			"graphics/portraits/portrait33.png",
+			"graphics/portraits/portrait35.png",
+			"graphics/portraits/portrait38.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_mercenary05.png",
+			"graphics/portraits/portrait14.png",
+			"graphics/portraits/portrait16.png",
+			"graphics/portraits/portrait21.png",
+			"graphics/portraits/portrait22.png",
+			"graphics/portraits/portrait27.png",
+			"graphics/portraits/portrait28.png",
+			"graphics/portraits/portrait29.png",
+			"graphics/portraits/portrait32.png",
+			"graphics/portraits/portrait34.png",
+			"graphics/portraits/portrait37.png",
+			"graphics/portraits/portrait41.png",
+			"graphics/portraits/portrait42.png",
+		],
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,	
+			"spacer":5,
+			"business":3,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"spacer":5,
+			"official":3,
+			"business":5,
+		},
+		"HIGH":{
+			"soldier":5,
+			"official":5,
+			"business":5,
+		},
+	},	
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"ignoreTradeWithEnemiesForReputation":false,
+		"allowsTransponderOffTrade":true,
+		"buysAICores":true,
+		"AICoreValueMult":1,
+		"AICoreRepMult":1.5,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":false,
+		"caresAboutAtrocities":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+		"simulatorData":{
+            "showInSimulator":true,
+        },
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Acting President"},
+
+            "spaceSailor":{"name":"Crewmate"},
+            "spaceChief":{"name":"Chief"},
+            "spaceEnsign":{"name":"Ensign"},
+            "spaceLieutenant":{"name":"Lieutenant"},
+            "spaceCommander":{"name":"Commander"},
+            "spaceCaptain":{"name":"Captain"},
+            "spaceAdmiral":{"name":"Admiral"},
+            "spaceMarshal":{"name":"Grand Admiral"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Acting President"},
+
+            "patrolCommander":{"name":"Militia Captain"},
+            "fleetCommander":{"name":"Militia Admiral"},
+            "baseCommander":{"name":"General"},
+            "stationCommander":{"name":"Harbor Master"},
+            "outpostCommander":{"name":"Representative"},
+            "portmaster":{"name":"Portmaster"},
+
+            "supplyOfficer":{"name":"Supply Officer"},
+            "supplyManager":{"name":"Quartermaster"},
+            "medicalSupplier":{"name":"Chief Medical Officer"},
+
+            "trader":{"name":"Trader"},
+            "merchant":{"name":"Merchant"},
+
+            "investigator":{"name":"Detective"},
+
+            "administrator":{"name":"Governor"},
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Trade Fleet",
+		"tradeLiner":"Liner Convoy",
+		"tradeSmuggler":"Smuggler",
+		"smallTrader":"Trader",
+		
+		"patrolSmall":"Local Patrol",
+		"patrolMedium":"Militia Group",
+		"patrolLarge":"System Army",
+		
+		"inspectionFleet":"Inspection Fleet",
+		"taskForce":"Task Force",
+		
+		"foodReliefFleet":"Relief Convoy",
+	},
+},

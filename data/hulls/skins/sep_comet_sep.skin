@@ -1,0 +1,20 @@
+{
+  "baseHullId": "sep_comet",
+  "baseValueMult": 1,
+  "builtInMods": ["shielded_holds"],
+  "builtInWeapons":{
+	"BI01": "sep_mk55",
+	"BI02": "sep_gator_launcher"
+    },
+  "descriptionId": "sep_comet",
+  "descriptionPrefix": "This Comet is of original Separatist spec.",
+  "hullDesignation": "Corvette",
+  "hullName": "Comet",
+  "manufacturer": "Separatists",
+  "restoreToBaseHull": false,
+  "skinHullId": "sep_comet_sep",
+  "spriteName": "graphics/ships/contractor/comet/sep_comet.png",
+  "systemId": "sep_flarelauncher_ship",
+  "tags":["sep_ship_bp"],
+  "tech": "Separatists"
+}

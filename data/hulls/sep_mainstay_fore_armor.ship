@@ -1,0 +1,36 @@
+{
+  "hullName": "Mainstay Fore Module",
+  "hullId": "sep_mainstay_fore_armor",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/contractor/mainstay/sep_mainstay_armor_small2.png",
+  "style": "SEPARATISTS",
+  "height": 38,
+  "width": 86,
+  "center": [43, 19],
+  "collisionRadius": 48,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 46,
+  "viewOffset": 0,
+  "builtInHullMods":[
+	"always_detaches",
+	"reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 0,
+      "locations": [13, 0]
+    }
+  ],
+  "bounds": [
+    4, 39,
+    -15, 38,
+    -15, -38,
+    4, -39,
+    16, -0
+  ]
+}

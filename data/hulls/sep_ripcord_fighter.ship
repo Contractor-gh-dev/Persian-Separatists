@@ -1,0 +1,83 @@
+{
+  "hullName": "Ripcord",
+  "hullId": "sep_ripcord_fighter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/contractor/fighters/sep_ripcord.png",
+  "style": "SEPARATISTS",
+  "height": 34,
+  "width": 22,
+  "center": [11, 17],
+  "collisionRadius": 20,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-2, -6]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-2, 6]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-2, 8]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-2, -8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, -0],
+      "length": 28,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-16, -3],
+      "length": 22,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-16, 3],
+      "length": 22,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "SEPARATISTS_OVER"
+    }
+  ],
+  "bounds": [
+    -13, 8,
+    16, -0,
+    -13, -8
+  ]
+}

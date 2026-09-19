@@ -1,0 +1,56 @@
+{
+  "variantId": "sep_spectre_sp",
+  "hullId": "sep_spectre",
+  "displayName": "Support",
+  "goalVariant": false,
+  "fluxCapacitors": 4,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "eccm",
+    "hardened_subsystems",
+    "nav_relay",
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_kessler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sep_mk55",
+        "WS0003": "sep_mk55",
+        "WS0004": "sep_mk55",
+        "WS0005": "sep_mk55"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "heatseeker",
+        "WS0009": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sep_mk48",
+        "WS0007": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sep_andross_wing"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "variantId": "drg_hydra_sp",
+  "hullId": "drg_hydra",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardened_subsystems",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "irpulse",
+        "WS0007": "drg_cascade"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heatseeker"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

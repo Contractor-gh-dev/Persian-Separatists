@@ -1,0 +1,80 @@
+{
+  "variantId": "sep_independence_vls",
+  "hullId": "sep_independence",
+  "displayName": "VLS",
+  "goalVariant": true,
+  "fluxCapacitors": 28,
+  "fluxVents": 11,
+  "quality": 1.1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "missleracks",
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hurricane",
+        "WS0002": "hurricane"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "sep_vls_med_dumb",
+        "WS0004": "sep_vls_med_dumb",
+        "WS0022": "sep_vls_med_dumb",
+        "WS0023": "sep_vls_med_dumb"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "sep_ags",
+        "WS0021": "sep_ags"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sep_mk4"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sep_lightcycler",
+        "WS0007": "sep_lightcycler",
+        "WS0008": "sep_mk48",
+        "WS0009": "sep_mk48",
+        "WS0010": "sep_mk48",
+        "WS0011": "sep_mk48",
+        "WS0012": "sep_mk48",
+        "WS0013": "sep_mk48",
+        "WS0014": "sep_mk48",
+        "WS0015": "sep_mk48"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "sep_mk38",
+        "WS0017": "sep_mk38",
+        "WS0018": "sep_mk38",
+        "WS0019": "sep_mk38"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sep_fearless_wing"
+  ]
+}

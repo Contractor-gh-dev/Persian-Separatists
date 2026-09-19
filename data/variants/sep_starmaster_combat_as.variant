@@ -1,0 +1,56 @@
+{
+  "variantId": "sep_starmaster_combat_as",
+  "hullId": "sep_starmaster_combat",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 26,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sep_kessler",
+        "WS0002": "sep_kessler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "sep_mk4"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "sep_mrag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "sep_lightcycler",
+        "WS0012": "sep_lightcycler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sep_mk48",
+        "WS0008": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

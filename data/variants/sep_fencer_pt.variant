@@ -1,0 +1,53 @@
+{
+  "variantId": "sep_fencer_pt",
+  "hullId": "sep_fencer",
+  "displayName": "Patrol",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missile_autoloader",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "atropos_single",
+        "WS0005": "atropos_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_mk24",
+        "WS0002": "sep_mk24",
+        "WS0003": "sep_mk24"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sep_mk48",
+        "WS0007": "sep_mk48"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "vulcan",
+        "WS0009": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sep_northstar_wing"
+  ]
+}

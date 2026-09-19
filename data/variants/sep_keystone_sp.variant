@@ -1,0 +1,47 @@
+{
+  "variantId": "sep_keystone_sp",
+  "hullId": "sep_keystone",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "reinforcedhull",
+    "contractor_hardenedarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_mk55",
+        "WS0002": "sep_mk55"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "heatseeker",
+        "WS0006": "heatseeker",
+        "WS0007": "heatseeker",
+        "WS0008": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_mk48",
+        "WS0004": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [
+	{"MS0001":"sep_keystone_armor_sd"}
+  ],
+  "wings": []
+}

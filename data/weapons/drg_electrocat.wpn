@@ -1,0 +1,44 @@
+{
+  "id": "drg_electrocat",
+  "specClass": "projectile",
+  "projectileSpecId": "drg_electrocat_shot",
+  "type": "HYBRID",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/electrocat/drg_electrocat_turret.png",
+  "turretGlowSprite": "graphics/weapons/electrocat/drg_electrocat_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/electrocat/drg_electrocat_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/electrocat/drg_electrocat_hardpoint_glow.png",
+  "glowColor": [200,0,50,200],
+  "turretOffsets": [
+    6,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    12,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 30,
+    "particleSizeMin": 4,
+    "particleSizeRange": 6,
+    "particleDuration": 0.3,
+    "particleCount": 8,
+    "particleColor": [
+      200,
+      0,
+      50,
+      255
+    ]
+  },
+  "fireSoundTwo":"drg_electrocat_fire",
+}

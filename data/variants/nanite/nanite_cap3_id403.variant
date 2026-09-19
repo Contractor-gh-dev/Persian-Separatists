@@ -1,0 +1,93 @@
+{
+  "variantId": "nanite_cap3_id403",
+  "hullId": "nanite_cap3",
+  "displayName": "ID 403",
+  "goalVariant": false,
+  "fluxCapacitors": 40,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "locust"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0027": "reaper",
+        "WS0028": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tpc",
+        "WS0003": "hephag",
+        "WS0006": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hellbore",
+        "WS0008": "hveldriver",
+        "WS0010": "phasebeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0016": "nanite_corrupter",
+        "WS0018": "nanite_corrupter",
+        "WS0025": "nanite_corrupter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "devastator",
+        "WS0007": "dualflak",
+        "WS0009": "flak",
+        "WS0012": "lightmg",
+        "WS0013": "lightmg",
+        "WS0014": "lightac",
+        "WS0015": "lightmg",
+        "WS0017": "lightmg",
+        "WS0019": "vulcan",
+        "WS0020": "vulcan",
+        "WS0021": "heatseeker",
+        "WS0022": "flak",
+        "WS0023": "lightmg",
+        "WS0024": "lightac",
+        "WS0026": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "nanite_fighter_wing1",
+    "nanite_fighter_wing2",
+    "nanite_fighter_wing2",
+    "nanite_fighter_wing3",
+    "nanite_fighter_wing3"
+  ]
+}

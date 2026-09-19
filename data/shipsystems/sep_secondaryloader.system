@@ -1,0 +1,14 @@
+{
+	"id":"sep_secondaryloader",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"contractor.data.scripts.shipsystems.SepSecondaryLoaderAI",	
+	
+	"statsScript":"contractor.data.scripts.shipsystems.SepSecondaryLoader",
+	
+	"weaponGlowColor":[255,50,0,175],
+	"weaponTypes":[BALLISTIC],
+	
+	"useSound":"sep_sys_secondaryloader_use",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

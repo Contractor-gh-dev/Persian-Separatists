@@ -1,0 +1,93 @@
+{
+  "variantId": "nanite_cap3_id400",
+  "hullId": "nanite_cap3",
+  "displayName": "ID 400",
+  "goalVariant": false,
+  "fluxCapacitors": 40,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hydra"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "breachpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0027": "harpoon",
+        "WS0028": "harpoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tpc",
+        "WS0003": "mark9",
+        "WS0006": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hephag",
+        "WS0007": "hveldriver",
+        "WS0010": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "nanite_corrupter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "devastator",
+        "WS0008": "flak",
+        "WS0009": "flak",
+        "WS0012": "lightmg",
+        "WS0013": "lightmg",
+        "WS0014": "lightac",
+        "WS0015": "lightmg",
+        "WS0017": "lightmg",
+        "WS0018": "mininglaser",
+        "WS0019": "vulcan",
+        "WS0020": "vulcan",
+        "WS0021": "heatseeker",
+        "WS0022": "flak",
+        "WS0023": "lightmg",
+        "WS0024": "lightac",
+        "WS0025": "lightmg",
+        "WS0026": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "nanite_fighter_wing1",
+    "nanite_fighter_wing1",
+    "nanite_fighter_wing1",
+    "nanite_fighter_wing2",
+    "nanite_fighter_wing3"
+  ]
+}

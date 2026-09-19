@@ -1,0 +1,70 @@
+{
+  "variantId": "drg_seraph_as",
+  "hullId": "drg_seraph",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 44,
+  "quality": 0.8,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "high_scatter_amp",
+    "stabilizedshieldemitter",
+    "reinforcedhull",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "BI0001": "drg_seraphmain"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "hil",
+        "WS0012": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "drg_cascade",
+        "WS0004": "drg_cascade"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "taclaser",
+        "WS0002": "taclaser",
+        "WS0007": "taclaser",
+        "WS0008": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyburst",
+        "WS0006": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lrpdlaser",
+        "WS0010": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

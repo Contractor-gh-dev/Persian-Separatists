@@ -1,0 +1,209 @@
+{
+  "hullName": "Wellerman",
+  "hullId": "sep_wellerman",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/contractor/wellerman/sep_wellerman.png",
+  "style": "SEPARATISTS",
+  "height": 188,
+  "width": 116,
+  "center": [66, 96],
+  "collisionRadius": 116,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 110.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -50,
+      "locations": [17, -16]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -90,
+      "locations": [-16, -16]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -130,
+      "locations": [-50, -16]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-16, 51]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [65, 10]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-93, -7.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-93, 1],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-93, 9.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-89, -22.5],
+      "length": 40,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 36,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-89, 24.5],
+      "length": 40,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 36,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-95, -22.5],
+      "length": 46,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [-95, 24.5],
+      "length": 46,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "SEPARATISTS_UNDER"
+    },
+    {
+      "location": [33, -41],
+      "length": 24,
+      "width": 6,
+      "angle": -60,
+      "contrailSize": 128,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-65, 44],
+      "length": 24,
+      "width": 6,
+      "angle": 120,
+      "contrailSize": 128,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-65, -42],
+      "length": 24,
+      "width": 6,
+      "angle": -120,
+      "contrailSize": 128,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [31, 45],
+      "length": 24,
+      "width": 6,
+      "angle": 60,
+      "contrailSize": 128,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [37, 37.5],
+      "length": 20,
+      "width": 4,
+      "angle": 0,
+      "contrailSize": 128,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [37, 33.5],
+      "length": 20,
+      "width": 4,
+      "angle": 0,
+      "contrailSize": 128,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [37, 29.5],
+      "length": 20,
+      "width": 4,
+      "angle": 0,
+      "contrailSize": 128,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [15, 53],
+      "length": 16,
+      "width": 4,
+      "angle": 75,
+      "contrailSize": 128,
+      "style": "SEPARATISTS_OVER"
+    },
+    {
+      "location": [-48, 53],
+      "length": 16,
+      "width": 4,
+      "angle": 105,
+      "contrailSize": 128,
+      "style": "SEPARATISTS_OVER"
+    }
+  ],
+  "bounds": [
+    -85, 34,
+    -85, -34,
+    -63, -47,
+    30, -47,
+    76, -39,
+    90, -30,
+    90, -17,
+    64, 16,
+    37, 16,
+    37, 41,
+    -1, 64,
+    -32, 64
+  ]
+}

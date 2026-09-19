@@ -1,0 +1,31 @@
+{
+	"id":"sep_rag_fighter",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"turretSprite":"graphics/weapons/rag/sep_rag_tur00.png",
+	"hardpointSprite":"graphics/weapons/rag/sep_rag_hard00.png",	
+	"numFrames":5,	
+	"frameRate":30,
+	"turretOffsets": [13,-3],
+    "turretAngleOffsets": [0],
+    "hardpointOffsets": [20,-3],
+    "hardpointAngleOffsets": [0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec": {
+    "length": 30,
+    "spread": 8,
+    "particleSizeMin": 8,
+    "particleSizeRange": 10,
+    "particleDuration": 0.33,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]},	
+	"projectileSpecId":"sep_rag_fighter_shot",  # projectile that will be fired	
+	"fireSoundTwo": "sep_rag_fighter_fire",	
+}

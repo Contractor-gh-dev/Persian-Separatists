@@ -1,0 +1,209 @@
+{
+  "hullName": "New Hull",
+  "hullId": "nanite_cru1",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/bananoofdoom/4.png",
+  "style": "CON_NANITE",
+  "height": 277,
+  "width": 248,
+  "center": [110, 124],
+  "collisionRadius": 193.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 185,
+  "viewOffset": 0,
+  "builtInMods": [
+	"contractor_nanite_hull",
+	"contractor_bioarmor",
+	"automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [14, -20]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -30,
+      "locations": [140.5, -32]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 45,
+      "locations": [56, 36]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-43, 82]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [85.5, 8]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -30,
+      "locations": [46, 77]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [6, 94]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -160,
+      "locations": [-22, 48]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -165,
+      "locations": [-106, -25]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -90,
+      "locations": [1, -120]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [1, -77]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [5, -57]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -135,
+      "locations": [-54, -78]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -44, 16,
+        -41.5, 6.5,
+        -64.5, -1
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-76, -78],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-81, -57],
+      "length": 88,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-102, 68.5],
+      "length": 42,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-102, 76.5],
+      "length": 48,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-98, 91],
+      "length": 64,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    149, -28,
+    48, 67,
+    47.5, 89,
+    35, 93,
+    19, 83,
+    6, 102,
+    -92, 105,
+    -91, 38,
+    -48.5, 9,
+    -119, -18,
+    -55, -96,
+    -25, -90,
+    1, -129,
+    49, -54
+  ]
+}

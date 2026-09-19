@@ -1,0 +1,53 @@
+{
+  "variantId": "sep_starmaster_cargo_sd",
+  "hullId": "sep_starmaster_cargo",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector",
+    "pointdefenseai",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "sep_kessler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "sep_ags"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "sep_mk48",
+        "WS 009": "sep_mk48"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "sep_mk48",
+        "WS 010": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "MS 000": "sep_starmaster_armor_sd"
+    }
+  ],
+  "wings": []
+}

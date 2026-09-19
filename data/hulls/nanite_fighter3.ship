@@ -1,0 +1,86 @@
+{
+  "hullName": "Conflation",
+  "hullId": "nanite_fighter3",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/contractor/nanite/nanite_fighter3.png",
+  "style": "CON_NANITE",
+  "height": 40,
+  "width": 38,
+  "center": [19, 20],
+  "collisionRadius": 30,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 29,
+  "viewOffset": 0,
+  "builtInMods": [
+    "contractor_bioarmor"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [17, -2.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, -10.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [14, 4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, -11],
+      "length": 24,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-16, 15],
+      "length": 32,
+      "width": 10,
+      "angle": 150,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-17, -0],
+      "length": 28,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16.5, 7],
+      "length": 16,
+      "width": 8,
+      "angle": -175,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    17, 8,
+    -16, 17,
+    -16, -15,
+    10, -15
+  ]
+}

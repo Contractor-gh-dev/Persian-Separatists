@@ -1,0 +1,19 @@
+{
+	"id":"sep_spoofjammer",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+
+	"statsScript":"contractor.data.scripts.shipsystems.SepSpoofJammer",
+	"aiScript":"contractor.data.scripts.shipsystems.SepSpoofJammerAI",
+	
+	"engineGlowLengthMult":0.75,
+	"engineGlowWidthMult":0.75,
+	"engineGlowGlowMult":0.75,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.9,
+	"soundFilterGainHF":0.15,
+	
+	"loopSound":"sep_sys_overcharge_fasthigh_loop",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

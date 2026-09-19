@@ -1,0 +1,38 @@
+{
+  "variantId": "sep_marguese_fighter_sd",
+  "hullId": "sep_marguese_fighter",
+  "displayName": "Rigged Interceptor",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_canister_fighter"
+      }
+    },
+	{
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sep_gator_launcher_fighter"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ioncannon_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

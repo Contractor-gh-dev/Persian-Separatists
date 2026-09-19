@@ -1,0 +1,76 @@
+{
+  "variantId": "drg_seraph_sd",
+  "hullId": "drg_seraph",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 48,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "armoredweapons",
+    "hardenedshieldemitter",
+    "stabilizedshieldemitter",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "drg_plasmacaster",
+        "WS0002": "drg_plasmacaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "BI0001": "drg_seraphmain"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "drg_3pc",
+        "WS0012": "drg_3pc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "drg_cascade",
+        "WS0004": "drg_cascade"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "drg_needle_small",
+        "WS0008": "drg_needle_small"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyburst",
+        "WS0006": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

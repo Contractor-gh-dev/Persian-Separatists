@@ -1,0 +1,63 @@
+{
+  "variantId": "drg_observer_tac",
+  "hullId": "drg_observer",
+  "displayName": "Tactical",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 22,
+  "quality": 0.8,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "sep_kessler",
+        "WS0015": "sep_kessler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ionbeam",
+        "WS0002": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "taclaser",
+        "WS0004": "taclaser",
+        "WS0005": "taclaser",
+        "WS0006": "taclaser",
+        "WS0007": "taclaser",
+        "WS0008": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "taclaser",
+        "WS0010": "taclaser",
+        "WS0011": "taclaser",
+        "WS0012": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "taclaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

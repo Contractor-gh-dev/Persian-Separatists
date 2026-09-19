@@ -1,0 +1,19 @@
+{
+	"id":"nanite_corrupter_shot",
+	"specClass":"projectile",
+	"onHitEffect":"contractor.data.scripts.weapons.shots.NaniteCorrupterOnHit",
+	"onFireEffect":"contractor.data.scripts.weapons.shots.NaniteCorrupterOnHit",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":24,
+	"width":10,
+	"fadeTime":0.3,
+	"fringeColor":[130,155,145,255],
+	"coreColor":[215,255,235,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"bulletSprite":"graphics/missiles/nanite_corrupter_shot.png"	
+}

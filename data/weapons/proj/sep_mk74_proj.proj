@@ -1,0 +1,19 @@
+{
+	"id":"sep_mk74_shot",
+	"specClass":"projectile",
+	"onHitEffect":"contractor.data.scripts.weapons.shots.SepMk74OnHit",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":18.0,
+	"width":3.0,
+	"fadeTime":0.2,
+	"fringeColor":[255,120,70,235],
+	"coreColor":[255,100,120,180],
+	"hitGlowRadius":25,	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_large_yellow.png",
+	"explosionColor":[255,110,70,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":20, # purely visual
+}

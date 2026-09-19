@@ -1,0 +1,15 @@
+{
+	"id":"drg_cryogenicdischarge",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	
+	"statsScript":"contractor.data.scripts.shipsystems.DrgCryogenicDischarge",
+	"aiScript":"contractor.data.scripts.shipsystems.DrgCryogenicDischargeAI",
+	
+	#"weaponDataId":"drg_entropicemitter",
+	"outOfUsesSound":"gun_out_of_ammo",
+	"useSound":"drg_sys_cryogenic_activate",
+	"loopSound":"cryoflamer_loop",
+	"deactivateSound":"drg_sys_cryogenic_deactivate"
+}

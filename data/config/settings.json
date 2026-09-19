@@ -1,0 +1,77 @@
+{
+	"enableSeparatistStart":true,
+	
+	"ruleCommandPackages":[
+		"contractor.data.scripts.rulecmd",
+	],
+	
+	"designTypeColors":{
+        "Separatists":[0,100,225,255],
+        "Dusk Group":[160,2,70,255],
+		"Nanite":[187,207,146,175],
+    },
+	
+	"graphics":{
+		"blueprint_packages":{ 
+			"sep_ship_bp_package":"graphics/icons/cargo/sep_blueprint.png",
+			"sep_ship_mil_bp_package":"graphics/icons/cargo/sep_blueprint.png",
+			"sep_ship_rare_bp_package":"graphics/icons/cargo/sep_blueprint.png",
+			"sep_wep_bp_package":"graphics/icons/cargo/sep_blueprint.png",
+			"sep_wep_rare_bp_package":"graphics/icons/cargo/sep_blueprint.png", 			
+			"sep_fighter_bp_package":"graphics/icons/cargo/sep_blueprint.png", 
+			"sep_hm_bp_package":"graphics/icons/cargo/sep_blueprint.png", 
+			
+			"drg_ship_bp_package":"graphics/icons/cargo/drg_blueprint.png",
+			"drg_wep_bp_package":"graphics/icons/cargo/drg_blueprint.png", 
+			"drg_fighter_bp_package":"graphics/icons/cargo/drg_blueprint.png", 
+			"drg_hm_bp_package":"graphics/icons/cargo/drg_blueprint.png",
+		},
+		"illustrations":{
+			"duskblacksite":"graphics/illustrations/duskblacksite.png",
+			"salvagedeadfenar":"graphics/illustrations/salvagedeadfenar.png",
+			"biometalanalysis":"graphics/illustrations/drg_biometal_assembly.png",
+		},
+		"codex":{
+			"drg_status":"graphics/icons/status/status_cat.png",
+			"drg_status_cryogenic":"graphics/icons/status/status_cryo.png",
+			"drg_status_entropic":"graphics/icons/status/status_entropic.png",
+			"sep_status_jammed":"graphics/icons/status/status_jam.png",
+			"drg_status_radiation":"graphics/icons/status/status_rad.png",
+			"drg_status_thermal":"graphics/icons/status/status_blank.png",
+			"drg_status_electric":"graphics/icons/status/status_electric.png",
+			"drg_status_other":"graphics/icons/status/status_blank.png",
+			"sep_command_missiles":"graphics/icons/tactical/command_missile.png",
+			"nanite_status_corruption":"graphics/icons/tactical/reality_disrupted.png",
+		},
+		"characters":{
+			"duskBlacksiteAlphaAdmin":"graphics/portraits/characters/yannick_ram.png",
+			"duskFactionLeader":"graphics/portraits/portrait_diktat12.png",
+			"duskPsiAI":"graphics/portraits/portrait_contractor_psi_ai2.png",
+			"sepFactionLeader":"graphics/portraits/portrait_league02.png",
+			"fenarFactionLeader":"graphics/portraits/fenar/fenar_leader.png",
+		},
+		"systems":{
+			"drg_needle_sprite":"graphics/missiles/drg_needle.png",
+			"drg_hydra_sprite":"graphics/ships/contractor/drg/drg_hydra.png",
+			"drg_cryo_ui_sprite":"graphics/icons/status/status_cryo.png",
+			"drg_entropic_ui_sprite":"graphics/icons/status/status_entropic.png",
+			"drg_electric_ui_sprite":"graphics/icons/status/status_electric.png",
+			"drg_rad_ui_sprite":"graphics/icons/status/status_rad.png",
+			"drg_jam_ui_sprite":"graphics/icons/status/status_jam.png",
+			"contractor_commandmissile":"graphics/icons/tactical/command_missile.png",
+			"sep_spectre_sprite":"graphics/ships/contractor/spectre/sep_spectre.png",
+		},
+		"ui":{
+			"contractor_ui_efdstatus":"graphics/icons/tactical/contractor_efdstatus.png",
+		},
+		# does not support animations
+		"weaponSkinsPlayerAndNPC":{
+			"sep_kessler:LOW_TECH:TURRET":"graphics/weapons/kessler/sep_kessler_small.png",
+			"sep_kessler:LOW_TECH:HARDPOINT":"graphics/weapons/kessler/sep_kessler_small_hardpoint.png",
+			"sep_kessler:SEPARATISTS:TURRET":"graphics/weapons/kessler/sep_kessler_small.png",
+			"sep_kessler:SEPARATISTS:HARDPOINT":"graphics/weapons/kessler/sep_kessler_small_hardpoint.png",
+			"sep_kessler:DUSK_GROUP:TURRET":"graphics/weapons/kessler/drg_kessler_small.png",
+			"sep_kessler:DUSK_GROUP:HARDPOINT":"graphics/weapons/kessler/drg_kessler_small_hardpoint.png",
+		},
+	},
+}

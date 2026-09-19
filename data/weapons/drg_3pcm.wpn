@@ -1,0 +1,22 @@
+{
+	"id":"drg_3pcm",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"turretSprite": "graphics/weapons/3pc/drg_3pcm_turret.png",
+	"turretUnderSprite":"graphics/weapons/3pc/drg_3pcm_cover.png",
+    "turretGlowSprite": "graphics/weapons/3pc/drg_3pcm_turret_glow.png",
+    "hardpointSprite": "graphics/weapons/3pc/drg_3pcm_hardpoint.png",
+    "hardpointGlowSprite": "graphics/weapons/3pc/drg_3pcm_hardpoint_glow.png",
+	"glowColor": [180,30,120,255],
+	"turretOffsets":[22, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[33.5, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW",
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"drg_3pcm_shot",  # projectile that will be fired
+	"fireSoundOne":"drg_3pcm_charge",
+	"fireSoundTwo":"drg_3pcm_shot",
+}

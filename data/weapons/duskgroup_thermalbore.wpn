@@ -1,0 +1,56 @@
+{
+  "id": "duskgroup_thermalbore",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "collisionClass":"RAY",
+  "collisionClassByFighter":"RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/thermalbore/duskgroup_thermalboretur00.png",
+  "turretGlowSprite": "graphics/weapons/thermalbore/duskgroup_thermalboretur_glow.png",
+  "hardpointSprite": "graphics/weapons/thermalbore/duskgroup_thermalbore00.png",
+  "hardpointGlowSprite": "graphics/weapons/thermalbore/duskgroup_thermalbore_glow.png",
+  "glowColor": [100,1,22,255],
+  "coreColor":[150,25,50,255],
+  "fringeColor":[100,1,22,255],
+  "darkCore":true,
+  "convergeOnPoint":false,
+  "width":14.0,
+  "textureType":ROUGH,
+  "pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
+  "textureScrollSpeed":292.0,
+  "pixelsPerTexel":5.0,
+  "turretOffsets": [
+    21.5,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    32.5,
+    -0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "numFrames": 10,
+  "frameRate": 60,
+  "muzzleFlashSpec": {
+    "length": 33,
+    "spread": 15,
+    "particleSizeMin": 15,
+    "particleSizeRange": 17,
+    "particleDuration": 0.12,
+    "particleCount": 7,
+    "particleColor": [
+      100,
+      200,
+      255,
+      255
+    ]
+  },
+  "fireSoundOne":"minipulser_fire",
+  #"fireSoundTwo":"minipulser_fire",
+}

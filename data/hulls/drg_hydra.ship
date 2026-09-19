@@ -1,0 +1,182 @@
+{
+  "hullName": "Hydra",
+  "hullId": "drg_hydra",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/contractor/drg/drg_hydra.png",
+  "style": "DUSK_GROUP",
+  "height": 180,
+  "width": 140,
+  "center": [70, 90],
+  "collisionRadius": 97.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 96.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "delicate"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 45,
+      "locations": [46, 37]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -45,
+      "locations": [46, -37]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": 90,
+      "locations": [-1, 50]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": -90,
+      "locations": [-1, -50]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 135,
+      "locations": [-46, 37]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -135,
+      "locations": [-46, -37]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [73, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-83, -16.5],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-83, 16.5],
+      "length": 32,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-80, -44.5],
+      "length": 23,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-80, 44.5],
+      "length": 23,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-83, -35.5],
+      "length": 26,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-83, 35.5],
+      "length": 26,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-75, 4],
+      "length": 40,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-75, -4],
+      "length": 40,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-83, -26.5],
+      "length": 26,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-83, 26.5],
+      "length": 26,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "DUSK_GROUP"
+    }
+  ],
+  "bounds": [
+    -79, 48.5,
+    -26, 59,
+    25, 59,
+    46.5, 54.5,
+    63, 42.5,
+    69, 26.5,
+    75, 20,
+    81.5, 9,
+    81.5, -9,
+    75, -20,
+    69, -26.5,
+    63, -42.5,
+    46.5, -54.5,
+    25, -59,
+    -26, -59,
+    -79, -48.5
+  ]
+}

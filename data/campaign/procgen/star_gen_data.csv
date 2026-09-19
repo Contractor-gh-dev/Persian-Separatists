@@ -1,0 +1,2 @@
+id,age,tags,freqYOUNG,freqAVERAGE,freqOLD,minRadius,maxRadius,habZoneStart,probOrbits,minOrbits,maxOrbits,coronaMin,coronaMult,coronaVar,solarWind,minFlare,maxFlare,crLossMult,lightColorMin,lightColorMax
+star_bluegreen_giant,YOUNG,,6,4,2,1000,1200,5,0.95,3,9,475,1,0.5,12,0,2,4,160 255 200,200 255 230

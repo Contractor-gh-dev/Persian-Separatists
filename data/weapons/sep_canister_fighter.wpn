@@ -1,0 +1,25 @@
+{
+	"id":"sep_canister_fighter",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/weapons/flak_cannon_turret_base.png",
+	"hardpointSprite":"graphics/weapons/flak_cannon_hardpoint_base.png",	
+	"visualRecoil":0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[8, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[12, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # LINKED or ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":45.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":25,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":22.0,
+					   "particleDuration":0.13,
+					   "particleCount":35,
+					   "particleColor":[255,225,165,175]},
+	"projectileSpecId":"sep_canister_fighter_shot",  # projectile that will be fired
+	"fireSoundTwo":"devastator_fire",	
+}

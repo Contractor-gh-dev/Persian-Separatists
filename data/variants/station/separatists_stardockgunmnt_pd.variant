@@ -1,0 +1,37 @@
+{
+  "variantId": "separatists_stardockgunmnt_pd",
+  "hullId": "separatists_stardockgunmnt",
+  "displayName": "PD Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightag",
+        "WS0003": "lightag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

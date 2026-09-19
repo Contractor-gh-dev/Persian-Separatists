@@ -1,0 +1,33 @@
+{
+  "variantId": "sep_comet_tac_sd",
+  "hullId": "sep_comet_tac",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "targetingunit",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "taclaser"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,17 @@
+{
+	"id":"sep_termite_shot",
+	"specClass":"projectile",
+	"onHitEffect":"contractor.data.scripts.weapons.shots.SepTermiteOnHit",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":10.0,
+	"hitGlowRadius":12,
+	"width":6,
+	"fadeTime":0.3,
+	"fringeColor":[255,150,150,150],
+	"coreColor":[255,100,100,200],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/missile_MIRV_warhead.png"
+}

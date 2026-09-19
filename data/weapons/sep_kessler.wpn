@@ -1,0 +1,75 @@
+{
+  "id": "sep_kessler",
+  "specClass": "projectile",
+  "projectileSpecId": "sep_kessler_missile",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/kessler/sep_kessler_small.png",
+  "turretUnderSprite": "graphics/weapons/mk34/sep_mk34_turret_base.png",
+  "hardpointSprite": "graphics/weapons/kessler/sep_kessler_small_hardpoint.png",
+  "turretOffsets": [
+    10.5,
+    4,
+    10.5,
+    -4,
+    9.5,
+    5.5,
+    9.5,
+    -5.5,
+    10.5,
+    7,
+    10.5,
+    -7
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    15.5,
+    4,
+    15.5,
+    -4,
+    14.5,
+    5.5,
+    14.5,
+    -5.5,
+    15.5,
+    7,
+    15.5,
+    -7
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 6,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.5,
+    "cloudRadius": 6,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 0.7,
+    "blowbackLength": 22,
+    "blowbackSpread": 5,
+    "particleColor": [
+      170,
+      150,
+      130,
+      130
+    ]
+  },
+  "fireSoundTwo": "swarmer_fire"
+}

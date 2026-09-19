@@ -1,0 +1,225 @@
+{
+  "hullName": "New Hull",
+  "hullId": "nanite_des2",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/bananoofdoom/2.png",
+  "style": "CON_NANITE",
+  "height": 226,
+  "width": 165,
+  "center": [82.5, 113],
+  "collisionRadius": 136,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 134,
+  "viewOffset": 0,
+  "builtInMods": [
+    "contractor_nanite_hull",
+	"contractor_bioarmor",
+	"automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -120.5,
+      "locations": [-23, -41.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-47, 26.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [46, -40.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [24, -43.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [86, -22.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [63, -4]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-15, -65.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -145,
+      "locations": [-53, -33.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-91, -17.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-105, 13.5],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-105, 23.5],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-105, 4.5],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-111.5, -34],
+      "length": 64,
+      "width": 14,
+      "angle": -160,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-108, -47],
+      "length": 64,
+      "width": 14,
+      "angle": -160,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-87, -56.5],
+      "length": 64,
+      "width": 14,
+      "angle": -140,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-78, -66.5],
+      "length": 64,
+      "width": 14,
+      "angle": -140,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59, -73.5],
+      "length": 64,
+      "width": 14,
+      "angle": -125,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-48, -80.5],
+      "length": 64,
+      "width": 14,
+      "angle": -125,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-36, 80.5],
+      "length": 64,
+      "width": 14,
+      "angle": 135,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-45, 71.5],
+      "length": 64,
+      "width": 14,
+      "angle": 135,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-57, 66.5],
+      "length": 64,
+      "width": 14,
+      "angle": 145,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-64, 54.5],
+      "length": 64,
+      "width": 14,
+      "angle": 145,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    108, -28.5,
+    94, -37.5,
+    14, -51.5,
+    -2, -60.5,
+    -12, -76.5,
+    -102, -48.5,
+    -102, 28.5,
+    -58, 38.5,
+    -52, 66.5,
+    -35, 80.5,
+    -21, 70.5,
+    63, 45.5,
+    75, 31.5,
+    79, 6.5,
+    108, -16.5
+  ]
+}

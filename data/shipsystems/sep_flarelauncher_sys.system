@@ -1,0 +1,9 @@
+{
+	"id":"sep_flarelauncher_sys",
+	"type":"WEAPON",
+	"aiType":"CANISTER_FLAK",
+	
+	"weaponDataId":"sep_flare_bomber",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+}

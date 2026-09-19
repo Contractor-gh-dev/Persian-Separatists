@@ -1,0 +1,53 @@
+{
+  "hullName": "Starmaster Module",
+  "hullId": "sep_starmaster_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/contractor/starmaster/sep_starmaster_cargo_plate.png",
+  "style": "SEPARATISTS",
+  "height": 48,
+  "width": 106,
+  "center": [53, 24],
+  "collisionRadius": 57,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 54,
+  "viewOffset": 0,
+  "builtInHullMods":[
+	"always_detaches",
+	"reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [1, -11]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [1, 11]
+    }
+  ],
+  "bounds": [
+    -8.5, 31.5,
+    -19.5, 31.5,
+    -13.5, 40.5,
+    -14.5, 50.5,
+    0.5, 46.5,
+    12, 15.5,
+    12, -15.5,
+    0.5, -46.5,
+    -14.5, -50.5,
+    -13.5, -40.5,
+    -19.5, -31.5,
+    -8.5, -31.5,
+    -6, -0
+  ]
+}

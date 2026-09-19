@@ -1,0 +1,82 @@
+{
+  "variantId": "nanite_cap2_id351",
+  "hullId": "nanite_cap2",
+  "displayName": "ID 351",
+  "goalVariant": false,
+  "fluxCapacitors": 40,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "drg_3pc",
+        "WS0002": "drg_3pc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lightag",
+        "WS0010": "lightag",
+        "WS0013": "lightac",
+        "WS0014": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "nanite_corrupter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "guardian",
+        "WS0007": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "flak",
+        "WS0006": "flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "vulcan",
+        "WS0011": "vulcan",
+        "WS0012": "pdlaser",
+        "WS0015": "lightmg",
+        "WS0016": "pdlaser",
+        "WS0017": "lrpdlaser",
+        "WS0018": "pdlaser",
+        "WS0020": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "nanite_fighter_wing1",
+    "nanite_fighter_wing3"
+  ]
+}

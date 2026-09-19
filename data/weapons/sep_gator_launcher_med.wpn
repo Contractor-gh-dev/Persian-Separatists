@@ -1,0 +1,50 @@
+{
+  "id": "sep_gator_launcher_med",
+  "specClass": "projectile",
+  "projectileSpecId": "sep_gator_missile",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/gator/sep_gator_med_turret.png",
+  "turretUnderSprite": "graphics/weapons/mk34/sep_mk34_turret_base.png",
+  "hardpointSprite": "graphics/weapons/gator/sep_gator_med_hardpoint.png",
+  "turretOffsets": [
+    14,
+    5,
+    14,
+    -5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    17,
+    5,
+    17,
+    -5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 12,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 6,
+    "cloudDuration": 1.5,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackSpread": 15,
+    "particleColor": [
+      125,
+      75,
+      75,
+      105
+    ]
+  },
+  "fireSoundTwo": "harpoon_fire"
+}

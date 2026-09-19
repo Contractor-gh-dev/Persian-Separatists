@@ -1,0 +1,16 @@
+{
+	"id":"sep_mk41_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":16.0,
+	"hitGlowRadius":16,
+	"width":5.0,
+	"fadeTime":0.15,
+	"fringeColor":[255,100,100,100],
+	"coreColor":[255,150,150,150],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/missile_sabot_warhead.png"
+}

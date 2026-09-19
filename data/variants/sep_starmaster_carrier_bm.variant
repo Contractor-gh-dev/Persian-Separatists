@@ -1,0 +1,46 @@
+{
+  "variantId": "sep_starmaster_carrier_bm",
+  "hullId": "sep_starmaster_carrier",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pilum",
+        "WS0002": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_mk48",
+        "WS0009": "sep_mk48"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sep_mk48",
+        "WS0010": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sep_meteor_wing",
+    "sep_meteor_wing",
+	"sep_voidwolf_wing"
+  ]
+}

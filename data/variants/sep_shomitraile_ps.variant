@@ -1,0 +1,78 @@
+{
+  "variantId": "sep_shomitraile_ps",
+  "hullId": "sep_shomitraile",
+  "displayName": "Pursuit",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 47,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "contractor_dclockers",
+    "ballistic_rangefinder",
+    "dedicated_targeting_core",
+    "eccm",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "sep_vls_small",
+        "WS0009": "sep_vls_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "sep_vls_med_dumb",
+        "WS0006": "sep_vls_small_dumb",
+        "WS0007": "sep_vls_small_dumb"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_mk4"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sep_railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_railgun",
+        "WS0004": "sep_railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "sep_mk41",
+        "WS0013": "sep_mk41"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "sep_mk48",
+        "WS0011": "sep_mk48",
+        "WS0014": "sep_mk48",
+        "WS0015": "sep_mk48"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

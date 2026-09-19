@@ -1,0 +1,194 @@
+{
+  "hullName": "Boltzman",
+  "hullId": "drg_boltzman",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/contractor/boltzman/drg_boltzman.png",
+  "style": "DUSK_GROUP",
+  "height": 148,
+  "width": 136,
+  "center": [68, 66],
+  "collisionRadius": 100,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 96,
+  "viewOffset": 0,
+  "builtInMods": [
+    "auxiliarythrusters"
+  ],
+  "builtInWeapons": {
+    "DEC001": "drg_entropic_deco",
+    "DEC002": "drg_boltzman_deco"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [74, -11]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [74, 11]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-45, -18]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -180,
+      "locations": [-45, 18]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 0,
+      "locations": [26.5, -0]
+    },
+    {
+      "id": "DEC001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 0,
+      "locations": [36, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [63.5, 22.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [63.5, -22.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [63.5, 17.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [63.5, -17.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [63.5, 12.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [63.5, -12.5]
+    },
+    {
+      "id": "DEC002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-19, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-63, -52],
+      "length": 80,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-63, 52],
+      "length": 80,
+      "width": 28,
+      "angle": -180,
+      "contrailSize": 28,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-52, -39.5],
+      "length": 80,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-52, 39.5],
+      "length": 80,
+      "width": 28,
+      "angle": -180,
+      "contrailSize": 28,
+      "style": "DUSK_GROUP"
+    }
+  ],
+  "bounds": [
+    -46, 27,
+    -58, 40,
+    -58, 65,
+    -5, 65,
+    11, 50,
+    11, 30,
+    43, 30,
+    43, 17,
+    79, 17,
+    79, -17,
+    43, -17,
+    43, -30,
+    11, -30,
+    11, -50,
+    -5, -65,
+    -58, -65,
+    -58, -40,
+    -46, -27
+  ]
+}

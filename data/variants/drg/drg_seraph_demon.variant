@@ -1,0 +1,69 @@
+{
+  "variantId": "drg_seraph_demon",
+  "hullId": "drg_seraph",
+  "displayName": "Demon",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 40,
+  "quality": 1.2,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "contractor_dclockers",
+    "drg_hereactor",
+    "high_scatter_amp",
+    "pointdefenseai",
+    "stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "BI0001": "drg_seraphmain"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "guardian",
+        "WS0012": "guardian"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyburst",
+        "WS0004": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "pdburst",
+        "WS0006": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pdburst",
+        "WS0008": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdburst",
+        "WS0002": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

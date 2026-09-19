@@ -1,0 +1,61 @@
+{
+  "variantId": "nanite_des3_id181",
+  "hullId": "nanite_des3",
+  "displayName": "ID 181",
+  "goalVariant": false,
+  "fluxCapacitors": 11,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "sabot",
+        "WS0005": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "chaingun",
+        "WS0003": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "lightdualmg",
+        "WS0008": "lightdualmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

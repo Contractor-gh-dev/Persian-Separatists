@@ -1,0 +1,107 @@
+{
+  "hullName": "Northstar",
+  "hullId": "drg_northstar_fighter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/contractor/fighters/drg_northstar_v2.png",
+  "style": "DUSK_GROUP",
+  "height": 38,
+  "width": 26,
+  "center": [13, 18],
+  "collisionRadius": 21.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 19,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [13, -3.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [13, 3.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [7, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 180,
+      "locations": [-14, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, -5],
+      "length": 5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-15, 5],
+      "length": 5,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-14, -6],
+      "length": 3,
+      "width": 9,
+      "angle": -160,
+      "contrailSize": 9,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-14, 6],
+      "length": 3,
+      "width": 9,
+      "angle": 160,
+      "contrailSize": 9,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-16, -5],
+      "length": 16,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "DUSK_GROUP"
+    },
+    {
+      "location": [-16, 5],
+      "length": 16,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "DUSK_GROUP"
+    }
+  ],
+  "bounds": [
+    -14, 12,
+    19, -0,
+    -14, -12
+  ]
+}

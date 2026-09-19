@@ -1,0 +1,32 @@
+{
+  "variantId": "sep_meteor_fighter_sd",
+  "hullId": "sep_meteor_fighter",
+  "displayName": "Rocket Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_gator_launcher_fighter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "sep_shockwave_fighter",
+        "WS0003": "sep_shockwave_fighter",
+        "WS0005": "sep_shockwave_fighter",
+        "WS0006": "sep_shockwave_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

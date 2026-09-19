@@ -1,0 +1,79 @@
+{
+  "variantId": "drg_seraph_base_sp",
+  "hullId": "drg_seraph_base",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 42,
+  "fluxVents": 45,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "pointdefenseai",
+    "hardenedshieldemitter",
+    "hardened_subsystems",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "breach",
+        "WS0002": "breach"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "gazerpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "drg_3pc",
+        "WS0012": "drg_3pc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ionbeam",
+        "WS0004": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "drg_dazzler",
+        "WS0021": "drg_dazzler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyburst",
+        "WS0006": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pdburst",
+        "WS0008": "pdburst",
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser",
+        "WS0026": "guardian"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

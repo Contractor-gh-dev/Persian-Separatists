@@ -1,0 +1,44 @@
+{
+	"id":"sep_dirty_nuke_payload_small_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"onHitEffect":"contractor.data.scripts.weapons.shots.SepNukeSmallOnHit",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":16.0,
+	"hitGlowRadius":150,
+	"width":6.0,
+	"fadeTime":0.5,
+	"fringeColor":[40,255,30,75],
+	"coreColor":[255,255,255,100],
+	"glowColor":[40,255,30,75],
+	"glowRadius":100,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"bulletSprite":"graphics/missiles/sep_missile_nuke_s2.png",
+	"explosionColor":[40,255,30,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":300, # purely visual
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"onExplosionEffect":"contractor.data.scripts.weapons.shots.SepNukeSmallOnHit",
+					"shotRangeVariance":0.1,
+					"range":0,
+		"explosionSpec":{"duration":0.1f, # not visual
+						 "radius":200,
+						 "coreRadius":125, # full damage within core radius
+						 "collisionClass":PROJECTILE_FF,
+						 "collisionClassByFighter":PROJECTILE_FIGHTER,
+						 "particleSizeMin":8.0,
+						 "particleSizeRange":12.0,
+						 "particleDuration":2,
+						 "particleCount":200,
+						 "particleColor":[40,255,30,200],
+						 "explosionColor":[40,255,30,200],
+						 "detailedExplosionFlashColorFringe":[100,255,100,200],
+						 "detailedExplosionFlashRadius":200,
+						 "useDetailedExplosion":true
+						 },
+					 }
+}

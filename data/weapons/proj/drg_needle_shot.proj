@@ -1,0 +1,32 @@
+{
+	"id":"drg_needle_shot",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"onHitEffect":"contractor.data.scripts.weapons.shots.DrgNeedleOnHit",
+	"sprite":"graphics/missiles/drg_needle.png",
+	"size":[8,26],	
+	"center":[4,14],
+	"collisionRadius":6,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[180,40,100,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":175, # purely visual
+	"fizzleOnReachingWeaponRange":true,
+	"reduceDamageWhileFading":true,
+	"useHitGlowWhenDestroyed":true,
+	"dudProbabilityOnFlameout":0,
+	"flameoutTime":0.5,
+	"noEngineGlowTime":0.05,
+	"fadeTime":0.15,
+	"glowColor":[175,40,100,75],
+	"glowRadius":48,
+	"engineSpec":{"turnAcc":100,
+				  "turnRate":50,
+				  "acc":200,
+				  "dec":100},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-5, 0],
+				    "style":"DUSK_GROUP",
+				    "width":4.0,
+				    "length":10.0,
+				    "angle":180.0}]
+}

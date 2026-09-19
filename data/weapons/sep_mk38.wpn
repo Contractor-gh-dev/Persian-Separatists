@@ -1,0 +1,53 @@
+{
+  "id": "sep_mk38",
+  "specClass": "projectile",
+  "projectileSpecId": "sep_mk38_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/mk38/sep_mk38_turret.png",
+  "turretGunSprite": "graphics/weapons/mk38/sep_mk38_turret_barrels.png",
+  "turretUnderSprite": "graphics/weapons/mk34/sep_mk34_turret_base.png",
+  "hardpointSprite": "graphics/weapons/mk38/sep_mk38_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/mk38/sep_mk38_hardpoint_barrels.png",
+  "visualRecoil": 6,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    22,
+    3,
+    22,
+    -3
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    22,
+    3,
+    22,
+    -3
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 16,
+    "spread": 22,
+    "particleSizeMin": 8,
+    "particleSizeRange": 12,
+    "particleDuration": 0.1,
+    "particleCount": 18,
+    "particleColor": [
+      225,
+      150,
+      90,
+      175
+    ]
+  },
+  "fireSoundTwo": "flak_fire"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "drg_cryobeam",
+  "specClass": "beam",
+  "type": "BUILT_IN",
+  "size": "LARGE",
+  "beamEffect": "contractor.data.scripts.weapons.CryoBeamEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/cryobeam/drg_glacier_wep.png",
+  "turretGlowSprite": "graphics/weapons/cryobeam/drg_glacier_wep_glow.png",
+  "hardpointSprite": "graphics/weapons/cryobeam/drg_glacier_wep.png",
+  "hardpointGlowSprite": "graphics/weapons/cryobeam/drg_glacier_wep_glow.png",
+  "glowColor": [125,125,255,255],
+  "hitGlowRadius": 75,
+  "turretOffsets": [11,0],
+  "turretAngleOffsets": [0],
+  "hardpointOffsets": [11,0],
+  "hardpointAngleOffsets": [0],
+  "fringeColor": [175,175,255,255],
+  "coreColor": [255,255,255,200],
+  "width": 32,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 260,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF
+  ],
+  "fireSoundOne": "drg_cryobeam_start",
+  "fireSoundTwo": "drg_cryobeam_loop"
+}

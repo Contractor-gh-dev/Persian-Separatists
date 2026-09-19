@@ -1,0 +1,73 @@
+{
+  "variantId": "sep_station_small_module_adv",
+  "hullId": "sep_station_small_module",
+  "displayName": "Advanced",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "sep_kessler",
+        "WS0008": "sep_kessler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sep_mk4",
+        "WS0002": "sep_mk4"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sep_ags",
+        "WS0004": "sep_ags"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sep_mk34",
+        "WS0006": "sep_mk34"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "sep_lightcycler",
+        "WS0012": "sep_lightcycler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "sep_mk41",
+        "WS0014": "sep_mk41"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sep_mk48",
+        "WS0010": "sep_mk48"
+      }
+    }
+  ],
+  "wings": [
+    "sep_northstar_wing",
+    "sep_northstar_wing",
+    "sep_voidwolf_wing"
+  ]
+}

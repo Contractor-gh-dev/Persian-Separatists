@@ -1,0 +1,27 @@
+{
+  "variantId": "separatists_stardockhull_core",
+  "hullId": "separatists_stardockhull",
+  "displayName": "Core Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+	{"WS0001": "separatists_stardockgunmnt_core"},
+	{"WS0002": "separatists_stardockhangerright_core"},
+	{"WS0003": "separatists_stardockhangerleft_core"},
+	{"WS0004": "separatists_stardockhangerbig_core"},
+	{"WS0005": "separatists_stardockhangerbig_core"},
+	{"WS0006": "separatists_stardockmismnt_core"},
+	
+	{"WS0007": "module_armour2_Standard"},
+	{"WS0008": "module_armour2_Standard"},
+  
+  
+  
+  ],
+  "wings": []
+}

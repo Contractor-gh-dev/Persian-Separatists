@@ -1,0 +1,47 @@
+{
+  "variantId": "drg_boltzman_sd",
+  "hullId": "drg_boltzman",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 18,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "phasebeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "swarmer",
+        "WS0006": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "drg_plasmacaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "taclaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

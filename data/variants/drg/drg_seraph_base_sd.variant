@@ -1,0 +1,78 @@
+{
+  "variantId": "drg_seraph_base_sd",
+  "hullId": "drg_seraph_base",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "contractor_reflectivearmor",
+    "pointdefenseai",
+    "advancedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "autopulse",
+        "WS0012": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "drg_plasmacaster",
+        "WS0002": "drg_plasmacaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0026": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "drg_3pcm",
+        "WS0004": "drg_3pcm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyburst",
+        "WS0006": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "drg_dazzler",
+        "WS0008": "drg_dazzler",
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser",
+        "WS0020": "pdburst",
+        "WS0021": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

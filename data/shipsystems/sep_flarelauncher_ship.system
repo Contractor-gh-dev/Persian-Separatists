@@ -1,0 +1,8 @@
+{
+	"id":"sep_flarelauncher_ship",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	
+	"weaponDataId":"sep_flare_ship",
+	"outOfUsesSound":"gun_out_of_ammo",
+}
