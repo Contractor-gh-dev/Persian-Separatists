@@ -6,6 +6,9 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 sounds/
+.idea/
+.github/
+.run/
 
 # User-specific stuff
 .idea/**/workspace.xml
@@ -197,13 +200,4 @@ nbdist/
 /starsector-intellij-template.iml
 /jars/PerseanSeparatists.jar
 /optional/player.faction
-/graphics/ships/bananoofdoom/1.png
-/graphics/ships/bananoofdoom/2.png
-/graphics/ships/bananoofdoom/3.png
-/graphics/ships/bananoofdoom/4.png
-/graphics/ships/bananoofdoom/5.png
-/graphics/ships/bananoofdoom/6.png
-/graphics/ships/bananoofdoom/6_glow1.png
-/graphics/ships/bananoofdoom/6_glow2.png
-/graphics/ships/bananoofdoom/7.png
-/graphics/ships/bananoofdoom/8.png
+/graphics/ships/bananoofdoom/
