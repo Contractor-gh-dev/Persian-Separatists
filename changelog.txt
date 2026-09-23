@@ -1,4 +1,4 @@
-Version 0.9.1 (M D, 2026):
+Version 0.9.0b (September 23, 2026):
 - Fixed crash related to Asteroid Cutter hullmod
 - Improved functionality for adding faction mid-save
 - Fixed command missile codex entries appearing in every category
