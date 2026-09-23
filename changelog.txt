@@ -1,0 +1,13 @@
+Version 0.9.1 (M D, 2026):
+- Fixed crash related to Asteroid Cutter hullmod
+- Improved functionality for adding faction mid-save
+- Fixed command missile codex entries appearing in every category
+- Fixed Lunalib change log for in-game display
+
+Version 0.9.0a (September 21, 2026):
+- Fixed loading error related to version_files.csv
+- Added mod thread id to version file
+- Added Lunalib change log for in-game display
+
+Version 0.9.0 (September 19, 2026):
+- Initial release.

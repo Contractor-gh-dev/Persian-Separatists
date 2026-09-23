@@ -81,6 +81,11 @@ public class PerseanSeparatistsModPlugin extends BaseModPlugin {
 			initMisc();
 			if (FENARANS_ENABLED)
 				initFenarans();
+		} else {
+			SharedData.getData().getPersonBountyEventData().addParticipatingFaction(CONTRACTOR_SEP_ID);
+			SharedData.getData().getPersonBountyEventData().addParticipatingFaction(CONTRACTOR_DRG_ID);
+			SeparatistsGen.initFactionRelationships(Global.getSector());
+			DuskGen.initFactionRelationships(Global.getSector());
 		}
 	}
 
@@ -88,9 +93,25 @@ public class PerseanSeparatistsModPlugin extends BaseModPlugin {
 		ContractorStaticVars.loadValues();
 		SectorAPI sector = Global.getSector();
 
+		boolean hasDuskGroup = SharedData.getData().getPersonBountyEventData().isParticipating(CONTRACTOR_DRG_ID);
+		boolean hasSeparatists = SharedData.getData().getPersonBountyEventData().isParticipating(CONTRACTOR_SEP_ID);
 		boolean haveNexerelin = Global.getSettings().getModManager().isModEnabled("nexerelin");
+
 		if (haveNexerelin && sector.getMemoryWithoutUpdate().getBoolean("$nex_randomSector")) {
 			sector.registerPlugin(new ContractorCampaignPlugin());
+
+			if (!hasSeparatists) {
+				SharedData.getData().getPersonBountyEventData().addParticipatingFaction(CONTRACTOR_SEP_ID);
+				SeparatistsGen.initFactionRelationships(sector);
+			}
+			if (!hasDuskGroup) {
+				SharedData.getData().getPersonBountyEventData().addParticipatingFaction(CONTRACTOR_DRG_ID);
+				DuskGen.initFactionRelationships(sector);
+			}
+
+			ContractorMiscGen.generateRestricted(sector);
+			ContractorMiscGen.initNaniteFactionPost(sector);
+
 			return;
 		}
 
@@ -102,8 +123,6 @@ public class PerseanSeparatistsModPlugin extends BaseModPlugin {
 			sector.addScript(new DisposableNaniteFleetManager());
 		sector.registerPlugin(new ContractorCampaignPlugin());
 
-		boolean hasDuskGroup = SharedData.getData().getPersonBountyEventData().isParticipating(CONTRACTOR_DRG_ID);
-		boolean hasSeparatists = SharedData.getData().getPersonBountyEventData().isParticipating(CONTRACTOR_SEP_ID);
 		boolean hasFenarans = sector.getMemoryWithoutUpdate().getBoolean("$FenaransGened");
 
 		if (!hasDuskGroup)
@@ -117,7 +136,7 @@ public class PerseanSeparatistsModPlugin extends BaseModPlugin {
 
 		ContractorMiscGen.initNaniteFactionPost(sector);
 
-		Global.getSector().getListenerManager().removeListenerOfClass(NaniteHostileActivityFactor.class);
+		sector.getListenerManager().removeListenerOfClass(NaniteHostileActivityFactor.class);
 
 		HostileActivityEventIntel HAEI = HostileActivityEventIntel.get();
 		if (HAEI != null) {

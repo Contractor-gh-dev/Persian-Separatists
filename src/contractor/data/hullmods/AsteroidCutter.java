@@ -27,6 +27,8 @@ public class AsteroidCutter extends BaseHullMod implements HullModFleetEffect {
 		chanceMap.put(ShipAPI.HullSize.DESTROYER, 10f);
 		chanceMap.put(ShipAPI.HullSize.CRUISER, 20f);
 		chanceMap.put(ShipAPI.HullSize.CAPITAL_SHIP, 30f);
+		chanceMap.put(ShipAPI.HullSize.FIGHTER, 0f);
+		chanceMap.put(ShipAPI.HullSize.DEFAULT, 10f);
 	}
 
 	private static final Map<Object, Object> bulkMap = new HashMap<>(); static {
@@ -34,6 +36,8 @@ public class AsteroidCutter extends BaseHullMod implements HullModFleetEffect {
 		bulkMap.put(ShipAPI.HullSize.DESTROYER, 5f);
 		bulkMap.put(ShipAPI.HullSize.CRUISER, 10f);
 		bulkMap.put(ShipAPI.HullSize.CAPITAL_SHIP, 20f);
+		bulkMap.put(ShipAPI.HullSize.FIGHTER, 0f);
+		bulkMap.put(ShipAPI.HullSize.DEFAULT, 5f);
 	}
 
 	private static float timer = 0f;
@@ -44,10 +48,12 @@ public class AsteroidCutter extends BaseHullMod implements HullModFleetEffect {
 	}
 
 	public void onFleetSync(CampaignFleetAPI fleet) {
-		if (getFleetBulk(fleet.getFleetData().getMembersListCopy()) <= getNumCutters(fleet) * RATING)
-			fleet.getStats().getDynamic().getMod(Stats.MOVE_SLOW_SPEED_BONUS_MOD).modifyFlat(MODKEY, MOVE_BONUS, "Asteroid cutters");
-		else
-			fleet.getStats().getDynamic().getMod(Stats.MOVE_SLOW_SPEED_BONUS_MOD).unmodify(MODKEY);
+		if (getNumCutters(fleet) > 0) {
+			if (getFleetBulk(fleet.getFleetData().getMembersListCopy()) <= getNumCutters(fleet) * RATING)
+				fleet.getStats().getDynamic().getMod(Stats.MOVE_SLOW_SPEED_BONUS_MOD).modifyFlat(MODKEY, MOVE_BONUS, "Asteroid cutters");
+			else
+				fleet.getStats().getDynamic().getMod(Stats.MOVE_SLOW_SPEED_BONUS_MOD).unmodify(MODKEY);
+		}
 	}
 
 	public void advanceInCampaign(FleetMemberAPI member, float amount) {

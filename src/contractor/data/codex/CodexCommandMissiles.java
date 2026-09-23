@@ -11,6 +11,7 @@ import contractor.data.scripts.util.ContractorStaticVars;
 
 import java.awt.*;
 import java.util.List;
+import java.util.Set;
 
 public class CodexCommandMissiles extends CodexEntryV2 implements CustomUIPanelPlugin {
 	protected CustomPanelAPI panel;
@@ -20,11 +21,22 @@ public class CodexCommandMissiles extends CodexEntryV2 implements CustomUIPanelP
 
 	public CodexCommandMissiles(String id, String title, String icon) {
 		super(id, title, icon);
+		addTag("All designs");
+		addTag("Separatists");
 	}
 
 	@Override
 	public void createTitleForList(TooltipMakerAPI info, float width, ListMode mode) {
 		super.createTitleForList(info, width, mode);
+	}
+
+	@Override
+	public boolean matchesTags(Set<String> tags) {
+		for (String tag : tags)
+			if (getTags().contains(tag))
+				return true;
+
+		return false;
 	}
 
 	@Override

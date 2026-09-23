@@ -167,6 +167,35 @@ public class ContractorMiscGen implements SectorGeneratorPlugin {
 		initNaniteFaction(sector);
 	}
 
+	public static void generateRestricted(SectorAPI sector) {
+		List<StarSystemAPI> allSys = sector.getStarSystems();
+		WeightedRandomPicker<StarSystemAPI> sysPicker = new WeightedRandomPicker<>();
+		WeightedRandomPicker<PlanetAPI> planetPicker = new WeightedRandomPicker<>();
+
+		for (StarSystemAPI system : allSys) {
+			if (system.hasTag(Tags.SYSTEM_ALREADY_USED_FOR_STORY)
+					|| system.hasTag(Tags.THEME_CORE)
+					|| system.hasTag(Tags.THEME_REMNANT)
+					|| system.hasTag(Tags.THEME_SPECIAL)
+					|| system.hasTag(Tags.SYSTEM_ABYSSAL)
+					|| system.hasTag(CONTRACTOR_NANITE_NO_SPAWN))
+				continue;
+
+			sysPicker.add(system);
+		}
+		StarSystemAPI pickedSys = sysPicker.pick();
+		if (pickedSys != null) {
+			for (PlanetAPI planet : pickedSys.getPlanets())
+				planetPicker.add(planet);
+		}
+		PlanetAPI pickedPlanet = planetPicker.pick();
+
+		if (pickedPlanet != null)
+			addSpeedwell(pickedPlanet);
+
+		initNaniteFaction(sector);
+	}
+
 	private void clearHyperClouds(StarSystemAPI system) {
 		HyperspaceTerrainPlugin plugin = (HyperspaceTerrainPlugin) Misc.getHyperspaceTerrain().getPlugin();
 		NebulaEditor editor = new NebulaEditor(plugin);
@@ -176,7 +205,7 @@ public class ContractorMiscGen implements SectorGeneratorPlugin {
 		editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius, 0, 360f, 0.25f);
 	}
 
-	protected void addSpeedwell(PlanetAPI planet) {
+	protected static void addSpeedwell(PlanetAPI planet) {
 		ShipRecoverySpecial.PerShipData ship = new ShipRecoverySpecial.PerShipData("sep_speedwell2_exp", ShipRecoverySpecial.ShipCondition.PRISTINE, 0f);
 		ship.shipName = "Speedwell";
 		DerelictShipEntityPlugin.DerelictShipData params = new DerelictShipEntityPlugin.DerelictShipData(ship, false);
@@ -206,7 +235,7 @@ public class ContractorMiscGen implements SectorGeneratorPlugin {
 		Misc.setSalvageSpecial(entity, data);
 	}
 
-	protected void initNaniteFaction(SectorAPI sector) {
+	protected static void initNaniteFaction(SectorAPI sector) {
 		FactionAPI nanites = sector.getFaction(CONTRACTOR_NANITE_ID);
 		List<FactionAPI> allFactions = sector.getAllFactions();
 		for (FactionAPI faction : allFactions) {
@@ -241,6 +270,14 @@ public class ContractorMiscGen implements SectorGeneratorPlugin {
 			return;
 
 		WeightedRandomPicker<StarSystemAPI> picker = new WeightedRandomPicker<>();
+
+		Vector2f loc;
+		StarSystemAPI coreEst = Global.getSector().getStarSystem(KOIT_ID);
+		if (coreEst == null)
+			loc = new Vector2f(-2500f, -12000f);
+		else
+			loc = coreEst.getLocation();
+
 		for (StarSystemAPI system : systems) {
 			if (system.hasTag(Tags.SYSTEM_ALREADY_USED_FOR_STORY)
 					|| system.hasTag(Tags.THEME_CORE)
@@ -249,7 +286,7 @@ public class ContractorMiscGen implements SectorGeneratorPlugin {
 					|| system.hasTag(Tags.SYSTEM_ABYSSAL)
 					|| system.hasTag(CONTRACTOR_NANITE_NO_SPAWN))
 				continue;
-			picker.add(system, (float) Math.log(Misc.getDistanceLY(system.getLocation(), Global.getSector().getStarSystem(KOIT_ID).getLocation())));
+			picker.add(system, (float) Math.log(Misc.getDistanceLY(system.getLocation(), loc)));
 		}
 		StarSystemAPI picked = picker.pick();
 		if (picked == null) {

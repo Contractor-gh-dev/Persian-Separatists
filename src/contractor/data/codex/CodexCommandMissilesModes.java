@@ -13,6 +13,7 @@ import org.lwjgl.input.Keyboard;
 
 import java.awt.*;
 import java.util.List;
+import java.util.Set;
 
 import static contractor.data.scripts.util.ContractorStaticVars.COMMAND_KEY;
 
@@ -24,11 +25,22 @@ public class CodexCommandMissilesModes extends CodexEntryV2 implements CustomUIP
 
 	public CodexCommandMissilesModes(String id, String title, String icon) {
 		super(id, title, icon);
+		addTag("All designs");
+		addTag("Separatists");
 	}
 
 	@Override
 	public void createTitleForList(TooltipMakerAPI info, float width, ListMode mode) {
 		super.createTitleForList(info, width, mode);
+	}
+
+	@Override
+	public boolean matchesTags(Set<String> tags) {
+		for (String tag : tags)
+			if (getTags().contains(tag))
+				return true;
+
+		return false;
 	}
 
 	@Override
